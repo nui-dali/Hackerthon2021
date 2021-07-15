@@ -34,6 +34,7 @@ http://download.tizen.org/releases/milestone/tizen/unified/tizen-unified_2021051
      
   4) sync & reboot
 
-
+### 4. VS Template vsix 설치 - 템플릿 기반 발표내용 준비
+ - NUITemplate.vsix 설치
 
 
