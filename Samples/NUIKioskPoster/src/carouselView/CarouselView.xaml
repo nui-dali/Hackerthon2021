@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="NUIKioskPoster.CarouselView"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NUIKioskPoster"
+    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+    HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+    PivotPoint="Center"
+    ParentOrigin="Center"
+    PositionUsesPivotPoint="true">
+    <View.XamlResources>
+        <ResourceDictionary>
+            <local:ImageSizeModel x:Key="ImageSizeModelKey"
+                                  x:Name="ImageSizeModel"/>
+        </ResourceDictionary>
+    </View.XamlResources>
+
+    <VisualView x:Name="gradientBG"
+                BindingContext="{StaticResource ImageSizeModelKey}"
+                Size="{Binding Path=GradientSize}"
+                PivotPoint="Center"
+                ParentOrigin="Center"
+                PositionUsesPivotPoint="true">
+    </VisualView>
+
+    <View x:Name="container">
+        <View.Layout>
+            <local:CustomFocusLinearLayout LayoutWithTransition="false"/>
+        </View.Layout>
+    </View>
+
+    <View BindingContext="{StaticResource ImageSizeModelKey}"
+          Size="{Binding Path=SelectedSize}"
+          PivotPoint="Center"
+          ParentOrigin="Center"
+          PositionUsesPivotPoint="true">
+
+        <local:SummaryView x:Name="popupInfoView"
+                           BindingContext="{StaticResource ImageSizeModelKey}"
+                           Size="{Binding Path=PopupInfoSize}"
+                           PivotPoint="BottomCenter"
+                           ParentOrigin="BottomCenter"
+                           PositionUsesPivotPoint="true"/>
+    </View>
+</View>

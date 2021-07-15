@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="NUIKioskPoster.SummaryView"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+    xmlns:local="clr-namespace:NUIKioskPoster"
+    x:Name="summaryContainer">
+
+    <View.XamlResources>
+        <ResourceDictionary>
+            <local:SizeConverter x:Key="SizeConverterKey" />
+            <Size x:Key="Button1Size" Width="146" Height="34"></Size>
+            <Size x:Key="Button2Size" Width="198" Height="64"></Size>
+            <local:ContentViewModel x:Key="ViewModelKey" 
+                              x:Name="ViewModel" />
+        </ResourceDictionary>
+    </View.XamlResources>
+
+    <View.Layout>
+        <AbsoluteLayout/>
+    </View.Layout>
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+        BackgroundColor="Black"
+        Opacity="0.7"/>
+    <local:RelativeContainer WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                           HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+        <TextLabel BindingContext="{StaticResource ViewModelKey}"
+                   Text="{Binding Path=Title}"
+                   TextColor="White"
+                   PixelSize="40"
+                   HorizontalAlignment="Center"
+                   RelativeLayout.HorizontalAlignment="Center"
+                   RelativeLayout.LeftRelativeOffset="0.05"
+                   RelativeLayout.RightRelativeOffset="1.0"
+                 
+                   RelativeLayout.TopRelativeOffset="0.08"
+                   RelativeLayout.BottomRelativeOffset="1.0">
+        </TextLabel>
+
+        <View WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+              HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+      
+              RelativeLayout.HorizontalAlignment="Start"
+              RelativeLayout.LeftRelativeOffset="0.05"
+              RelativeLayout.RightRelativeOffset="1.0"
+              RelativeLayout.TopRelativeOffset="0.35"
+              RelativeLayout.BottomRelativeOffset="1.0">
+            <View.Layout>
+                <LinearLayout LinearOrientation="Vertical">
+                </LinearLayout>
+            </View.Layout>
+
+            <TextLabel Text="RELEASE DATE : "
+                 TextColor="White"
+                 PixelSize="15"
+                 HorizontalAlignment="Begin">
+            </TextLabel>
+            <TextLabel BindingContext="{StaticResource ViewModelKey}"
+                 Text="{Binding Path=Date}"
+                 TextColor="White"
+                 PixelSize="25"
+                 HorizontalAlignment="Begin">
+            </TextLabel>
+        </View>
+
+        <View WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+          HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+      
+          RelativeLayout.HorizontalAlignment="End"
+          RelativeLayout.LeftRelativeOffset="0.0"
+          RelativeLayout.RightRelativeOffset="0.95"
+          RelativeLayout.TopRelativeOffset="0.35"
+          RelativeLayout.BottomRelativeOffset="1.0">
+            <View.Layout>
+                <LinearLayout LinearOrientation="Vertical">
+                </LinearLayout>
+            </View.Layout>
+
+            <TextLabel Text="RUNNING TIME : "
+                 TextColor="White"
+                 Margin="0,0,0,0"
+                 PixelSize="15"
+                 HorizontalAlignment="Begin">
+            </TextLabel>
+            <TextLabel BindingContext="{StaticResource ViewModelKey}"
+                 Text="{Binding Path=Time}"
+                 TextColor="White"
+                 Margin="0,0,0,0"
+                 PixelSize="25"
+                 HorizontalAlignment="Begin">
+            </TextLabel>
+        </View>
+
+        <c:Button Size="{Binding Source={StaticResource Button1Size},
+                  Converter={StaticResource SizeConverterKey}}"
+              Clicked="VideoBtn_Clicked"
+              StyleName="SummaryButton1"
+              BackgroundColor="Transparent"
+              RelativeLayout.HorizontalAlignment="Center"
+              RelativeLayout.RightRelativeOffset="1.0"
+              RelativeLayout.TopRelativeOffset="0.7"
+              RelativeLayout.BottomRelativeOffset="1.0">
+        </c:Button>
+
+        <c:Button Size="{Binding Source={StaticResource Button2Size},
+                  Converter={StaticResource SizeConverterKey}}"
+              StyleName="SummaryButton2"
+              WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+              HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+              Clicked="MoreInfoBtn_Clicked"
+              RelativeLayout.HorizontalAlignment="Center"
+              RelativeLayout.RightRelativeOffset="1.0"
+              RelativeLayout.TopRelativeOffset="0.8"
+              RelativeLayout.BottomRelativeOffset="1.0">
+        </c:Button>
+    </local:RelativeContainer>
+</View>

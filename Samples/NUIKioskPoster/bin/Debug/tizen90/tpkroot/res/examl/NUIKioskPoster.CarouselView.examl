@@ -1,0 +1,90 @@
+<
+"NUIKioskPoster, "
+"Tizen.NUI, "
+>
+<
+("0" "NUIKioskPoster.CarouselView")
+("1" "Tizen.NUI.BaseComponents.View")
+("0" "NUIKioskPoster.ImageSizeModel")
+("1" "Tizen.NUI.Binding.ResourceDictionary")
+("1" "Tizen.NUI.BaseComponents.VisualView")
+("1" "Tizen.NUI.Binding.BindableObject")
+("0" "NUIKioskPoster.CustomFocusLinearLayout")
+("1" "Tizen.NUI.LayoutItem")
+("0" "NUIKioskPoster.SummaryView")
+("1" "Tizen.NUI.Binding.PositionTypeConverter")
+("1" "Tizen.NUI.Position")
+("1" "Tizen.NUI.Binding.Binding")
+>
+<
+("1" "XamlResources")
+("1" "WidthSpecification")
+("1" "HeightSpecification")
+("1" "PivotPoint")
+("1" "ParentOrigin")
+("1" "PositionUsesPivotPoint")
+("5" "BindingContext")
+("7" "LayoutWithTransition")
+("1" "Layout")
+>
+<
+>
+<
+("1" "Add" (d1d  ))
+>
+<
+("1" "SizeProperty")
+>
+{d0d }
+{d2d }
+{d3d }
+{d4d }
+{d6d }
+{d1d }
+{d8d }
+{d1d }
+&(a1a  "ImageSizeModel")&
+&(a3a  "gradientBG")&
+&(a5a  "container")&
+&(a6a  "popupInfoView")&
+[(a0a  d0d  a2a )]
+*(a2a  "ImageSizeModelKey"  a1a )*
+[(a0a  d1d  d-1d )]
+[(a0a  d2d  d-1d )]
+{d9d }
+@q(a8a  "Center" )q@
+[(a0a  d3d  a9a )]
+@q(a8a  "Center" )q@
+[(a0a  d4d  a10a )]
+[(a0a  d5d  mTruem )]
+[(a0a  d0d  a2a )]
+[(a3a  d6d  a1a )]
+{("GradientSize" zz zz zz zz zz )d11d }
+%(a3a  d0d  a11a )%
+@q(a8a  "Center" )q@
+[(a3a  d3d  a12a )]
+@q(a8a  "Center" )q@
+[(a3a  d4d  a13a )]
+[(a3a  d5d  mTruem )]
+^(a0a  a3a  d0d)^
+[(a4a  d7d  mFalsem )]
+[(a5a  d8d  a4a )]
+^(a0a  a5a  d0d)^
+[(a7a  d6d  a1a )]
+{("SelectedSize" zz zz zz zz zz )d11d }
+%(a7a  d0d  a14a )%
+@q(a8a  "Center" )q@
+[(a7a  d3d  a15a )]
+@q(a8a  "Center" )q@
+[(a7a  d4d  a16a )]
+[(a7a  d5d  mTruem )]
+[(a6a  d6d  a1a )]
+{("PopupInfoSize" zz zz zz zz zz )d11d }
+%(a6a  d0d  a17a )%
+@q(a8a  "BottomCenter" )q@
+[(a6a  d3d  a18a )]
+@q(a8a  "BottomCenter" )q@
+[(a6a  d4d  a19a )]
+[(a6a  d5d  mTruem )]
+^(a7a  a6a  d0d)^
+^(a0a  a7a  d0d)^

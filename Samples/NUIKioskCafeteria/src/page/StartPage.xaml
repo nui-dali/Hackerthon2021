@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<local:ContentControlPage x:Class="NUIKioskCafeteria.StartPage"
+        xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:local="clr-namespace:NUIKioskCafeteria"
+        Content="{x:Reference Name=contentView}">
+    <ImageView x:Name="contentView" 
+               ResourceUrl ="*Resource*/images/Start_BG.png"
+               WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+               HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+        
+        <local:RelativeContainer
+               WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+               HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+            <TextLabel Text="Cafeteria" 
+                       PixelSize="80"
+                       TextColor="#7474FF"
+                       WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       
+                       RelativeLayout.TopRelativeOffset="0.35"
+                       RelativeLayout.BottomRelativeOffset="1.0"
+                       RelativeLayout.LeftRelativeOffset="0.0"
+                       RelativeLayout.RightRelativeOffset="1.0"
+                       RelativeLayout.HorizontalAlignment="Center"
+                       RelativeLayout.VerticalAlignment="Top">
+                <TextLabel.FontStyle>
+                    <PropertyMap>
+                        <KeyValue Key="weight" Value="bold" />
+                    </PropertyMap>
+                </TextLabel.FontStyle>
+
+            </TextLabel>
+
+            <Button Text="Start"
+                    Size="220,80"
+                    StyleName="CTAButton"
+                    Clicked="NextPageClicked"
+                    
+                    RelativeLayout.TopRelativeOffset="0.45"
+                    RelativeLayout.BottomRelativeOffset="1.0"
+                    RelativeLayout.LeftRelativeOffset="0.0"
+                    RelativeLayout.RightRelativeOffset="1.0"
+                    RelativeLayout.HorizontalAlignment="Center"
+                    RelativeLayout.VerticalAlignment="Start">
+            </Button>
+        </local:RelativeContainer>
+    </ImageView>
+</local:ContentControlPage>

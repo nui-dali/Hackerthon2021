@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="NUIKioskPoster.InfoPopup"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NUIKioskPoster"
+    xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+    PivotPoint="Center"
+    ParentOrigin="Center"
+    PositionUsesPivotPoint="true">
+
+    <View.XamlResources>
+        <ResourceDictionary>
+            <Size x:Key="ButtonSize" Width="150" Height="42"></Size>
+            <Size x:Key="MainTextSize" Width="500" Height="500"></Size>
+            <Extents x:Key="TextPadding" Start="44" End="44" Top="0" Bottom="0"></Extents>
+
+            <local:ContentViewModel x:Key="ViewModelKey"
+                              x:Name="ViewModel" />
+        </ResourceDictionary>
+    </View.XamlResources>
+
+    <View.Layout>
+        <AbsoluteLayout/>
+    </View.Layout>
+
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+          Opacity="0.7"
+          BackgroundColor="Black">
+    </View>
+
+    <local:RelativeContainer WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                             HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+        <TextLabel BindingContext="{StaticResource ViewModelKey}"
+                   Text="{Binding Path=Title}"
+                   TextColor="White"
+                   PixelSize="40"
+                   HorizontalAlignment="Center"
+                   RelativeLayout.HorizontalAlignment="Center"
+                   RelativeLayout.LeftRelativeOffset="0.1"
+                   RelativeLayout.RightRelativeOffset="1.0"
+                 
+                   RelativeLayout.TopRelativeOffset="0.08"
+                   RelativeLayout.BottomRelativeOffset="1.0">
+        </TextLabel>
+
+        <View WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+              HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+              RelativeLayout.LeftRelativeOffset="0.1"
+              RelativeLayout.RightRelativeOffset="1.0"
+                 
+              RelativeLayout.TopRelativeOffset="0.2"
+              RelativeLayout.BottomRelativeOffset="1.0">
+            <View.Layout>
+                <LinearLayout LinearOrientation="Vertical">
+                </LinearLayout>
+            </View.Layout>
+
+            <TextLabel Text="RELEASE DATE : "
+                       TextColor="White"
+                       PixelSize="15"
+                       HorizontalAlignment="Begin">
+            </TextLabel>
+            <TextLabel BindingContext="{StaticResource ViewModelKey}"
+                       Text="{Binding Path=Date}"
+                       TextColor="White"
+                       PixelSize="25"
+                       HorizontalAlignment="Begin">
+            </TextLabel>
+        </View>
+
+        <View WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+              HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+              RelativeLayout.HorizontalAlignment="End"
+              RelativeLayout.LeftRelativeOffset="0.0"
+              RelativeLayout.RightRelativeOffset="0.9"
+                 
+              RelativeLayout.TopRelativeOffset="0.2"
+              RelativeLayout.BottomRelativeOffset="1.0">
+            <View.Layout>
+                <LinearLayout LinearOrientation="Vertical">
+                </LinearLayout>
+            </View.Layout>
+
+            <TextLabel Text="RUNNING TIME : "
+                       TextColor="White"
+                       PixelSize="15"
+                       HorizontalAlignment="Begin">
+            </TextLabel>
+            <TextLabel BindingContext="{StaticResource ViewModelKey}"
+                       Text="{Binding Path=Time}"
+                       TextColor="White"
+                       PixelSize="25"
+                       HorizontalAlignment="Begin">
+            </TextLabel>
+        </View>
+        <TextLabel x:Name="MainText"
+                   Text="{Static local:Resources.MOVIE_SUMMARY}}"
+                   MultiLine="true"
+                   TextColor="White"
+                   PixelSize="16"
+                   Size="{Binding Source={StaticResource MainTextSize},
+                     Converter={Static local:ApplicationHelper.SizeConverter}}"
+                   Padding="{Binding Source={StaticResource TextPadding},
+                            Converter={Static local:ApplicationHelper.ExtentsConverter}}"
+                   
+                   RelativeLayout.FillHorizontal="True"
+                   RelativeLayout.LeftRelativeOffset="0.05"
+                   RelativeLayout.RightRelativeOffset="0.95"
+                   RelativeLayout.TopRelativeOffset="0.3"
+                   RelativeLayout.BottomRelativeOffset="1.0"/>
+
+
+        <TextLabel Text="Original title :"
+                   TextColor="White"
+                   PixelSize="18"
+                   RelativeLayout.LeftRelativeOffset="0.1"
+                   RelativeLayout.RightRelativeOffset="1.0"
+        
+                   RelativeLayout.TopRelativeOffset="0.65"
+                   RelativeLayout.BottomRelativeOffset="1.0"/>
+
+        <TextLabel Text="Lorem ipsum dolor sit amet:"
+                   TextColor="White"
+                   PixelSize="18"
+                   RelativeLayout.LeftRelativeOffset="0.45"
+                   RelativeLayout.RightRelativeOffset="1.0"
+        
+                   RelativeLayout.TopRelativeOffset="0.65"
+                   RelativeLayout.BottomRelativeOffset="1.0"/>
+
+        <TextLabel Text="Original title :"
+                   TextColor="White"
+                   PixelSize="18"
+                   RelativeLayout.LeftRelativeOffset="0.1"
+                   RelativeLayout.RightRelativeOffset="1.0"
+        
+                   RelativeLayout.TopRelativeOffset="0.7"
+                   RelativeLayout.BottomRelativeOffset="1.0"/>
+
+        <TextLabel Text="Lorem ipsum dolor sit amet:"
+                   TextColor="White"
+                   PixelSize="18"
+                   RelativeLayout.LeftRelativeOffset="0.45"
+                   RelativeLayout.RightRelativeOffset="1.0"
+        
+                   RelativeLayout.TopRelativeOffset="0.7"
+                   RelativeLayout.BottomRelativeOffset="1.0"/>
+
+        <TextLabel Text="Original title :"
+                   TextColor="White"
+                   PixelSize="18"
+                   RelativeLayout.LeftRelativeOffset="0.1"
+                   RelativeLayout.RightRelativeOffset="1.0"
+        
+                   RelativeLayout.TopRelativeOffset="0.75"
+                   RelativeLayout.BottomRelativeOffset="1.0"/>
+
+        <TextLabel Text="Lorem ipsum dolor sit amet:"
+                   TextColor="White"
+                   PixelSize="18"
+                   RelativeLayout.LeftRelativeOffset="0.45"
+                   RelativeLayout.RightRelativeOffset="1.0"
+        
+                   RelativeLayout.TopRelativeOffset="0.75"
+                   RelativeLayout.BottomRelativeOffset="1.0"/>
+
+        <TextLabel Text="Original title :"
+                   TextColor="White"
+                   PixelSize="18"
+                   RelativeLayout.LeftRelativeOffset="0.1"
+                   RelativeLayout.RightRelativeOffset="1.0"
+        
+                   RelativeLayout.TopRelativeOffset="0.8"
+                   RelativeLayout.BottomRelativeOffset="1.0"/>
+
+        <TextLabel Text="Lorem ipsum dolor sit amet:"
+                   TextColor="White"
+                   PixelSize="18"
+                   RelativeLayout.LeftRelativeOffset="0.45"
+                   RelativeLayout.RightRelativeOffset="1.0"
+        
+                   RelativeLayout.TopRelativeOffset="0.8"
+                   RelativeLayout.BottomRelativeOffset="1.0"/>
+
+
+        <c:Button Size="{Binding Source={StaticResource ButtonSize},
+                     Converter={Static local:ApplicationHelper.SizeConverter}}"
+                  StyleName="BackButton"
+                  Clicked="BackBtnClicked"
+                  RelativeLayout.HorizontalAlignment="Center"
+                  RelativeLayout.RightRelativeOffset="1.0"
+                 
+                  RelativeLayout.VerticalAlignment="End"
+                  RelativeLayout.TopRelativeOffset="0.0"
+                  RelativeLayout.BottomRelativeOffset="0.97"
+                  Text="Back">
+        </c:Button>
+    </local:RelativeContainer>
+</View>

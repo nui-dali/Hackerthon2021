@@ -1,0 +1,300 @@
+<
+"NUIKioskPoster, "
+"Tizen.NUI, "
+"Tizen.NUI.Components, "
+>
+<
+("0" "NUIKioskPoster.InfoPopup")
+("1" "Tizen.NUI.BaseComponents.View")
+("1" "Tizen.NUI.Size")
+("1" "Tizen.NUI.Extents")
+("0" "NUIKioskPoster.ContentViewModel")
+("1" "Tizen.NUI.Binding.ResourceDictionary")
+("1" "Tizen.NUI.AbsoluteLayout")
+("1" "Tizen.NUI.BaseComponents.TextLabel")
+("1" "Tizen.NUI.Binding.BindableObject")
+("1" "Tizen.NUI.RelativeLayout")
+("1" "Tizen.NUI.LinearLayout")
+("0" "NUIKioskPoster.Resources")
+("0" "NUIKioskPoster.ApplicationHelper")
+("2" "Tizen.NUI.Components.Button")
+("0" "NUIKioskPoster.RelativeContainer")
+("1" "Tizen.NUI.Binding.PositionTypeConverter")
+("1" "Tizen.NUI.Position")
+("1" "Tizen.NUI.Binding.ColorTypeConverter")
+("1" "Tizen.NUI.Color")
+("1" "Tizen.NUI.Binding.Binding")
+("1" "Tizen.NUI.HorizontalAlignment")
+("1" "Tizen.NUI.LinearLayout+Orientation")
+("1" "Tizen.NUI.RelativeLayout+Alignment")
+("2" "Tizen.NUI.Components.ClickedEventArgs")
+>
+<
+("1" "XamlResources")
+("1" "PivotPoint")
+("1" "ParentOrigin")
+("1" "PositionUsesPivotPoint")
+("1" "Layout")
+("2" "Width")
+("2" "Height")
+("3" "Start")
+("3" "End")
+("3" "Top")
+("3" "Bottom")
+("1" "WidthSpecification")
+("1" "HeightSpecification")
+("1" "Opacity")
+("1" "BackgroundColor")
+("8" "BindingContext")
+("7" "TextColor")
+("7" "PixelSize")
+("7" "HorizontalAlignment")
+("10" "LinearOrientation")
+("7" "Text")
+("7" "MultiLine")
+("1" "StyleName")
+("13" "Text")
+>
+<
+("13" "Clicked")
+>
+<
+("1" "Add" (d1d  ))
+("0" "BackBtnClicked" (d-12d  d23d  ))
+>
+<
+("7" "TextProperty")
+("9" "RightRelativeOffsetProperty")
+("9" "TopRelativeOffsetProperty")
+("9" "BottomRelativeOffsetProperty")
+("9" "LeftRelativeOffsetProperty")
+("9" "HorizontalAlignmentProperty")
+("1" "PaddingProperty")
+("1" "SizeProperty")
+("9" "VerticalAlignmentProperty")
+>
+{d0d }
+{d2d }
+{d3d }
+{d4d }
+{d5d }
+{d6d }
+{d1d }
+{d7d }
+{d10d }
+{d7d }
+{d7d }
+{d1d }
+{d10d }
+{d7d }
+{d7d }
+{d1d }
+{{zz  "MOVIE_SUMMARY" } d11d }
+{{"ExtentsConverter"  zz } d12d }
+{d7d }
+{d7d }
+{d7d }
+{d7d }
+{d7d }
+{d7d }
+{d7d }
+{d7d }
+{d7d }
+{{"SizeConverter"  zz } d12d }
+{d13d }
+{d14d }
+&(a3a  "ViewModel")&
+&(a18a  "MainText")&
+[(a0a  d0d  a4a )]
+[(a1a  d5d  j150j )]
+[(a1a  d6d  j42j )]
+*(a4a  "ButtonSize"  a1a )*
+[(a2a  d7d  g44g )]
+[(a2a  d8d  g44g )]
+[(a2a  d9d  g0g )]
+[(a2a  d10d  g0g )]
+*(a4a  "TextPadding"  a2a )*
+*(a4a  "ViewModelKey"  a3a )*
+{d15d }
+@q(a30a  "Center" )q@
+[(a0a  d1d  a31a )]
+@q(a30a  "Center" )q@
+[(a0a  d2d  a32a )]
+[(a0a  d3d  mTruem )]
+[(a0a  d0d  a4a )]
+[(a0a  d4d  a5a )]
+[(a6a  d11d  d-1d )]
+[(a6a  d12d  d-1d )]
+[(a6a  d13d  j0.7j )]
+{d17d }
+@q(a33a  "Black" )q@
+[(a6a  d14d  a34a )]
+^(a0a  a6a  d0d)^
+[(a29a  d11d  d-1d )]
+[(a29a  d12d  d-1d )]
+[(a7a  d15d  a3a )]
+{("Title" zz zz zz zz zz )d19d }
+%(a7a  d0d  a35a )%
+@q(a33a  "White" )q@
+[(a7a  d16d  a36a )]
+[(a7a  d17d  j40j )]
+@o(d20d  "Center" )o @
+[(a7a  d18d  a37a )]
+@o(d20d  "Center" )o @
+[(a7a  d18d  a38a )]
+!(a7a  d1d  j1j )!
+!(a7a  d2d  j0.08j )!
+!(a7a  d3d  j1j )!
+^(a29a  a7a  d0d)^
+[(a11a  d11d  d-2d )]
+[(a11a  d12d  d-2d )]
+!(a11a  d4d  j0.1j )!
+!(a11a  d1d  j1j )!
+!(a11a  d2d  j0.2j )!
+!(a11a  d3d  j1j )!
+@o(d21d  "Vertical" )o @
+[(a8a  d19d  a39a )]
+[(a11a  d4d  a8a )]
+[(a9a  d20d  "RELEASE DATE : " )]
+@q(a33a  "White" )q@
+[(a9a  d16d  a40a )]
+[(a9a  d17d  j15j )]
+@o(d20d  "Begin" )o @
+[(a9a  d18d  a41a )]
+^(a11a  a9a  d0d)^
+[(a10a  d15d  a3a )]
+{("Date" zz zz zz zz zz )d19d }
+%(a10a  d0d  a42a )%
+@q(a33a  "White" )q@
+[(a10a  d16d  a43a )]
+[(a10a  d17d  j25j )]
+@o(d20d  "Begin" )o @
+[(a10a  d18d  a44a )]
+^(a11a  a10a  d0d)^
+^(a29a  a11a  d0d)^
+[(a15a  d11d  d-2d )]
+[(a15a  d12d  d-2d )]
+@o(d22d  "End" )o @
+!(a15a  d5d  a45a )!
+!(a15a  d4d  j0j )!
+!(a15a  d1d  j0.9j )!
+!(a15a  d2d  j0.2j )!
+!(a15a  d3d  j1j )!
+@o(d21d  "Vertical" )o @
+[(a12a  d19d  a46a )]
+[(a15a  d4d  a12a )]
+[(a13a  d20d  "RUNNING TIME : " )]
+@q(a33a  "White" )q@
+[(a13a  d16d  a47a )]
+[(a13a  d17d  j15j )]
+@o(d20d  "Begin" )o @
+[(a13a  d18d  a48a )]
+^(a15a  a13a  d0d)^
+[(a14a  d15d  a3a )]
+{("Time" zz zz zz zz zz )d19d }
+%(a14a  d0d  a49a )%
+@q(a33a  "White" )q@
+[(a14a  d16d  a50a )]
+[(a14a  d17d  j25j )]
+@o(d20d  "Begin" )o @
+[(a14a  d18d  a51a )]
+^(a15a  a14a  d0d)^
+^(a29a  a15a  d0d)^
+[(a18a  d20d  a16a )]
+[(a18a  d21d  mTruem )]
+@q(a33a  "White" )q@
+[(a18a  d16d  a52a )]
+[(a18a  d17d  j16j )]
+[(a18a  d11d  d-1d )]
+[(a18a  d12d  d-2d )]
+{("." zz a17a zz zz a2a )d19d }
+%(a18a  d6d  a53a )%
+!(a18a  d2d  j0.3j )!
+!(a18a  d3d  j1j )!
+^(a29a  a18a  d0d)^
+[(a19a  d20d  "Original title :" )]
+@q(a33a  "White" )q@
+[(a19a  d16d  a54a )]
+[(a19a  d17d  j18j )]
+!(a19a  d4d  j0.1j )!
+!(a19a  d1d  j1j )!
+!(a19a  d2d  j0.6j )!
+!(a19a  d3d  j1j )!
+^(a29a  a19a  d0d)^
+[(a20a  d20d  "Lorem ipsum dolor sit amet:" )]
+@q(a33a  "White" )q@
+[(a20a  d16d  a55a )]
+[(a20a  d17d  j18j )]
+!(a20a  d4d  j0.45j )!
+!(a20a  d1d  j1j )!
+!(a20a  d2d  j0.6j )!
+!(a20a  d3d  j1j )!
+^(a29a  a20a  d0d)^
+[(a21a  d20d  "Original title :" )]
+@q(a33a  "White" )q@
+[(a21a  d16d  a56a )]
+[(a21a  d17d  j18j )]
+!(a21a  d4d  j0.1j )!
+!(a21a  d1d  j1j )!
+!(a21a  d2d  j0.65j )!
+!(a21a  d3d  j1j )!
+^(a29a  a21a  d0d)^
+[(a22a  d20d  "Lorem ipsum dolor sit amet:" )]
+@q(a33a  "White" )q@
+[(a22a  d16d  a57a )]
+[(a22a  d17d  j18j )]
+!(a22a  d4d  j0.45j )!
+!(a22a  d1d  j1j )!
+!(a22a  d2d  j0.65j )!
+!(a22a  d3d  j1j )!
+^(a29a  a22a  d0d)^
+[(a23a  d20d  "Original title :" )]
+@q(a33a  "White" )q@
+[(a23a  d16d  a58a )]
+[(a23a  d17d  j18j )]
+!(a23a  d4d  j0.1j )!
+!(a23a  d1d  j1j )!
+!(a23a  d2d  j0.7j )!
+!(a23a  d3d  j1j )!
+^(a29a  a23a  d0d)^
+[(a24a  d20d  "Lorem ipsum dolor sit amet:" )]
+@q(a33a  "White" )q@
+[(a24a  d16d  a59a )]
+[(a24a  d17d  j18j )]
+!(a24a  d4d  j0.45j )!
+!(a24a  d1d  j1j )!
+!(a24a  d2d  j0.7j )!
+!(a24a  d3d  j1j )!
+^(a29a  a24a  d0d)^
+[(a25a  d20d  "Original title :" )]
+@q(a33a  "White" )q@
+[(a25a  d16d  a60a )]
+[(a25a  d17d  j18j )]
+!(a25a  d4d  j0.1j )!
+!(a25a  d1d  j1j )!
+!(a25a  d2d  j0.75j )!
+!(a25a  d3d  j1j )!
+^(a29a  a25a  d0d)^
+[(a26a  d20d  "Lorem ipsum dolor sit amet:" )]
+@q(a33a  "White" )q@
+[(a26a  d16d  a61a )]
+[(a26a  d17d  j18j )]
+!(a26a  d4d  j0.45j )!
+!(a26a  d1d  j1j )!
+!(a26a  d2d  j0.75j )!
+!(a26a  d3d  j1j )!
+^(a29a  a26a  d0d)^
+{("." zz a27a zz zz a1a )d19d }
+%(a28a  d7d  a62a )%
+[(a28a  d22d  "BackButton" )]
+#(a28a  a0a  d0d  d1d )#
+@o(d22d  "Center" )o @
+!(a28a  d5d  a63a )!
+!(a28a  d1d  j1j )!
+@o(d22d  "End" )o @
+!(a28a  d8d  a64a )!
+!(a28a  d2d  j0j )!
+!(a28a  d3d  j0.97j )!
+[(a28a  d23d  "Back" )]
+^(a29a  a28a  d0d)^
+^(a0a  a29a  d0d)^

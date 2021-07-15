@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<local:ContentControlPage  x:Class="NUIKioskCafeteria.ProcessingPage"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NUIKioskCafeteria">
+
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+        <View.Layout>
+            <LinearLayout LinearOrientation="Vertical"
+                          LinearAlignment="Center">
+            </LinearLayout>
+        </View.Layout>
+
+
+        <AnimatedVectorImageView x:Name="loadingView"
+                                 ResourceURL ="*Resource*/images/loading_circle.json"
+                                 RepeatCount = "-1"
+                                 WidthSpecification="170"
+                                 HeightSpecification="170">
+        </AnimatedVectorImageView>
+
+        <TextLabel Text="Processing..."
+                   Position="0,50"
+                   PixelSize="20"
+                   TextColor="#7474FF"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"/>
+    </View>
+
+    <TextLabel Text="Cancel"
+               PixelSize="15"
+               TextColor="#7474FF"
+               TouchEvent="PrevPageTouched"
+               ParentOrigin="BottomCenter"
+               PivotPoint="BottomCenter"
+               PositionUsesPivotPoint="True"
+               Position="0,-100">
+        <TextLabel.Underline>
+            <PropertyMap>
+                <KeyValue Key="enable" Value="true" />
+            </PropertyMap>
+        </TextLabel.Underline>
+    </TextLabel>
+
+</local:ContentControlPage>

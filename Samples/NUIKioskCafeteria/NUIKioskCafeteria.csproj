@@ -1,0 +1,100 @@
+<Project Sdk="Tizen.NET.Sdk/1.1.6">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>tizen90</TargetFramework>
+    <disableimplicitframeworkreferences>True</disableimplicitframeworkreferences>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="src\controls\MenuItemView.xaml" />
+    <None Remove="src\page\EmptyOrderPage.xaml" />
+    <None Remove="src\page\FinishPage.xaml" />
+    <None Remove="src\page\LanguagePage.xaml" />
+    <None Remove="src\page\MenuPage.xaml" />
+    <None Remove="src\page\MenuSelectPage.xaml" />
+    <None Remove="src\page\OrderPage.xaml" />
+    <None Remove="src\page\PayPage.xaml" />
+    <None Remove="src\page\ProcessingPage.xaml" />
+    <None Remove="src\page\SelectPage.xaml" />
+    <None Remove="src\popup\ItemPopup.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="src\controls\MenuItemView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\OrderPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\EmptyOrderPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\LanguagePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\MenuPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\MenuSelectPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\FinishPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\ProcessingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\PayPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\SelectPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\page\StartPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\popup\ItemPopup.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tizen.NET" Version="9.0.0.16447" />
+    <PackageReference Include="Tizen.NUI.XamlBuild" Version="1.0.24" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="src\page\PayPage - Copy - Copy.xaml.cs">
+      <DependentUpon>PayPage - Copy.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="src\page\PayPage - Copy.xaml.cs">
+      <DependentUpon>PayPage.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="src\page\ProcessingPage - Copy - Copy.xaml.cs">
+      <DependentUpon>ProcessingPage - Copy.xaml.cs</DependentUpon>
+    </Compile>
+    <Compile Update="src\page\ProcessingPage - Copy.xaml.cs">
+      <DependentUpon>ProcessingPage.xaml.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="res\theme\Theme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <NeedInjection>True</NeedInjection>
+  </PropertyGroup>
+
+</Project>

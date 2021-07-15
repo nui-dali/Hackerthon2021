@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<GaussianBlurView x:Class="NUIKioskPoster.MainView"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+    xmlns:local="clr-namespace:NUIKioskPoster"
+    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+    HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+    <View.XamlResources>
+        <ResourceDictionary>
+            <Size x:Key="ButtonSize1" Width="160" Height="160"></Size>
+            <Size x:Key="ButtonSize2" Width="160" Height="160"></Size>
+            <Size x:Key="PaginationSize" Width="300" Height="50"></Size>
+        </ResourceDictionary>
+    </View.XamlResources>
+
+    <View.Layout>
+        <AbsoluteLayout/>
+    </View.Layout>
+
+    <local:CarouselView x:Name="carouselView">
+        <local:CarouselView.BackgroundVisual>
+            <local:GradientTemplateVisual/>
+        </local:CarouselView.BackgroundVisual>
+    </local:CarouselView>
+
+    <local:RelativeContainer WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                           HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+        <Button
+            StyleName="LeftButton"
+            Clicked="LeftBtn_Clicked"
+            Size="{Binding Source={StaticResource ButtonSize1},
+                  Converter={Static local:ApplicationHelper.SizeConverter}}"
+            RelativeLayout.HorizontalAlignment="Start"
+            RelativeLayout.VerticalAlignment="Center"
+            RelativeLayout.LeftRelativeOffset="0.05"
+            RelativeLayout.RightRelativeOffset="1"
+            RelativeLayout.TopRelativeOffset="0.0"
+            RelativeLayout.BottomRelativeOffset="1.0">
+        </Button>
+
+        <Button
+            StyleName="RightButton"
+            Clicked="RightBtn_Clicked"
+            Size="{Binding Source={StaticResource ButtonSize2},
+                    Converter={Static local:ApplicationHelper.SizeConverter}}"
+            RelativeLayout.HorizontalAlignment="End"
+            RelativeLayout.VerticalAlignment="Center"
+            RelativeLayout.LeftRelativeOffset="0.0"
+            RelativeLayout.RightRelativeOffset="0.95"
+            RelativeLayout.TopRelativeOffset="0.0"
+            RelativeLayout.BottomRelativeOffset="1.0">
+        </Button>
+
+        <c:Pagination x:Name="pagination"
+                  StyleName="MainPagination"
+                  Size="{Binding Source={StaticResource PaginationSize},
+                        Converter={Static local:ApplicationHelper.SizeConverter}}"
+                  RelativeLayout.HorizontalAlignment="Center"
+                  RelativeLayout.VerticalAlignment="End"
+                  RelativeLayout.LeftRelativeOffset="0.0"
+                  RelativeLayout.RightRelativeOffset="1.0"
+                  RelativeLayout.TopRelativeOffset="0.0"
+                  RelativeLayout.BottomRelativeOffset="0.95">
+
+        </c:Pagination>
+    </local:RelativeContainer>
+</GaussianBlurView>

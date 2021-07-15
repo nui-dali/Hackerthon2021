@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Theme
+  xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+  xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  Id="sampleTheme" >
+
+    <c:ButtonStyle x:Key="GalleryButton">
+        <c:ButtonStyle.BackgroundImage>
+            <Selector x:TypeArguments="x:String"
+                      Normal="*Resource*/images/button/gallery_item_normal.png"
+                      Pressed="*Resource*/images/button/gallery_item_pressed.png"
+                      Selected="*Resource*/images/button/gallery_item_pressed.png"/>
+        </c:ButtonStyle.BackgroundImage>
+        <c:ButtonStyle.Icon>
+            <ImageViewStyle Size="140,140" Padding="0,0,0,0"></ImageViewStyle>
+        </c:ButtonStyle.Icon>
+    </c:ButtonStyle>
+
+
+    <c:ButtonStyle x:Key="CTAButton">
+        <c:ButtonStyle.BackgroundImage>
+            <Selector x:TypeArguments="x:String"
+                      Normal="*Resource*/images/button/button_CTA_normal.png"
+                      Pressed="*Resource*/images/button/button_CTA_pressed.png"/>
+        </c:ButtonStyle.BackgroundImage>
+        <c:ButtonStyle.Text>
+            <TextLabelStyle TextColor="White" PixelSize="20"/>
+        </c:ButtonStyle.Text>
+    </c:ButtonStyle>
+
+    <c:ButtonStyle x:Key="SecondaryIconButton">
+        <c:ButtonStyle.BackgroundImage>
+            <Selector x:TypeArguments="x:String"
+                      Normal="*Resource*/images/button/but_secondary_normal.png"
+                      Pressed="*Resource*/images/button/but_secondary_pressed.png"/>
+        </c:ButtonStyle.BackgroundImage>
+        <c:ButtonStyle.Text>
+            <TextLabelStyle TextColor="#7474FF" PixelSize="25"/>
+        </c:ButtonStyle.Text>
+        <c:ButtonStyle.Icon>
+            <ImageViewStyle Size="150,150" Padding="0,20,0,0"></ImageViewStyle>
+        </c:ButtonStyle.Icon>
+    </c:ButtonStyle>
+
+    <c:ButtonStyle x:Key="SecondaryButton">
+        <c:ButtonStyle.BackgroundImage>
+            <Selector x:TypeArguments="x:String"
+                      Normal="*Resource*/images/button/but_secondary_normal.png"
+                      Pressed="*Resource*/images/button/but_secondary_pressed.png"/>
+        </c:ButtonStyle.BackgroundImage>
+        <c:ButtonStyle.Text>
+            <TextLabelStyle TextColor="#7474FF" PixelSize="15"/>
+        </c:ButtonStyle.Text>
+    </c:ButtonStyle>
+
+    <c:ButtonStyle x:Key="CircleButton">
+        <c:ButtonStyle.BackgroundImage>
+            <Selector x:TypeArguments="x:String"
+                      Normal="*Resource*/images/button/circle_button.png"
+                      Pressed="*Resource*/images/button/circle_button_pressed.png"/>
+        </c:ButtonStyle.BackgroundImage>
+        <c:ButtonStyle.Text>
+            <TextLabelStyle TextColor="#4646db" PixelSize="20" />
+        </c:ButtonStyle.Text>
+    </c:ButtonStyle>
+</Theme>

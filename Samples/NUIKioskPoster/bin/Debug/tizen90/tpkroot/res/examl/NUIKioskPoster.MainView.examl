@@ -1,0 +1,114 @@
+<
+"NUIKioskPoster, "
+"Tizen.NUI, "
+"Tizen.NUI.Components, "
+>
+<
+("0" "NUIKioskPoster.MainView")
+("1" "Tizen.NUI.BaseComponents.View")
+("1" "Tizen.NUI.Size")
+("1" "Tizen.NUI.Binding.ResourceDictionary")
+("1" "Tizen.NUI.AbsoluteLayout")
+("0" "NUIKioskPoster.CarouselView")
+("2" "Tizen.NUI.Components.Button")
+("1" "Tizen.NUI.RelativeLayout")
+("2" "Tizen.NUI.Components.Pagination")
+("0" "NUIKioskPoster.RelativeContainer")
+("1" "Tizen.NUI.Binding.Binding")
+("1" "Tizen.NUI.RelativeLayout+Alignment")
+("2" "Tizen.NUI.Components.ClickedEventArgs")
+>
+<
+("1" "WidthSpecification")
+("1" "HeightSpecification")
+("1" "XamlResources")
+("1" "Layout")
+("2" "Width")
+("2" "Height")
+("1" "StyleName")
+>
+<
+("6" "Clicked")
+>
+<
+("1" "Add" (d1d  ))
+("0" "LeftBtn_Clicked" (d-12d  d12d  ))
+("0" "RightBtn_Clicked" (d-12d  d12d  ))
+>
+<
+("1" "SizeProperty")
+("7" "HorizontalAlignmentProperty")
+("7" "VerticalAlignmentProperty")
+("7" "LeftRelativeOffsetProperty")
+("7" "RightRelativeOffsetProperty")
+("7" "TopRelativeOffsetProperty")
+("7" "BottomRelativeOffsetProperty")
+>
+{d0d }
+{d2d }
+{d2d }
+{d2d }
+{d3d }
+{d4d }
+{d5d }
+{d6d }
+{d6d }
+{d8d }
+{d9d }
+&(a6a  "carouselView")&
+&(a9a  "pagination")&
+[(a1a  d4d  j160j )]
+[(a1a  d5d  j160j )]
+*(a4a  "ButtonSize1"  a1a )*
+[(a2a  d4d  j160j )]
+[(a2a  d5d  j160j )]
+*(a4a  "ButtonSize2"  a2a )*
+[(a3a  d4d  j300j )]
+[(a3a  d5d  j50j )]
+*(a4a  "PaginationSize"  a3a )*
+[(a0a  d0d  d-1d )]
+[(a0a  d1d  d-1d )]
+[(a0a  d2d  a4a )]
+[(a0a  d3d  a5a )]
+^(a0a  a6a  d0d)^
+[(a10a  d0d  d-1d )]
+[(a10a  d1d  d-1d )]
+[(a7a  d6d  "LeftButton" )]
+#(a7a  a0a  d0d  d1d )#
+{("." zz a27a zz zz a1a )d10d }
+%(a7a  d0d  a11a )%
+@o(d11d  "Start" )o @
+!(a7a  d1d  a12a )!
+@o(d11d  "Center" )o @
+!(a7a  d2d  a13a )!
+!(a7a  d3d  j0.05j )!
+!(a7a  d4d  j1j )!
+!(a7a  d5d  j0j )!
+!(a7a  d6d  j1j )!
+^(a10a  a7a  d0d)^
+[(a8a  d6d  "RightButton" )]
+#(a8a  a0a  d0d  d2d )#
+{("." zz a27a zz zz a2a )d10d }
+%(a8a  d0d  a14a )%
+@o(d11d  "End" )o @
+!(a8a  d1d  a15a )!
+@o(d11d  "Center" )o @
+!(a8a  d2d  a16a )!
+!(a8a  d3d  j0j )!
+!(a8a  d4d  j0.95j )!
+!(a8a  d5d  j0j )!
+!(a8a  d6d  j1j )!
+^(a10a  a8a  d0d)^
+[(a9a  d6d  "MainPagination" )]
+{("." zz a27a zz zz a3a )d10d }
+%(a9a  d0d  a17a )%
+@o(d11d  "Center" )o @
+!(a9a  d1d  a18a )!
+@o(d11d  "End" )o @
+!(a9a  d2d  a19a )!
+!(a9a  d3d  j0j )!
+!(a9a  d4d  j1j )!
+!(a9a  d5d  j0j )!
+!(a9a  d6d  j0.95j )!
+^(a10a  a9a  d0d)^
+^(a0a  a10a  d0d)^

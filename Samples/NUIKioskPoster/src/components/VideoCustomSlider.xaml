@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="NUIKioskPoster.VideoCustomSlider"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NUIKioskPoster"
+    BackgroundColor="#C3CAD2">
+
+    <View.XamlResources>
+        <ResourceDictionary>
+            <local:SizeConverter x:Key="SizeConverterKey" />
+            <Size x:Key="HandlerSize" Width="20" Height="20"></Size>
+        </ResourceDictionary>
+    </View.XamlResources>
+
+    <VisualView x:Name="mainVisual"
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+        <View x:Name="controlVisual"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+          BackgroundColor="#546EE5">
+        </View>
+    </VisualView>
+
+    <View x:Name="sliderHandler"
+        Size="{Binding Source={StaticResource HandlerSize},
+               Converter={StaticResource SizeConverterKey}}"
+        BackgroundColor="#546EE5"
+        CornerRadius="0.5,0.5,0.5,0.5"
+        CornerRadiusPolicy="0"
+        PivotPoint="Center"
+        ParentOrigin="CenterLeft"
+        PositionUsesPivotPoint="true">
+    </View>
+</View>

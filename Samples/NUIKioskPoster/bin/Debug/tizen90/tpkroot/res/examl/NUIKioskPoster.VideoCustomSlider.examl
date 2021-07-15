@@ -1,0 +1,83 @@
+<
+"NUIKioskPoster, "
+"Tizen.NUI, "
+>
+<
+("0" "NUIKioskPoster.VideoCustomSlider")
+("1" "Tizen.NUI.BaseComponents.View")
+("0" "NUIKioskPoster.SizeConverter")
+("1" "Tizen.NUI.Size")
+("1" "Tizen.NUI.Binding.ResourceDictionary")
+("1" "Tizen.NUI.BaseComponents.VisualView")
+("1" "Tizen.NUI.Binding.ColorTypeConverter")
+("1" "Tizen.NUI.Color")
+("1" "Tizen.NUI.Binding.Binding")
+("1" "Tizen.NUI.Binding.Vector4TypeConverter")
+("1" "Tizen.NUI.Vector4")
+("1" "Tizen.NUI.VisualTransformPolicyType")
+("1" "Tizen.NUI.Binding.PositionTypeConverter")
+("1" "Tizen.NUI.Position")
+>
+<
+("1" "XamlResources")
+("1" "BackgroundColor")
+("3" "Width")
+("3" "Height")
+("1" "HeightSpecification")
+("1" "WidthSpecification")
+("1" "CornerRadius")
+("1" "CornerRadiusPolicy")
+("1" "PivotPoint")
+("1" "ParentOrigin")
+("1" "PositionUsesPivotPoint")
+>
+<
+>
+<
+("1" "Add" (d1d  ))
+>
+<
+("1" "SizeProperty")
+>
+{d0d }
+{d2d }
+{d3d }
+{d4d }
+{d1d }
+{d5d }
+{d1d }
+&(a5a  "mainVisual")&
+&(a4a  "controlVisual")&
+&(a6a  "sliderHandler")&
+[(a0a  d0d  a3a )]
+*(a3a  "SizeConverterKey"  a1a )*
+[(a2a  d2d  j20j )]
+[(a2a  d3d  j20j )]
+*(a3a  "HandlerSize"  a2a )*
+{d6d }
+@q(a7a  "#C3CAD2" )q@
+[(a0a  d1d  a8a )]
+[(a0a  d0d  a3a )]
+[(a5a  d5d  d-1d )]
+[(a5a  d4d  d-1d )]
+[(a4a  d4d  d-1d )]
+@q(a7a  "#546EE5" )q@
+[(a4a  d1d  a9a )]
+^(a5a  a4a  d0d)^
+^(a0a  a5a  d0d)^
+{("." zz a1a zz zz a2a )d8d }
+%(a6a  d0d  a10a )%
+@q(a7a  "#546EE5" )q@
+[(a6a  d1d  a11a )]
+{d9d }
+@q(a12a  "0.5" )q@
+[(a6a  d6d  a13a )]
+@o(d11d  "Relative" )o @
+[(a6a  d7d  a14a )]
+{d12d }
+@q(a15a  "Center" )q@
+[(a6a  d8d  a16a )]
+@q(a15a  "CenterLeft" )q@
+[(a6a  d9d  a17a )]
+[(a6a  d10d  mTruem )]
+^(a0a  a6a  d0d)^

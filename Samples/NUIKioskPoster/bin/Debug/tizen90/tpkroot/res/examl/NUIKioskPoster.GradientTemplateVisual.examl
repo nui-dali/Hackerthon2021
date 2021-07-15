@@ -1,0 +1,78 @@
+<
+"NUIKioskPoster, "
+"Tizen.NUI, "
+>
+<
+("0" "NUIKioskPoster.GradientTemplateVisual")
+("1" "Tizen.NUI.GradientVisual")
+("1" "Tizen.NUI.KeyValue")
+("1" "Tizen.NUI.PropertyArray")
+("1" "Tizen.NUI.Binding.ColorTypeConverter")
+("1" "Tizen.NUI.Color")
+("1" "Tizen.NUI.Binding.Vector2TypeConverter")
+("1" "Tizen.NUI.Vector2")
+("1" "Tizen.NUI.GradientVisualSpreadMethodType")
+>
+<
+("1" "StartPosition")
+("1" "EndPosition")
+("1" "SpreadMethod")
+("1" "StopOffset")
+("1" "StopColor")
+("2" "Value")
+>
+<
+>
+<
+("3" "Add" (d2d  ))
+>
+<
+>
+{d0d }
+{d2d }
+{d2d }
+{d2d }
+{d2d }
+{d2d }
+{d3d }
+{d4d }
+@q(a7a  "#21203F" )q@
+{d2d }
+@q(a7a  "#362950" )q@
+{d2d }
+@q(a7a  "#3A379C" )q@
+{d2d }
+@q(a7a  "#362950" )q@
+{d2d }
+@q(a7a  "#21203F" )q@
+{d2d }
+{d3d }
+{d6d }
+@q(a19a  "-0.5,0.0" )q@
+[(a0a  d0d  a20a )]
+@q(a19a  "0.5,0.0" )q@
+[(a0a  d1d  a21a )]
+@o(d8d  "Pad" )o @
+[(a0a  d2d  a22a )]
+[(a1a  d5d  "0.0" )]
+^(a6a  a1a  d0d)^
+[(a2a  d5d  "0.25" )]
+^(a6a  a2a  d0d)^
+[(a3a  d5d  "0.5" )]
+^(a6a  a3a  d0d)^
+[(a4a  d5d  "0.75" )]
+^(a6a  a4a  d0d)^
+[(a5a  d5d  "1.0" )]
+^(a6a  a5a  d0d)^
+[(a0a  d3d  a6a )]
+[(a9a  d5d  a8a )]
+^(a18a  a9a  d0d)^
+[(a11a  d5d  a10a )]
+^(a18a  a11a  d0d)^
+[(a13a  d5d  a12a )]
+^(a18a  a13a  d0d)^
+[(a15a  d5d  a14a )]
+^(a18a  a15a  d0d)^
+[(a17a  d5d  a16a )]
+^(a18a  a17a  d0d)^
+[(a0a  d4d  a18a )]

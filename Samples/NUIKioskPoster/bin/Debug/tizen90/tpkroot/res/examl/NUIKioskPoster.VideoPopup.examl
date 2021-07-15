@@ -1,0 +1,318 @@
+<
+"NUIKioskPoster, "
+"Tizen.NUI, "
+"Tizen.NUI.Components, "
+>
+<
+("0" "NUIKioskPoster.VideoPopup")
+("1" "Tizen.NUI.BaseComponents.View")
+("0" "NUIKioskPoster.SizeConverter")
+("1" "Tizen.NUI.Size")
+("0" "NUIKioskPoster.VideoViewModel")
+("1" "Tizen.NUI.Binding.ResourceDictionary")
+("1" "Tizen.NUI.BaseComponents.VideoView")
+("2" "Tizen.NUI.Components.Button")
+("1" "Tizen.NUI.RelativeLayout")
+("0" "NUIKioskPoster.ApplicationHelper")
+("0" "NUIKioskPoster.VideoCustomSlider")
+("1" "Tizen.NUI.BaseComponents.TextLabel")
+("1" "Tizen.NUI.Binding.BindableObject")
+("1" "Tizen.NUI.LinearLayout")
+("0" "NUIKioskPoster.RelativeContainer")
+("1" "Tizen.NUI.Binding.PositionTypeConverter")
+("1" "Tizen.NUI.Position")
+("1" "Tizen.NUI.Binding.ColorTypeConverter")
+("1" "Tizen.NUI.Color")
+("1" "Tizen.NUI.Binding.Binding")
+("1" "Tizen.NUI.RelativeLayout+Alignment")
+("1" "Tizen.NUI.HorizontalAlignment")
+("1" "Tizen.NUI.VerticalAlignment")
+("1" "Tizen.NUI.LinearLayout+Alignment")
+("1" "Tizen.NUI.LinearLayout+Orientation")
+("1" "Tizen.NUI.Binding.Vector4TypeConverter")
+("1" "Tizen.NUI.Vector4")
+("1" "Tizen.NUI.VisualTransformPolicyType")
+("0" "NUIKioskPoster.VideoCustomSlider+CustomSliderType")
+("1" "Tizen.NUI.BaseComponents.View+TouchEventArgs")
+("2" "Tizen.NUI.Components.ClickedEventArgs")
+>
+<
+("1" "WidthSpecification")
+("1" "HeightSpecification")
+("1" "PivotPoint")
+("1" "ParentOrigin")
+("1" "PositionUsesPivotPoint")
+("1" "XamlResources")
+("3" "Width")
+("3" "Height")
+("1" "BackgroundColor")
+("1" "StyleName")
+("1" "Opacity")
+("12" "BindingContext")
+("11" "TextColor")
+("11" "PixelSize")
+("11" "HorizontalAlignment")
+("11" "VerticalAlignment")
+("13" "LinearAlignment")
+("13" "LinearOrientation")
+("1" "Layout")
+("10" "Type")
+("10" "CurrentValue")
+("1" "CornerRadius")
+("1" "CornerRadiusPolicy")
+>
+<
+("1" "TouchEvent")
+("7" "Clicked")
+("10" "ValueChangeFinishedEvent")
+("10" "ValueChangedEvent")
+>
+<
+("1" "Add" (d1d  ))
+("0" "Player_TouchEvent" (d-12d  d29d  ))
+("0" "Close_Clicked" (d-12d  d30d  ))
+("0" "BlockTouchEvent" (d-12d  d29d  ))
+("0" "VideoSlider_ValueFinishedEvent" (d-12d  d-15d  ))
+("0" "BackwardBtn_Clicked" (d-12d  d30d  ))
+("0" "PlayBtn_Clicked" (d-12d  d30d  ))
+("0" "ForwardBtn_Clicked" (d-12d  d30d  ))
+("0" "SoundBtn_Clicked" (d-12d  d30d  ))
+("0" "VideoSlider_SoundValueChangedEvent" (d-12d  d-15d  ))
+("0" "VideoSlider_ValueChangeFinishedEvent" (d-12d  d-15d  ))
+>
+<
+("1" "SizeProperty")
+("8" "HorizontalAlignmentProperty")
+("8" "RightRelativeOffsetProperty")
+("8" "TopRelativeOffsetProperty")
+("8" "BottomRelativeOffsetProperty")
+("8" "VerticalAlignmentProperty")
+("11" "TextProperty")
+("8" "LeftRelativeOffsetProperty")
+("1" "SizeHeightProperty")
+>
+{d0d }
+{d2d }
+{d3d }
+{d3d }
+{d3d }
+{d3d }
+{d3d }
+{d3d }
+{d3d }
+{d3d }
+{d3d }
+{d3d }
+{d4d }
+{d5d }
+{d6d }
+{d7d }
+{{"HeightConverter"  zz } d9d }
+{d1d }
+{d10d }
+{d11d }
+{d13d }
+{d7d }
+{d7d }
+{d7d }
+{d1d }
+{d7d }
+{d13d }
+{d10d }
+{d7d }
+{d1d }
+{d14d }
+&(a12a  "ViewModel")&
+&(a14a  "playerView")&
+&(a30a  "bottomController")&
+&(a18a  "VideoSlider")&
+&(a19a  "videoTimeText")&
+&(a21a  "backwardBtn")&
+&(a22a  "playBtn")&
+&(a23a  "forwardBtn")&
+&(a25a  "soundBtn")&
+&(a29a  "soundBarPopup")&
+&(a27a  "soundSlider")&
+&(a28a  "soundPopupBtn")&
+*(a13a  "SizeConverterKey"  a1a )*
+[(a2a  d6d  j61j )]
+[(a2a  d7d  j61j )]
+*(a13a  "ButtonSize"  a2a )*
+[(a3a  d6d  j36j )]
+[(a3a  d7d  j36j )]
+*(a13a  "ControlButtonSize1"  a3a )*
+[(a4a  d6d  j36j )]
+[(a4a  d7d  j36j )]
+*(a13a  "ControlButtonSize2"  a4a )*
+[(a5a  d6d  j36j )]
+[(a5a  d7d  j36j )]
+*(a13a  "ControlButtonSize3"  a5a )*
+[(a6a  d6d  j36j )]
+[(a6a  d7d  j36j )]
+*(a13a  "ControlButtonSize4"  a6a )*
+[(a7a  d6d  j800j )]
+[(a7a  d7d  j230j )]
+*(a13a  "ControllerSize"  a7a )*
+[(a8a  d6d  j60j )]
+[(a8a  d7d  j350j )]
+*(a13a  "SoudBarSize"  a8a )*
+[(a9a  d6d  j350j )]
+[(a9a  d7d  j5j )]
+*(a13a  "SliderHorizontalSize"  a9a )*
+[(a10a  d6d  j5j )]
+[(a10a  d7d  j250j )]
+*(a13a  "SliderVerticalSize"  a10a )*
+[(a11a  d6d  j600j )]
+[(a11a  d7d  j800j )]
+*(a13a  "VideoSize"  a11a )*
+*(a13a  "ViewModelKey"  a12a )*
+[(a0a  d0d  d-1d )]
+[(a0a  d1d  d-1d )]
+{d15d }
+@q(a31a  "Center" )q@
+[(a0a  d2d  a32a )]
+@q(a31a  "Center" )q@
+[(a0a  d3d  a33a )]
+[(a0a  d4d  mTruem )]
+[(a0a  d5d  a13a )]
+{d17d }
+@q(a34a  "Black" )q@
+[(a14a  d8d  a35a )]
+#(a14a  a0a  d0d  d1d )#
+[(a14a  d0d  d-1d )]
+[(a14a  d1d  d-1d )]
+^(a0a  a14a  d0d)^
+[(a15a  d9d  "CloseButton" )]
+{("." zz a1a zz zz a2a )d19d }
+%(a15a  d0d  a36a )%
+#(a15a  a0a  d1d  d2d )#
+@o(d20d  "End" )o @
+!(a15a  d1d  a37a )!
+!(a15a  d2d  j0.98j )!
+!(a15a  d3d  j0.01j )!
+!(a15a  d4d  j1j )!
+^(a0a  a15a  d0d)^
+[(a30a  d0d  d-1d )]
+[(a30a  d1d  d-2d )]
+{("." zz a16a zz zz "500" )d19d }
+%(a30a  d8d  a38a )%
+@o(d20d  "Center" )o @
+!(a30a  d1d  a39a )!
+!(a30a  d7d  j0j )!
+!(a30a  d2d  j1j )!
+@o(d20d  "End" )o @
+!(a30a  d5d  a40a )!
+!(a30a  d3d  j0.6j )!
+!(a30a  d4d  j1j )!
+#(a30a  a0a  d0d  d3d )#
+[(a17a  d10d  j0.85j )]
+@q(a34a  "White" )q@
+[(a17a  d8d  a41a )]
+[(a17a  d0d  d-1d )]
+[(a17a  d1d  d-1d )]
+^(a30a  a17a  d0d)^
+{("." zz a1a zz zz a9a )d19d }
+%(a18a  d0d  a42a )%
+@o(d20d  "Center" )o @
+!(a18a  d1d  a43a )!
+!(a18a  d2d  j1j )!
+@o(d20d  "Start" )o @
+!(a18a  d5d  a44a )!
+!(a18a  d3d  j0.3j )!
+!(a18a  d4d  j1j )!
+#(a18a  a0a  d2d  d4d )#
+^(a30a  a18a  d0d)^
+[(a19a  d11d  a12a )]
+{("ScrollTime" zz zz zz zz zz )d19d }
+%(a19a  d6d  a45a )%
+@q(a34a  "#546EE5" )q@
+[(a19a  d12d  a46a )]
+[(a19a  d13d  j16j )]
+@o(d21d  "Begin" )o @
+[(a19a  d14d  a47a )]
+!(a19a  d7d  j0.1j )!
+!(a19a  d2d  j1j )!
+@o(d22d  "Center" )o @
+[(a19a  d15d  a48a )]
+!(a19a  d3d  j0.55j )!
+!(a19a  d4d  j1j )!
+^(a30a  a19a  d0d)^
+[(a24a  d0d  d-2d )]
+[(a24a  d1d  d-2d )]
+@o(d20d  "Center" )o @
+!(a24a  d1d  a49a )!
+!(a24a  d7d  j0j )!
+!(a24a  d2d  j1j )!
+@o(d20d  "Center" )o @
+!(a24a  d5d  a50a )!
+!(a24a  d3d  j0.45j )!
+!(a24a  d4d  j1j )!
+@o(d23d  "CenterVertical" )o @
+[(a20a  d16d  a51a )]
+@o(d24d  "Horizontal" )o @
+[(a20a  d17d  a52a )]
+[(a24a  d18d  a20a )]
+[(a21a  d9d  "BackwardButton" )]
+{("." zz a1a zz zz a3a )d19d }
+%(a21a  d0d  a53a )%
+#(a21a  a0a  d1d  d5d )#
+^(a24a  a21a  d0d)^
+[(a22a  d9d  "PauseButton" )]
+{("." zz a1a zz zz a4a )d19d }
+%(a22a  d0d  a54a )%
+#(a22a  a0a  d1d  d6d )#
+^(a24a  a22a  d0d)^
+[(a23a  d9d  "ForwardButton" )]
+{("." zz a1a zz zz a5a )d19d }
+%(a23a  d0d  a55a )%
+#(a23a  a0a  d1d  d7d )#
+^(a24a  a23a  d0d)^
+^(a30a  a24a  d0d)^
+[(a25a  d9d  "UnmutedSoundButton" )]
+{("." zz a1a zz zz a6a )d19d }
+%(a25a  d0d  a56a )%
+#(a25a  a0a  d1d  d8d )#
+@o(d20d  "End" )o @
+!(a25a  d1d  a57a )!
+!(a25a  d2d  j0.9j )!
+@o(d20d  "Center" )o @
+!(a25a  d5d  a58a )!
+!(a25a  d3d  j0.45j )!
+!(a25a  d4d  j1j )!
+^(a30a  a25a  d0d)^
+{("." zz a1a zz zz a8a )d19d }
+%(a29a  d0d  a59a )%
+@q(a34a  "White" )q@
+[(a29a  d8d  a60a )]
+{d25d }
+@q(a61a  "0.5" )q@
+[(a29a  d21d  a62a )]
+@o(d27d  "Relative" )o @
+[(a29a  d22d  a63a )]
+#(a29a  a0a  d0d  d3d )#
+@o(d20d  "End" )o @
+!(a29a  d1d  a64a )!
+!(a29a  d2d  j0.9j )!
+@o(d20d  "End" )o @
+!(a29a  d5d  a65a )!
+!(a29a  d3d  j0j )!
+!(a29a  d4d  j0.8j )!
+@o(d23d  "Center" )o @
+[(a26a  d16d  a66a )]
+@o(d24d  "Vertical" )o @
+[(a26a  d17d  a67a )]
+[(a29a  d18d  a26a )]
+{("." zz a1a zz zz a10a )d19d }
+%(a27a  d0d  a68a )%
+@o(d28d  "Vertical" )o @
+[(a27a  d19d  a69a )]
+[(a27a  d20d  j0.7j )]
+#(a27a  a0a  d3d  d9d )#
+#(a27a  a0a  d2d  d10d )#
+^(a29a  a27a  d0d)^
+[(a28a  d9d  "UnmutedSoundButton" )]
+{("." zz a1a zz zz a5a )d19d }
+%(a28a  d0d  a70a )%
+^(a29a  a28a  d0d)^
+^(a30a  a29a  d0d)^
+^(a0a  a30a  d0d)^

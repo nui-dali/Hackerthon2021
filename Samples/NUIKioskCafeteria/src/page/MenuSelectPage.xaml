@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<local:ContentControlPage  x:Class="NUIKioskCafeteria.MenuSelectPage"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:NUIKioskCafeteria"
+    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+    HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+    <View.XamlResources>
+        <ResourceDictionary>
+            <TimePeriod x:Key="FadeTimePeriod">
+                <x:Arguments>
+                    <x:Single>300</x:Single>
+                    <x:Single>600</x:Single>
+                </x:Arguments>
+            </TimePeriod>
+        </ResourceDictionary>
+    </View.XamlResources>
+
+    <DialogPage.AppearingTransition>
+        <Fade TimePeriod="{StaticResource FadeTimePeriod}"/>
+    </DialogPage.AppearingTransition>
+
+    <local:ContentControlPage.Layout>
+        <LinearLayout LinearAlignment="CenterHorizontal"
+                      LinearOrientation="Vertical"></LinearLayout>
+    </local:ContentControlPage.Layout>
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+          Weight="0.1">
+        <Button StyleName="CircleButton"
+                Size="80,80"
+                ParentOrigin="CenterRight"
+                PivotPoint="CenterRight"
+                PositionUsesPivotPoint="True"
+                Clicked="Button_Clicked">
+
+        </Button>
+    </View>
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+          Weight="0.5">
+        <View.Layout>
+            <LinearLayout LinearAlignment="CenterHorizontal"
+                          LinearOrientation="Vertical"/>
+        </View.Layout>
+        <TextLabel Text="What you want to order?"
+                   PixelSize="30"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   TextColor="#7474FF"
+                   
+                   WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                   HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                   Weight="0.25">
+        </TextLabel>
+        <local:RelativeContainer 
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+              Weight="0.425">
+            <Button Name="Drink"
+                    WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+                    HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+                    StyleName="SecondaryIconButton"
+                    IconURL="*Resource*/images/img_menu_drinks.png"
+                    Text="Tea &amp; Coffee"
+                    
+                    RelativeLayout.FillHorizontal="True"
+                    RelativeLayout.FillVertical="True"
+                    RelativeLayout.LeftRelativeOffset="0.02"
+                    RelativeLayout.RightRelativeOffset="0.98"
+                    RelativeLayout.TopRelativeOffset="0.0"
+                    RelativeLayout.BottomRelativeOffset="1.0"
+                    Clicked="NextPageClicked">
+            </Button>
+        </local:RelativeContainer>
+        <local:RelativeContainer 
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+              Weight="0.425">
+            <Button Name="Desserts"
+                    WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+                    HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+                    StyleName="SecondaryIconButton"
+                    IconURL="*Resource*/images/img_menu_desserts.png"
+                    Text="Desserts"
+                    
+                    RelativeLayout.FillHorizontal="True"
+                    RelativeLayout.FillVertical="True"
+                    RelativeLayout.LeftRelativeOffset="0.02"
+                    RelativeLayout.RightRelativeOffset="0.98"
+                    RelativeLayout.TopRelativeOffset="0.0"
+                    RelativeLayout.BottomRelativeOffset="1.0"
+                    Clicked="NextPageClicked">
+            </Button>
+        </local:RelativeContainer>
+    </View>
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+          Weight="0.4">
+        <View.Layout>
+            <LinearLayout LinearAlignment="CenterHorizontal"
+                          LinearOrientation="Vertical"/>
+        </View.Layout>
+        <TextLabel Text="Special offer"
+                   PixelSize="30"
+                   Margin="20,0,0,0"
+                   HorizontalAlignment="Begin"
+                   VerticalAlignment="Bottom"
+                   TextColor="#7474FF"
+                   
+                   WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                   HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                   Weight="0.2"/>
+        <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+              Weight="0.8">
+            <View.Layout>
+                <LinearLayout LinearAlignment="CenterHorizontal"
+                              LinearOrientation="Horizontal"></LinearLayout>
+            </View.Layout>
+            <local:MenuItemView Size="220,220" 
+                                Margin="10,10,30,10"
+                                PriceLabel="$ 4.00"
+                                NameLabel="Nougat Tarlet"
+                                ButtonTag="button1"
+                                ImageTag="image1"
+                                ItemImageUrl="*Resource*/images/menu/nougat_tarlet.png"
+                                ItemClicked="MenuItemView_ItemClicked"
+                                />
+            <local:MenuItemView Size="220,220" 
+                                Margin="10,10,30,10"
+                                PriceLabel="$ 3.20"
+                                NameLabel="Cherry"
+                                ButtonTag="button2"
+                                ImageTag="image2"
+                                ItemImageUrl="*Resource*/images/menu/cherry.png"
+                                ItemClicked="MenuItemView_ItemClicked"/>
+
+            <local:MenuItemView Size="220,220" 
+                                Margin="10,10,30,10"
+                                PriceLabel="$ 4.20"
+                                NameLabel="Espresso"
+                                ButtonTag="button3"
+                                ImageTag="image3"
+                                ItemImageUrl="*Resource*/images/menu/espresso.png"
+                                ItemClicked="MenuItemView_ItemClicked"/>
+        </View>
+    </View>
+
+</local:ContentControlPage>

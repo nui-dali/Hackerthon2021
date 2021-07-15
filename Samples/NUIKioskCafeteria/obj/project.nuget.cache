@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6hZW6mqu64d/3c9uc+lXlyTzTYEoPACGgg1S1Qbl/zQSJ5XfnCZIBSK4ad/ZO/kIn85zleCHVfD6jqwOAoc3AQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\huiyu.eun\\source\\repos\\NUIKioskCafeteria\\NUIKioskCafeteria.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.net\\9.0.0.16447\\tizen.net.9.0.0.16447.nupkg.sha512",
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.net.api9\\9.0.0.16447\\tizen.net.api9.9.0.0.16447.nupkg.sha512",
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.24\\tizen.nui.xamlbuild.1.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<local:RelativeContainer x:Class="NUIKioskPoster.VideoPopup"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+    xmlns:local="clr-namespace:NUIKioskPoster"
+    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+    HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+    PivotPoint="Center"
+    ParentOrigin="Center"
+    PositionUsesPivotPoint="true">
+
+    <View.XamlResources>
+        <ResourceDictionary>
+            <local:SizeConverter x:Key="SizeConverterKey" />
+            <Size x:Key="ButtonSize" Width="61" Height="61"></Size>
+            <Size x:Key="ControlButtonSize1" Width="36" Height="36"></Size>
+            <Size x:Key="ControlButtonSize2" Width="36" Height="36"></Size>
+            <Size x:Key="ControlButtonSize3" Width="36" Height="36"></Size>
+            <Size x:Key="ControlButtonSize4" Width="36" Height="36"></Size>
+            <Size x:Key="SoudBarSize" Width="60" Height="350"></Size>
+            <Size x:Key="SliderHorizontalSize" Width="600" Height="5"></Size>
+            <Size x:Key="SliderVerticalSize" Width="5" Height="250"></Size>
+            <local:VideoViewModel x:Key="ViewModelKey" x:Name="ViewModel" />
+        </ResourceDictionary>
+    </View.XamlResources>
+
+    <VideoView x:Name="playerView"
+               BackgroundColor="Black"
+               TouchEvent="Player_TouchEvent"
+               WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+               HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+    </VideoView>
+
+    <c:Button StyleName="CloseButton"
+              Size="{Binding Source={StaticResource ButtonSize},
+                      Converter={StaticResource SizeConverterKey}}"
+              Clicked="Close_Clicked"
+          
+              RelativeLayout.HorizontalAlignment="End"
+              RelativeLayout.RightRelativeOffset="0.98"
+                 
+              RelativeLayout.TopRelativeOffset="0.01"
+              RelativeLayout.BottomRelativeOffset="1.0">
+    </c:Button>
+    <local:RelativeContainer  x:Name="bottomController"
+                              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                              HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+                              SizeHeight="{Binding Source=500,
+                                          Converter={Static local:ApplicationHelper.HeightConverter}}"
+                              RelativeLayout.HorizontalAlignment="Center"
+                              RelativeLayout.LeftRelativeOffset="0.0"
+                              RelativeLayout.RightRelativeOffset="1"
+                 
+                              RelativeLayout.VerticalAlignment="End"
+                              RelativeLayout.TopRelativeOffset="0.6"
+                              RelativeLayout.BottomRelativeOffset="1.0"
+                              TouchEvent="BlockTouchEvent">
+        <View Opacity="0.85"
+              BackgroundColor="White"
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}"/>
+
+        <local:VideoCustomSlider x:Name="VideoSlider"
+                                 Size="{Binding Source={StaticResource SliderHorizontalSize},
+                                       Converter={StaticResource SizeConverterKey}}"
+                             
+                                 RelativeLayout.HorizontalAlignment="Center"
+                                 RelativeLayout.RightRelativeOffset="1"
+                 
+                                 RelativeLayout.VerticalAlignment="Start"
+                                 RelativeLayout.TopRelativeOffset="0.3"
+                                 RelativeLayout.BottomRelativeOffset="1.0"
+                                 ValueChangeFinishedEvent="VideoSlider_ValueFinishedEvent">
+
+        </local:VideoCustomSlider>
+        <TextLabel x:Name="videoTimeText"
+                   BindingContext="{StaticResource ViewModelKey}"
+                   Text="{Binding Path=ScrollTime}"
+                   TextColor="#546EE5"
+                   PixelSize="16"
+                   RelativeLayout.HorizontalAlignment="Begin"
+                   RelativeLayout.LeftRelativeOffset="0.1"
+                   RelativeLayout.RightRelativeOffset="1"
+                 
+                   RelativeLayout.VerticalAlignment="Center"
+                   RelativeLayout.TopRelativeOffset="0.55"
+                   RelativeLayout.BottomRelativeOffset="1.0">
+        </TextLabel>
+
+        <View WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+              HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+              RelativeLayout.HorizontalAlignment="Center"
+              RelativeLayout.LeftRelativeOffset="0.0"
+              RelativeLayout.RightRelativeOffset="1"
+                 
+              RelativeLayout.VerticalAlignment="Center"
+              RelativeLayout.TopRelativeOffset="0.45"
+              RelativeLayout.BottomRelativeOffset="1.0">
+            <View.Layout>
+                <LinearLayout LinearAlignment="CenterVertical"
+                      LinearOrientation="Horizontal">
+                </LinearLayout>
+            </View.Layout>
+
+
+            <c:Button x:Name="backwardBtn"
+                      StyleName="BackwardButton"
+                      Size="{Binding Source={StaticResource ControlButtonSize1},
+                             Converter={StaticResource SizeConverterKey}}"
+                      Clicked ="BackwardBtn_Clicked">
+            </c:Button>
+
+            <c:Button x:Name="playBtn"
+                      StyleName="PauseButton"
+                      Size="{Binding Source={StaticResource ControlButtonSize2},
+                              Converter={StaticResource SizeConverterKey}}"
+                       Clicked ="PlayBtn_Clicked">
+            </c:Button>
+
+            <c:Button x:Name="forwardBtn"
+                      StyleName="ForwardButton"
+                      Size="{Binding Source={StaticResource ControlButtonSize3},
+                          Converter={StaticResource SizeConverterKey}}"
+                      Clicked ="ForwardBtn_Clicked">
+            </c:Button>
+        </View>
+
+        <c:Button x:Name="soundBtn"
+                  StyleName="UnmutedSoundButton"
+                  Size="{Binding Source={StaticResource ControlButtonSize4},
+                        Converter={StaticResource SizeConverterKey}}"
+                  Clicked ="SoundBtn_Clicked"
+            
+                  RelativeLayout.HorizontalAlignment="End"
+                  RelativeLayout.RightRelativeOffset="0.9"
+                 
+                  RelativeLayout.VerticalAlignment="Center"
+                  RelativeLayout.TopRelativeOffset="0.45"
+                  RelativeLayout.BottomRelativeOffset="1.0">
+        </c:Button>
+
+        <View x:Name="soundBarPopup"
+              Size="{Binding Source={StaticResource SoudBarSize},
+                    Converter={StaticResource SizeConverterKey}}"
+              BackgroundColor="White"
+              CornerRadius="0.5,0.5,0.5,0.5"
+              CornerRadiusPolicy="0"
+              TouchEvent="BlockTouchEvent"
+              RelativeLayout.HorizontalAlignment="End"
+              RelativeLayout.RightRelativeOffset="0.9"
+                 
+              RelativeLayout.VerticalAlignment="End"
+              RelativeLayout.TopRelativeOffset="0.0"
+              RelativeLayout.BottomRelativeOffset="0.8">
+            <View.Layout>
+                <LinearLayout LinearAlignment="Center"
+                              LinearOrientation="Vertical">
+                </LinearLayout>
+            </View.Layout>
+            <local:VideoCustomSlider x:Name="soundSlider"
+                                     Size="{Binding Source={StaticResource SliderVerticalSize},
+                                          Converter={StaticResource SizeConverterKey}}"
+                                     Type="Vertical"
+                                     CurrentValue="0.7"
+                                     ValueChangedEvent ="VideoSlider_SoundValueChangedEvent"
+                                     ValueChangeFinishedEvent ="VideoSlider_ValueChangeFinishedEvent">
+
+            </local:VideoCustomSlider>
+
+            <c:Button x:Name="soundPopupBtn"
+                      StyleName="UnmutedSoundButton"
+                      Size="{Binding Source={StaticResource ControlButtonSize3},
+                             Converter={StaticResource SizeConverterKey}}">
+            </c:Button>
+        </View>
+
+    </local:RelativeContainer>
+
+</local:RelativeContainer>

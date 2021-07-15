@@ -1,0 +1,206 @@
+<
+"NUIKioskPoster, "
+"Tizen.NUI, "
+"Tizen.NUI.Components, "
+>
+<
+("0" "NUIKioskPoster.SummaryView")
+("1" "Tizen.NUI.BaseComponents.View")
+("0" "NUIKioskPoster.SizeConverter")
+("1" "Tizen.NUI.Size")
+("0" "NUIKioskPoster.ContentViewModel")
+("1" "Tizen.NUI.Binding.ResourceDictionary")
+("1" "Tizen.NUI.AbsoluteLayout")
+("1" "Tizen.NUI.BaseComponents.TextLabel")
+("1" "Tizen.NUI.Binding.BindableObject")
+("1" "Tizen.NUI.RelativeLayout")
+("1" "Tizen.NUI.LinearLayout")
+("2" "Tizen.NUI.Components.Button")
+("0" "NUIKioskPoster.RelativeContainer")
+("1" "Tizen.NUI.Binding.ColorTypeConverter")
+("1" "Tizen.NUI.Color")
+("1" "Tizen.NUI.Binding.Binding")
+("1" "Tizen.NUI.HorizontalAlignment")
+("1" "Tizen.NUI.RelativeLayout+Alignment")
+("1" "Tizen.NUI.LinearLayout+Orientation")
+("1" "Tizen.NUI.Binding.ExtentsTypeConverter")
+("1" "Tizen.NUI.Extents")
+("2" "Tizen.NUI.Components.ClickedEventArgs")
+>
+<
+("1" "XamlResources")
+("1" "Layout")
+("3" "Width")
+("3" "Height")
+("1" "WidthSpecification")
+("1" "HeightSpecification")
+("1" "BackgroundColor")
+("1" "Opacity")
+("8" "BindingContext")
+("7" "TextColor")
+("7" "PixelSize")
+("7" "HorizontalAlignment")
+("10" "LinearOrientation")
+("7" "Text")
+("1" "Margin")
+("1" "StyleName")
+>
+<
+("11" "Clicked")
+>
+<
+("1" "Add" (d1d  ))
+("0" "VideoBtn_Clicked" (d-12d  d21d  ))
+("0" "MoreInfoBtn_Clicked" (d-12d  d21d  ))
+>
+<
+("7" "TextProperty")
+("9" "RightRelativeOffsetProperty")
+("9" "TopRelativeOffsetProperty")
+("9" "BottomRelativeOffsetProperty")
+("9" "HorizontalAlignmentProperty")
+("9" "LeftRelativeOffsetProperty")
+("1" "SizeProperty")
+>
+{d0d }
+{d2d }
+{d3d }
+{d3d }
+{d4d }
+{d5d }
+{d6d }
+{d1d }
+{d7d }
+{d10d }
+{d7d }
+{d7d }
+{d1d }
+{d10d }
+{d7d }
+{d7d }
+{d1d }
+{d11d }
+{d11d }
+{d12d }
+&(a0a  "summaryContainer")&
+&(a4a  "ViewModel")&
+[(a0a  d0d  a5a )]
+*(a5a  "SizeConverterKey"  a1a )*
+[(a2a  d2d  j146j )]
+[(a2a  d3d  j34j )]
+*(a5a  "Button1Size"  a2a )*
+[(a3a  d2d  j198j )]
+[(a3a  d3d  j64j )]
+*(a5a  "Button2Size"  a3a )*
+*(a5a  "ViewModelKey"  a4a )*
+[(a0a  d0d  a5a )]
+[(a0a  d1d  a6a )]
+[(a7a  d4d  d-1d )]
+[(a7a  d5d  d-1d )]
+{d13d }
+@q(a20a  "Black" )q@
+[(a7a  d6d  a21a )]
+[(a7a  d7d  j0.7j )]
+^(a0a  a7a  d0d)^
+[(a19a  d4d  d-1d )]
+[(a19a  d5d  d-1d )]
+[(a8a  d8d  a4a )]
+{("Title" zz zz zz zz zz )d15d }
+%(a8a  d0d  a22a )%
+@q(a20a  "White" )q@
+[(a8a  d9d  a23a )]
+[(a8a  d10d  j40j )]
+@o(d16d  "Center" )o @
+[(a8a  d11d  a24a )]
+@o(d16d  "Center" )o @
+[(a8a  d11d  a25a )]
+!(a8a  d1d  j1j )!
+!(a8a  d2d  j0.08j )!
+!(a8a  d3d  j1j )!
+^(a19a  a8a  d0d)^
+[(a12a  d4d  d-2d )]
+[(a12a  d5d  d-2d )]
+@o(d17d  "Start" )o @
+!(a12a  d4d  a26a )!
+!(a12a  d5d  j0.05j )!
+!(a12a  d1d  j1j )!
+!(a12a  d2d  j0.35j )!
+!(a12a  d3d  j1j )!
+@o(d18d  "Vertical" )o @
+[(a9a  d12d  a27a )]
+[(a12a  d1d  a9a )]
+[(a10a  d13d  "RELEASE DATE : " )]
+@q(a20a  "White" )q@
+[(a10a  d9d  a28a )]
+[(a10a  d10d  j15j )]
+@o(d16d  "Begin" )o @
+[(a10a  d11d  a29a )]
+^(a12a  a10a  d0d)^
+[(a11a  d8d  a4a )]
+{("Date" zz zz zz zz zz )d15d }
+%(a11a  d0d  a30a )%
+@q(a20a  "White" )q@
+[(a11a  d9d  a31a )]
+[(a11a  d10d  j25j )]
+@o(d16d  "Begin" )o @
+[(a11a  d11d  a32a )]
+^(a12a  a11a  d0d)^
+^(a19a  a12a  d0d)^
+[(a16a  d4d  d-2d )]
+[(a16a  d5d  d-2d )]
+@o(d17d  "End" )o @
+!(a16a  d4d  a33a )!
+!(a16a  d5d  j0j )!
+!(a16a  d1d  j0.95j )!
+!(a16a  d2d  j0.35j )!
+!(a16a  d3d  j1j )!
+@o(d18d  "Vertical" )o @
+[(a13a  d12d  a34a )]
+[(a16a  d1d  a13a )]
+[(a14a  d13d  "RUNNING TIME : " )]
+@q(a20a  "White" )q@
+[(a14a  d9d  a35a )]
+{d19d }
+@q(a36a  "0,0,0,0" )q@
+[(a14a  d14d  a37a )]
+[(a14a  d10d  j15j )]
+@o(d16d  "Begin" )o @
+[(a14a  d11d  a38a )]
+^(a16a  a14a  d0d)^
+[(a15a  d8d  a4a )]
+{("Time" zz zz zz zz zz )d15d }
+%(a15a  d0d  a39a )%
+@q(a20a  "White" )q@
+[(a15a  d9d  a40a )]
+@q(a36a  "0,0,0,0" )q@
+[(a15a  d14d  a41a )]
+[(a15a  d10d  j25j )]
+@o(d16d  "Begin" )o @
+[(a15a  d11d  a42a )]
+^(a16a  a15a  d0d)^
+^(a19a  a16a  d0d)^
+{("." zz a1a zz zz a2a )d15d }
+%(a17a  d6d  a43a )%
+#(a17a  a0a  d0d  d1d )#
+[(a17a  d15d  "SummaryButton1" )]
+@q(a20a  "Transparent" )q@
+[(a17a  d6d  a44a )]
+@o(d17d  "Center" )o @
+!(a17a  d4d  a45a )!
+!(a17a  d1d  j1j )!
+!(a17a  d2d  j0.7j )!
+!(a17a  d3d  j1j )!
+^(a19a  a17a  d0d)^
+{("." zz a1a zz zz a3a )d15d }
+%(a18a  d6d  a46a )%
+[(a18a  d15d  "SummaryButton2" )]
+[(a18a  d4d  d-2d )]
+[(a18a  d5d  d-2d )]
+#(a18a  a0a  d0d  d2d )#
+@o(d17d  "Center" )o @
+!(a18a  d4d  a47a )!
+!(a18a  d1d  j1j )!
+!(a18a  d2d  j0.8j )!
+!(a18a  d3d  j1j )!
+^(a19a  a18a  d0d)^
+^(a0a  a19a  d0d)^
