@@ -7,52 +7,28 @@
     xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
     xmlns:local="clr-namespace:NUIScalableViews" >
 
-    <View x:Name="tab2Page"
+    <View x:Name="tab3Page"
           WidthSpecification="-1"
-          HeightSpecification="-1"
+          HeightSpecification="-1">
         BackgroundColor="#f3f2ea">
         <View.Layout>
-            <FlexLayout Direction="Row" Justification="FlexStart" Alignment="FlexStart"/>
-            <!--<LinearLayout LinearOrientation="Horizontal" LinearAlignment="Begin" CellPadding="10,10"/>-->
+            <LinearLayout LinearOrientation="Horizontal" LinearAlignment="Begin" CellPadding="10,10"/>
         </View.Layout>
 
         <View x:Name="test1"
-              WidthSpecification="-1"
-              HeightSpecification="-1"
-              BackgroundColor="#75e5d1"
-              Opacity="0.7"/>
-        <View x:Name="test2"
-              WidthSpecification="-1"
-              HeightSpecification="-1"
-              BackgroundColor="#9975e5"
-              Opacity="0.7">
-            <View.Layout>
-                <LinearLayout LinearOrientation="Vertical" LinearAlignment="Center"/>
-            </View.Layout>
-
-            <View x:Name="rect1"
-                  WidthSpecification="-1"
-                  HeightSpecification="200"
-                  BackgroundColor="#000000"/>
-            <TextLabel x:Name="text1"
-                       WidthSpecification="-1"
-                       HeightSpecification="200"
-                       Ellipsis="True"
-                       PointSize="24" 
-                       Text="Song Title_Song Title_Song Title_Song Title_Song Title_Song Title_Song Title_Song Title"
-                       BackgroundColor="#ffffff"/>
-        </View>
-        <View x:Name="test3"
-              WidthSpecification="-1"
-              HeightSpecification="-1"
+              WidthSpecification="300"
+              HeightSpecification="300"
               BackgroundColor="#e57589"
               Opacity="0.7"/>
-        <View x:Name="test4"
-              WidthSpecification="-1"
-              HeightSpecification="-1"
+        <View x:Name="test2"
+              WidthSpecification="400"
+              HeightSpecification="400"
+              BackgroundColor="#ff0000"
+              Opacity="0.7"/>
+        <View x:Name="test3"
+              WidthSpecification="200"
+              HeightSpecification="200"
               BackgroundColor="#c1e575"
               Opacity="0.7"/>
-  
-
     </View>
 </View>
