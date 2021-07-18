@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="ButtonsTutorial.MainView"
+  xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+  BackgroundColor="White"
+  WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+  HeightSpecification="{Static LayoutParamPolicies.MatchParent}" >
+
+  <View.Layout>
+    <LinearLayout LinearOrientation="Vertical" CellPadding="0, 35"/>
+  </View.Layout>
+
+  <TextLabel x:Name="OutputText"
+    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+    HeightSpecification="120"
+    BackgroundColor="#EEEEEE"
+    MultiLine="True"
+    Ellipsis="False"
+    VerticalAlignment="Bottom" />
+
+  <!-- Button example -->
+  <c:Button x:Name="Button1" Text="Touch me" Clicked="OnButtonClicked" />
+
+  <!-- CheckBox example -->
+  <View>
+    <View.Layout>
+      <LinearLayout LinearOrientation="Vertical" CellPadding="0, 10"/>
+    </View.Layout>
+    <c:CheckBox x:Name="Check1" Text="check 1" SelectedChanged="OnCheckBoxChanged" />
+    <c:CheckBox x:Name="Check2" Text="check 2" SelectedChanged="OnCheckBoxChanged" />
+  </View>
+
+  <!-- RadioButton example -->
+  <View c:RadioButtonGroup.IsGroupHolder="True">
+    <View.Layout>
+      <LinearLayout LinearOrientation="Vertical" CellPadding="0, 10"/>
+    </View.Layout>
+    <c:RadioButton x:Name="Radio1" Text="radio 1" IsSelected="True"/>
+    <c:RadioButton x:Name="Radio2" Text="radio 2" />
+    <c:RadioButton x:Name="Radio3" Text="radio 3" />
+  </View>
+
+  <!-- Switch example -->
+  <c:Switch x:Name="Switch1" Text="switch 1" SelectedChanged="OnSwitchChanged"/>
+  <c:Switch x:Name="Switch2" Text="switch 2" IconRelativeOrientation="Right" SelectedChanged="OnSwitchChanged"/>
+
+</View>
