@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tizen.Applications.ThemeManager</name>
+    </assembly>
+    <members>
+        <member name="T:Tizen.Applications.ThemeManager.Theme">
+            <summary>
+            
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.#ctor(Tizen.Applications.ThemeManager.Theme)">
+            <summary>
+            A copy constructor of Theme.
+            </summary>
+            <param name="theme">Theme class.</param>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when failed because of system error.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.ThemeManager.Theme.Id">
+            <summary>
+            A Theme ID
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.ThemeManager.Theme.Version">
+            <summary>
+            A Theme Version
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.ThemeManager.Theme.ToolVersion">
+            <summary>
+            A Theme ToolVersion
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.ThemeManager.Theme.Title">
+            <summary>
+            A Theme Title
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.ThemeManager.Theme.Resolution">
+            <summary>
+            A Theme Resolution
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.ThemeManager.Theme.Preview">
+            <summary>
+            A Theme Preview
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.ThemeManager.Theme.Description">
+            <summary>
+            A Theme Description
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.GetString(System.String)">
+            <summary>
+            Gets the string corresponding with given key.
+            </summary>
+            <param name="key">The string key to find information.</param>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when failed because of the system error.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.GetStrings(System.String)">
+            <summary>
+            Gets the string array corresponding with given key.
+            </summary>
+            <param name="key">The string key to find information.</param>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when failed because of the system error.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.GetInt(System.String)">
+            <summary>
+            Gets the integer corresponding with given key.
+            </summary>
+            <param name="key">The string key to find information.</param>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when failed because of the system error.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.GetFloat(System.String)">
+            <summary>
+            Gets the float corresponding with given key.
+            </summary>
+            <param name="key">The string key to find information.</param>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when failed because of the system error.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.GetBool(System.String)">
+            <summary>
+            Gets the bool corresponding with given key.
+            </summary>
+            <param name="key">The string key to find information.</param>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when failed because of the system error.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.GetPath(System.String)">
+            <summary>
+            Gets the path corresponding with given key.
+            </summary>
+            <param name="key">The string key to find information.</param>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when failed because of the system error.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.GetPaths(System.String)">
+            <summary>
+            Gets the path array corresponding with given key.
+            </summary>
+            <param name="key">The string key to find information.</param>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when failed because of the system error.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.HasKey(System.String)">
+            <summary>
+            Check the given key is exist or not.
+            </summary>
+            <param name="key">The string key to find information.</param>
+            <since_tizen> 9 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.Dispose">
+            <summary>
+            Releases all resources used by the Theme class.
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.Theme.Dispose(System.Boolean)">
+            <summary>
+            Releases the unmanaged resources used by the Theme class specifying whether to perform a normal dispose operation.
+            </summary>
+            <param name="disposing">true for a normal dispose operation; false to finalize the handle.</param>
+        </member>
+        <member name="T:Tizen.Applications.ThemeManager.ThemeEventArgs">
+            <summary>
+            ThemeEventArgs class. This class is an event arguments of the ThemeLoaderChanged events.
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="P:Tizen.Applications.ThemeManager.ThemeEventArgs.Theme">
+            <summary>
+            A Theme
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="T:Tizen.Applications.ThemeManager.ThemeLoader">
+            <summary>
+            
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.ThemeLoader.#ctor">
+            <summary>
+            Creates ThemeLoader.
+            </summary>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.OutOfMemoryException">Failed to create handle.</exception>
+        </member>
+        <member name="E:Tizen.Applications.ThemeManager.ThemeLoader.ThemeChanged">
+            <summary>
+            Adds or removes events for theme changed.
+            </summary>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+        </member>
+        <member name="P:Tizen.Applications.ThemeManager.ThemeLoader.CurrentTheme">
+            <summary>
+            Sets current theme.
+            </summary>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.ThemeLoader.LoadTheme(System.String)">
+            <summary>
+            Loads theme.
+            </summary>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.ThemeLoader.QueryIds">
+            <summary>
+            Gets bundle of theme IDs.
+            </summary>
+            <since_tizen> 8 </since_tizen>
+            <exception cref="T:System.ArgumentException">Thrown when failed because of an invalid argument.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when failed because of out of memory.</exception>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.ThemeLoader.Dispose">
+            <summary>
+            Releases all resources used by the ThemeLoader class.
+            </summary>
+            <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="M:Tizen.Applications.ThemeManager.ThemeLoader.Dispose(System.Boolean)">
+            <summary>
+            Releases the unmanaged resources used by the ThemeLoader class specifying whether to perform a normal dispose operation.
+            </summary>
+            <param name="disposing">true for a normal dispose operation; false to finalize the handle.</param>
+        </member>
+    </members>
+</doc>

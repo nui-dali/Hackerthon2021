@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<local:ContentControlPage x:Class="NUIKioskCafeteria.SelectPage"
+        xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+        xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+        xmlns:local="clr-namespace:NUIKioskCafeteria"
+        Content="{x:Reference Name=contentView}">
+
+    <GaussianBlurView x:Name="contentView"
+                    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                    HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+        <ImageView WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                   HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                   ResourceUrl="*Resource*/images/Banner.png">
+        </ImageView>
+
+        <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+            <View.Layout>
+                <LinearLayout LinearAlignment="Top" 
+                              LinearOrientation="Vertical"/>
+            </View.Layout>
+            <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                                     HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                                     Weight="0.17">
+                <TextLabel Text="Cafeteria"
+                           Position="20,-20"
+                           PixelSize="60"
+                           TextColor="White"
+                           PivotPoint="BottomLeft"
+                           ParentOrigin="BottomLeft"
+                           PositionUsesPivotPoint="True">
+                    <TextLabel.FontStyle>
+                        <PropertyMap>
+                            <KeyValue Key="weight" Value="regular" />
+                        </PropertyMap>
+                    </TextLabel.FontStyle>
+                </TextLabel>
+                
+                <TextLabel x:Name="startover"
+                           Text="StartOver"
+                           Position="-20,-20"
+                           PixelSize="16"
+                           TextColor="White"
+                           TouchEvent="StartButtonTouchEvent"
+                           PivotPoint="BottomRight"
+                           ParentOrigin="BottomRight"
+                           PositionUsesPivotPoint="True">
+                    <TextLabel.Underline>
+                        <PropertyMap>
+                            <KeyValue Key="enable" Value="true" />
+                        </PropertyMap>
+                    </TextLabel.Underline>
+                </TextLabel>
+            </View>
+
+            <Navigator x:Name="selectNavigator"
+                       WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                       HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                       Weight="0.83"/>
+        </View>
+    </GaussianBlurView>
+
+
+</local:ContentControlPage>

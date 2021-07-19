@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<DialogPage x:Class="NUIKioskCafeteria.ItemPopup"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:$safeprojectname$"
+    Content="{x:Reference Name=MainRoot}"
+    x:Name="itemPopup">
+    <View.XamlResources>
+        <ResourceDictionary>
+            <TimePeriod x:Key="AppearTimePeriod">
+                <x:Arguments>
+                    <x:Single>500</x:Single>
+                    <x:Single>300</x:Single>
+                </x:Arguments>
+            </TimePeriod>
+
+            <TimePeriod x:Key="DisappearTimePeriod">
+                <x:Arguments>
+                    <x:Single>0</x:Single>
+                    <x:Single>200</x:Single>
+                </x:Arguments>
+            </TimePeriod>
+        </ResourceDictionary>
+    </View.XamlResources>
+
+    <DialogPage.AppearingTransition>
+        <Fade TimePeriod="{StaticResource AppearTimePeriod}"/>
+    </DialogPage.AppearingTransition>
+
+    <DialogPage.DisappearingTransition>
+        <Fade TimePeriod="{StaticResource DisappearTimePeriod}"/>
+    </DialogPage.DisappearingTransition>
+
+    <View x:Name="MainRoot" 
+          Size="600,380" 
+          PivotPoint="Center"
+          ParentOrigin="Center"
+          PositionUsesPivotPoint="True"
+          BackgroundColor="White"
+          CornerRadius="40,40,40,40"
+          CornerRadiusPolicy="Absolute"
+          TouchEvent="MainRoot_TouchEvent">
+        
+        <!-- Default Top Text -->
+        <TextLabel x:Name="nameLabel"
+                   Text="Cinnamon"
+                   TextColor="#7474FF"
+                   PixelSize="30"
+                   Position="25,115"
+                   WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+                   HeightSpecification="{Static LayoutParamPolicies.WrapContent}">
+        </TextLabel>
+        <TextLabel x:Name="priceLabel"
+                       Text="price"
+                       Position="480,115"
+                       PixelSize="28"
+                       TextColor="#7474FF">
+        </TextLabel>
+
+        <TextLabel x:Name="descriptionLabel"
+                       Position="25,175"
+                       Text="Cinnamon bun with mixture of cinammon and hazelnut cream."
+                       TextColor="#7474FF"
+                       PixelSize="20"
+                       MultiLine="true"
+                       WidthSpecification="550"
+                       HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+        </TextLabel>
+        <View x:Name="AdditonalOptionView"
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              ParentOrigin="BottomCenter"
+              PivotPoint="BottomCenter"
+              PositionUsesPivotPoint="True">
+            <View.Layout>
+                <LinearLayout LinearOrientation="Vertical"
+                              LinearAlignment="CenterHorizontal"></LinearLayout>
+            </View.Layout>
+            <View x:Name="drinkOptionView"
+                  Weight="0.35"
+                  WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+                  HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+                <View.Layout>
+                    <LinearLayout LinearAlignment="CenterVertical"
+                                  LinearOrientation="Horizontal"></LinearLayout>
+                </View.Layout>
+            </View>
+            <View x:Name="extrasView"
+                  Weight="0.65"
+                  WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                  HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+                <View.Layout>
+                    <LinearLayout LinearAlignment="CenterHorizontal"
+                                  LinearOrientation="Vertical"></LinearLayout>
+                </View.Layout>
+
+                <TextLabel Text="Extras"
+                           TextColor="#7474FF"
+                           PixelSize="30"
+                           Padding="30,0,0,0"
+                           WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                           HeightSpecification="{Static LayoutParamPolicies.WrapContent}">
+                </TextLabel>
+                
+                <View x:Name="extraLayoutView"
+                      WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+                      HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+                    <View.Layout>
+                        <GridLayout GridOrientation="Horizontal"
+                                ColumnSpacing="5"
+                                Columns="4"
+                                Rows="2"
+                                RowSpacing="20"></GridLayout>
+                    </View.Layout>
+                </View>
+            </View>
+        </View>
+
+        <!-- Bottom Default Button -->
+        <Button x:Name="orderButton" 
+                Text="Add to order"
+                StyleName="CTAButton"
+                Size="240,75"
+                Position="0,-50"
+                ParentOrigin="BottomCenter"
+                PivotPoint="BottomCenter"
+                PositionUsesPivotPoint="True"
+                Clicked="Button_Clicked">
+        </Button>
+
+        <TextLabel Text="Cancel"
+                       PixelSize="15"
+                       Position="0,-15"
+                       TextColor="#7474FF"
+                       ParentOrigin="BottomCenter"
+                       PivotPoint="BottomCenter"
+                       PositionUsesPivotPoint="True">
+        </TextLabel>
+    </View>
+    <ImageView x:Name="MainImage"
+               Size="280,280"
+               Position="50,290">
+    </ImageView>
+</DialogPage>

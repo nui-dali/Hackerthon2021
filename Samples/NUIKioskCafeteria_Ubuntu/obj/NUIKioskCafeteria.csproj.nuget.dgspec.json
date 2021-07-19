@@ -1,0 +1,711 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj": {}
+  },
+  "projects": {
+    "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj",
+        "projectName": "NUIKioskCafeteria",
+        "projectPath": "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/NUIKioskCafeteria/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "netcoreapp5.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
+          "dependencies": {
+            "Tizen.NUI.XamlBuild": {
+              "target": "Package",
+              "version": "[1.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj",
+        "projectName": "Tizen.Applications.Common",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj",
+        "projectName": "Tizen.Applications.ComponentBased",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj",
+        "projectName": "Tizen.Applications.ThemeManager",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj",
+        "projectName": "Tizen.Log",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj",
+        "projectName": "Tizen.NUI.Components",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj",
+        "projectName": "Tizen.NUI",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.TypeExtensions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj",
+        "projectName": "Tizen.System.Feedback",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj",
+        "projectName": "Tizen.System.Information",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj",
+        "projectName": "Tizen.System.SystemSettings",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              },
+              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
+      "version": "5.0.0-preview1",
+      "restore": {
+        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj",
+        "projectName": "Tizen",
+        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj",
+        "packagesPath": "/home/huiyu/.nuget/packages/",
+        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

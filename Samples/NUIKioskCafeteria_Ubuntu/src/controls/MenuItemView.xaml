@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="NUIKioskCafeteria.MenuItemView"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+          Padding="30,30,0,30">
+        <TextLabel x:Name="NameTextLabel"
+                   PixelSize="13"
+                   TextColor="#7474FF"
+                   Position="30,-10"
+                   Margin="0,0,0,20"
+                   PivotPoint="BottomLeft"
+                   ParentOrigin="BottomLeft"
+                   PositionUsesPivotPoint="True"/>
+        <TextLabel x:Name="PriceTextLabel"
+                   PixelSize="13"
+                   TextColor="#7474FF"
+                   Position="-30,-10"
+                   Margin="0,0,0,20"
+                   PivotPoint="BottomRight"
+                   ParentOrigin="BottomRight"
+                   PositionUsesPivotPoint="True"/>
+    </View>
+    <Button x:Name="MainButton"
+            StyleName="GalleryButton"
+            WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+            HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+            Clicked="MainButton_Clicked">
+    </Button>
+</View>

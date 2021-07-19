@@ -1,0 +1,642 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tizen.System.Information</name>
+    </assembly>
+    <members>
+        <member name="T:Tizen.System.Information">
+            <summary>
+            The Information class provides functions to obtain various system information.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.Information.TryGetValue``1(System.String,``0@)">
+            <summary>
+            Gets the value of the feature.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <typeparam name="T">The type of <paramref name="value"/>.</typeparam>
+            <param name="key">The name of the feature.</param>
+            <param name="value">The value of the given feature.</param>
+            <returns>Returns true on success, otherwise false.</returns>
+        </member>
+        <member name="M:Tizen.System.Information.SetCallback(System.String,System.EventHandler{Tizen.System.RuntimeFeatureStatusChangedEventArgs})">
+            <summary>
+            Registers a change event callback for given runtime feature key.
+            </summary>
+            <remarks>
+            This function is only for runtime feature.
+            </remarks>
+            <since_tizen> 4 </since_tizen>
+            <param name="key">The name of runtime feature which wants to register callback.</param>
+            <param name="callback">The callback function to subscribe.</param>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="key"/> is invalid.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the feature related <paramref name="key"/> is not supported.</exception>
+        </member>
+        <member name="M:Tizen.System.Information.UnsetCallback(System.String,System.EventHandler{Tizen.System.RuntimeFeatureStatusChangedEventArgs})">
+            <summary>
+            Unregisters a change event callback for given runtime feature key.
+            </summary>
+            <remarks>
+            This function is only for runtime feature.
+            </remarks>
+            <since_tizen> 4 </since_tizen>
+            <param name="key">The name of runtime feature which wants to unregister callback.</param>
+            <param name="callback">The callback function to unsubscribe.</param>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="key"/> is invalid.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the feature related <paramref name="key"/> is not supported.</exception>
+        </member>
+        <member name="T:Tizen.System.RuntimeInfoKey">
+            <summary>
+            Enumeration for the runtime information key.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.Bluetooth">
+            <summary>
+            Indicates whether Bluetooth is enabled.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.WifiHotspot">
+            <summary>
+            Indicates whether Wi-Fi hotspot is enabled.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.BluetoothTethering">
+            <summary>
+            Indicates whether Bluetooth tethering is enabled.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.UsbTethering">
+            <summary>
+            Indicates whether USB tethering is enabled.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.PacketData">
+            <summary>
+            Indicates whether packet data through 3G network is enabled.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.DataRoaming">
+            <summary>
+            Indicates whether data roaming is enabled.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.Vibration">
+            <summary>
+            Indicates whether vibration is enabled.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.AudioJack">
+            <summary>
+            Indicates whether audio jack is connected.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.Gps">
+            <summary>
+            Indicates the current status of GPS.
+            <see cref="T:Tizen.System.GpsStatus"/>
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.BatteryIsCharging">
+            <summary>
+            Indicates whether the battery is currently charging.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.TvOut">
+            <summary>
+            Indicates whether TV out is connected.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.AudioJackConnector">
+            <summary>
+            Indicates change in the audio jack connector type.
+            <see cref="T:Tizen.System.AudioJackConnectionType"/>
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.Charger">
+            <summary>
+            Indicates whether the charger is connected.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.RuntimeInfoKey.AutoRotation">
+            <summary>
+            Indicates whether auto rotation is enabled.
+            </summary>
+        </member>
+        <member name="T:Tizen.System.GpsStatus">
+            <summary>
+            Enumeration for the GPS status.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="F:Tizen.System.GpsStatus.Disabled">
+            <summary>
+            The GPS is disabled.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.GpsStatus.Searching">
+            <summary>
+            The GPS is searching for satellites.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.GpsStatus.Connected">
+            <summary>
+            The GPS connection is established.
+            </summary>
+        </member>
+        <member name="T:Tizen.System.AudioJackConnectionType">
+            <summary>
+            Enumeration for the type of audio jack connected.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="F:Tizen.System.AudioJackConnectionType.Unconnected">
+            <summary>
+            The audio jack is not connected.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.AudioJackConnectionType.ThreeWireConnected">
+            <summary>
+            The 3-conductor wire is connected.
+            </summary>
+        </member>
+        <member name="F:Tizen.System.AudioJackConnectionType.FourWireConnected">
+            <summary>
+            The 4-conductor wire is connected.
+            </summary>
+        </member>
+        <member name="T:Tizen.System.RuntimeFeatureStatusChangedEventArgs">
+            <summary>
+            RuntimeFeatureStatusChangedEventArgs is an extended EventArgs class. This class contains event arguments for runtime event listeners.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="P:Tizen.System.RuntimeFeatureStatusChangedEventArgs.Key">
+            <summary>
+            The key indicating the runtime system preference which was changed.
+            It includes the prefix "http://" though you don't use for registering callback.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.RuntimeInfo.Is``1(Tizen.System.RuntimeInfoKey)">
+            <summary>
+            Validates the data type of the status represented by the runtime key.
+            Note that this is a generic method.
+            </summary>
+            <typeparam name="T">The generic type to validate.</typeparam>
+            <param name="key">The runtime information key for which the status type is validated.</param>
+            <returns>True if the data type matches.</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="key"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.RuntimeInfo.TryGetValue``1(Tizen.System.RuntimeInfoKey,``0@)">
+            <summary>
+            Gets the status of runtime key.
+            Note that this is a generic method.
+            </summary>
+            <typeparam name="T">The generic type to return.</typeparam>
+            <param name="key">The runtime information key for which the current should be read.</param>
+            <param name="value">The value of the given feature.</param>
+            <returns>Returns true on success, otherwise false.</returns>
+        </member>
+        <member name="M:Tizen.System.RuntimeInfo.SetCallback(Tizen.System.RuntimeInfoKey,System.EventHandler{Tizen.System.RuntimeFeatureStatusChangedEventArgs})">
+            <summary>
+            Registers a change event callback for given key.
+            </summary>
+            <param name="key">The runtime information key which wants to register callback.</param>
+            <param name="callback">The callback function to subscribe.</param>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="key"/> is invalid.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the feature related <paramref name="key"/> is not supported.</exception>
+        </member>
+        <member name="M:Tizen.System.RuntimeInfo.UnsetCallback(Tizen.System.RuntimeInfoKey,System.EventHandler{Tizen.System.RuntimeFeatureStatusChangedEventArgs})">
+            <summary>
+            Unregisters a change event callback for given key.
+            </summary>
+            <param name="key">The runtime information key which wants to unregister callback.</param>
+            <param name="callback">The callback function to unsubscribe.</param>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="key"/> is invalid.</exception>
+        </member>
+        <member name="T:Tizen.System.SystemInfo">
+            <summary>
+            The SystemInfo class provides static system feature.
+            Please use Tizen.System.Information class. Information class supports same function.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.SystemInfo.Is``1(System.String)">
+            <summary>
+            Checks if the type of value for the given feature is T.
+            </summary>
+            <typeparam name="T">Type of value for the feature key.</typeparam>
+            <param name="key">The name of the feature.</param>
+            <returns>True if type of value for the given feature is T, otherwise false.</returns>
+        </member>
+        <member name="M:Tizen.System.SystemInfo.IsValidKey(System.String)">
+            <summary>
+            Checks if the given key is a valid feature.
+            </summary>
+            <param name="key">The name of the feature.</param>
+            <returns>True if the key is valid, otherwise false.</returns>
+        </member>
+        <member name="M:Tizen.System.SystemInfo.TryGetValue``1(System.String,``0@)">
+            <summary>
+            Gets the value of the feature.
+            </summary>
+            <typeparam name="T">Type of key value.</typeparam>
+            <param name="key">The name of the feature.</param>
+            <param name="value">The value of the given feature.</param>
+            <returns>Returns true on success, otherwise false.</returns>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.SystemInfo.TryGetValue(System.String,System.Boolean@)">
+            <summary>
+            Gets the bool value of the feature.
+            </summary>
+            <param name="key">The name of the feature.</param>
+            <param name="value">The value of the given feature.</param>
+            <returns>Returns true on success, otherwise false.</returns>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.SystemInfo.TryGetValue(System.String,System.Int32@)">
+            <summary>
+            Gets the int value of the feature.
+            </summary>
+            <param name="key">The name of the feature.</param>
+            <param name="value">The value of the given feature.</param>
+            <returns>Returns true on success, otherwise false.</returns>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.SystemInfo.TryGetValue(System.String,System.Double@)">
+            <summary>
+            Gets the double value of the feature.
+            </summary>
+            <param name="key">The name of the feature.</param>
+            <param name="value">The value of the given feature.</param>
+            <returns>Returns true on success, otherwise false.</returns>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.SystemInfo.TryGetValue(System.String,System.String@)">
+            <summary>
+            Gets the string value of the feature.
+            </summary>
+            <param name="key">The name of the feature.</param>
+            <param name="value">The value of the given feature.</param>
+            <returns>Returns true on success, otherwise false.</returns>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="T:Tizen.System.ProcessCpuUsage">
+            <summary>
+            The class for CPU usage per process.
+            </summary>
+            <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.ProcessCpuUsage.#ctor(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            The constructor of ProcessCpuUsage class.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">List of unique process ids.</param>
+            <privilege>http://tizen.org/privilege/systemmonitor</privilege>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is empty.</exception>
+            <exception cref="T:System.IO.IOException">Thrown when an I/O error occurs while reading from the system or requesting to the resource management daemon.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when the memory is not enough to allocate.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when the caller does not have privilege to use this method.</exception>
+        </member>
+        <member name="P:Tizen.System.ProcessCpuUsage.Count">
+            <summary>
+            The number of usage entries.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.ProcessCpuUsage.GetUTime(System.Int32)">
+            <summary>
+            Gets the amount of time this process has been scheduled in user mode.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">The process id.</param>
+            <returns>The amount of time <paramref name="pid"/> has been scheduled in user mode (clock ticks).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessCpuUsage.GetSTime(System.Int32)">
+            <summary>
+            Gets the amount of time this process has been scheduled in kernel mode.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">The process id.</param>
+            <returns>The amount of time <paramref name="pid"/> has been scheduled in kernel mode (clock ticks).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessCpuUsage.Update(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Update the process CPU usage to the latest.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">List of unique process ids.</param>
+            <privilege>http://tizen.org/privilege/systemmonitor</privilege>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is empty.</exception>
+            <exception cref="T:System.IO.IOException">Thrown when an I/O error occurs while reading from the system or requesting to the resource management daemon.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when the memory is not enough to allocate.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when the caller does not have privilege to use this method.</exception>
+        </member>
+        <member name="T:Tizen.System.ProcessMemoryUsage">
+            <summary>
+            The class for memory information per process.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.#ctor(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            The constructor of ProcessMemoryInformation class.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">List of unique process ids.</param>
+            <privilege>http://tizen.org/privilege/systemmonitor</privilege>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is empty.</exception>
+            <exception cref="T:System.IO.IOException">Thrown when an I/O error occurs while reading from the system or requesting to the resource management daemon.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when the memory is not enough to allocate.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when the caller does not have privilege to use this method.</exception>
+        </member>
+        <member name="P:Tizen.System.ProcessMemoryUsage.Count">
+            <summary>
+            The number of usage entries.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetVsz(System.Int32)">
+            <summary>
+            Gets the virtual memory size of a process.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">The process id.</param>
+            <returns>The virtual memory size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetRss(System.Int32)">
+            <summary>
+            Gets the resident set size of a process.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">The process id.</param>
+            <returns>The resident set size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetPss(System.Int32)">
+            <summary>
+            Gets the proportional set size of a process.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">The process id.</param>
+            <returns>The proportional set size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetSharedClean(System.Int32)">
+            <summary>
+            Gets the size not modified and mapped by other processes of a process.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">The process id.</param>
+            <returns>The shared clean memory size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetSharedDirty(System.Int32)">
+            <summary>
+            Gets the size modified and mapped by other processes of a process.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">The process id.</param>
+            <returns>The shared dirty memory size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetPrivateClean(System.Int32)">
+            <summary>
+            Gets the size not modified and available only to that process of a process.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">The process id.</param>
+            <returns>The private clean memory size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetPrivateDirty(System.Int32)">
+            <summary>
+            Gets the size modified and available only to that process of a process.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">The process id.</param>
+            <returns>The private dirty memory size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetGPU(System.Int32)">
+            <summary>
+            Gets the GPU memory size of a process.
+            </summary>
+            <param name="pid">The process id.</param>
+            <returns>The GPU memory size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the data is empty.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetGemRss(System.Int32)">
+            <summary>
+            Gets the resident set size in graphic execution manager of a process.
+            </summary>
+            <param name="pid">The process id.</param>
+            <returns>The resident set size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the data is empty.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.GetSwap(System.Int32)">
+            <summary>
+            Gets the SWAP memory size of a process.
+            </summary>
+            <param name="pid">The process id.</param>
+            <returns>The SWAP memory size <paramref name="pid"/> is using (KiB).</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is invalid.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when the data is empty.</exception>
+        </member>
+        <member name="M:Tizen.System.ProcessMemoryUsage.Update(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Update the process memory information to the latest.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="pid">List of unique process ids.</param>
+            <privilege>http://tizen.org/privilege/systemmonitor</privilege>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="pid"/> is empty.</exception>
+            <exception cref="T:System.IO.IOException">Thrown when an I/O error occurs while reading from the system or requesting to the resource management daemon.</exception>
+            <exception cref="T:System.OutOfMemoryException">Thrown when the memory is not enough to allocate.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when the caller does not have privilege to use this method.</exception>
+        </member>
+        <member name="T:Tizen.System.SystemCpuUsage">
+            <summary>
+            The class for system CPU usage.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.SystemCpuUsage.#ctor">
+            <summary>
+            The constructor of SystemCpuUsage class.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <exception cref="T:System.IO.IOException">Thrown when an I/O error occurs while reading from the system.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when this system does not store the current CPU frequency.</exception>
+        </member>
+        <member name="P:Tizen.System.SystemCpuUsage.User">
+            <summary>
+            Running time of un-niced user processes (Percent).
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="P:Tizen.System.SystemCpuUsage.System">
+            <summary>
+            Running time of kernel processes (Percent).
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="P:Tizen.System.SystemCpuUsage.Nice">
+            <summary>
+            Running time of niced user processes (Percent).
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="P:Tizen.System.SystemCpuUsage.IoWait">
+            <summary>
+            Time waiting for I/O completion (Percent).
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="P:Tizen.System.SystemCpuUsage.ProcessorCount">
+            <summary>
+            The number of processors.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.SystemCpuUsage.GetCurrentFrequency(System.Int32)">
+            <summary>
+            Gets the current frequency of the processor.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="coreId">The index (from 0) of the CPU core that you want to know the frequency of.</param>
+            <returns>The current frequency(MHz) of processor.</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="coreId"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.SystemCpuUsage.GetMaxFrequency(System.Int32)">
+            <summary>
+            Gets the max frequency of the processor.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <param name="coreId">The index (from 0) of CPU core that you want to know the frequency of.</param>
+            <returns>The max frequency(MHz) of processor.</returns>
+            <exception cref="T:System.ArgumentException">Thrown when the <paramref name="coreId"/> is invalid.</exception>
+        </member>
+        <member name="M:Tizen.System.SystemCpuUsage.Update">
+            <summary>
+            Update the system CPU usage to the latest.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <exception cref="T:System.IO.IOException">Thrown when an I/O error occurs while reading from the system.</exception>
+            <exception cref="T:System.NotSupportedException">Thrown when this system does not store the current CPU frequency.</exception>
+        </member>
+        <member name="T:Tizen.System.SystemMemoryUsage">
+            <summary>
+            The class for system memory information.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.SystemMemoryUsage.#ctor">
+            <summary>
+            The constructor of MemoryInformation class.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <exception cref="T:System.IO.IOException">Thrown when an I/O error occurs while reading from the system.</exception>
+        </member>
+        <member name="P:Tizen.System.SystemMemoryUsage.Total">
+            <summary>
+            Total memory (KiB).
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="P:Tizen.System.SystemMemoryUsage.Used">
+            <summary>
+            Used memory (KiB).
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="P:Tizen.System.SystemMemoryUsage.Free">
+            <summary>
+            Free memory (KiB).
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="P:Tizen.System.SystemMemoryUsage.Cache">
+            <summary>
+            Cache memory (KiB).
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="P:Tizen.System.SystemMemoryUsage.Swap">
+            <summary>
+            Swap memory (KiB).
+            </summary>
+            <since_tizen> 4 </since_tizen>
+        </member>
+        <member name="M:Tizen.System.SystemMemoryUsage.Update">
+            <summary>
+            Update the system memory information to the latest.
+            </summary>
+            <since_tizen> 4 </since_tizen>
+            <exception cref="T:System.IO.IOException">Thrown when I/O error occurs while reading from the system.</exception>
+        </member>
+        <member name="T:Interop.RuntimeInfo.ProcessMemoryInfoKey">
+            <summary>
+            Enumeration for the process memory information key.
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.Vsz">
+            <summary>
+            Virtual memory size (KiB)
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.Rss">
+            <summary>
+            Resident set size (KiB)
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.Pss">
+            <summary>
+            Proportional set size (KiB)
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.SharedClean">
+            <summary>
+            Not modified and mapped by other processes (KiB)
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.SharedDirty">
+            <summary>
+            Modified and mapped by other processes (KiB)
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.PrivateClean">
+            <summary>
+            Not modified and available only to that process (KiB)
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.PrivateDirty">
+            <summary>
+            Modified and available only to that process (KiB)
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.Swap">
+            <summary>
+            SWAP memory size (KiB)
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.Gpu">
+            <summary>
+            GPU memory size (KiB)
+            </summary>
+        </member>
+        <member name="F:Interop.RuntimeInfo.ProcessMemoryInfoKey.GemRss">
+            <summary>
+            Resident set size in graphic execution manager (KiB)
+            </summary>
+        </member>
+    </members>
+</doc>

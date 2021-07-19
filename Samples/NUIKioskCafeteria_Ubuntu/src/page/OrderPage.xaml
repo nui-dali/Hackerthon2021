@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<local:ContentControlPage x:Class="NUIKioskCafeteria.OrderPage"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:NUIKioskCafeteria"
+    BackgroundColor="#F3F6FB"
+    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+    HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+    <local:ContentControlPage.Layout>
+        <LinearLayout LinearAlignment="CenterHorizontal" 
+                      LinearOrientation="Vertical"></LinearLayout>
+    </local:ContentControlPage.Layout>
+
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+          Weight="0.1">
+        <TextLabel Text="Your order"
+               PixelSize="40"
+               TextColor="#7474FF"
+               WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+               HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"/>
+    </View>
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+          Weight="0.75">
+        <local:ContentControlPage.Layout>
+            <LinearLayout LinearAlignment="CenterHorizontal" 
+                      LinearOrientation="Vertical"></LinearLayout>
+        </local:ContentControlPage.Layout>
+        <View x:Name="CollectionLayoutView"
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+              Weight="0.8">
+
+        </View>
+
+        <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+              Weight="0.1">
+            <local:ContentControlPage.Layout>
+                <LinearLayout LinearAlignment="End" 
+                      LinearOrientation="Vertical"></LinearLayout>
+            </local:ContentControlPage.Layout>
+            <TextLabel x:Name="totalPrice"
+                       Text="Total : $ 7.20"
+                       Margin="0,100,0,0"
+                       PixelSize="25"
+                       TextColor="#7474FF">
+                <TextLabel.Underline>
+                    <PropertyMap>
+                        <KeyValue Key="enable" Value="true" />
+                    </PropertyMap>
+                </TextLabel.Underline>
+
+                <TextLabel.FontStyle>
+                    <PropertyMap>
+                        <KeyValue Key="weight" Value="bold" />
+                    </PropertyMap>
+                </TextLabel.FontStyle>
+            </TextLabel>
+        </View>
+
+        
+        <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+              Weight="0.1">
+            <local:ContentControlPage.Layout>
+                <LinearLayout LinearAlignment="Center" 
+                      LinearOrientation="Vertical"></LinearLayout>
+            </local:ContentControlPage.Layout>
+            <Button Text="Go to menu"
+                    StyleName="SecondaryButton"
+                    Size="220,80"
+                    Clicked="PrevPageClicked"/>
+        </View>
+    </View>
+    
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+          Weight="0.15">
+        <local:ContentControlPage.Layout>
+            <LinearLayout LinearAlignment="Center" 
+                      LinearOrientation="Vertical"></LinearLayout>
+        </local:ContentControlPage.Layout>
+        <Button Text="Done"
+                Size="220,80"
+                StyleName="CTAButton"
+                Clicked="NextPageClicked">
+        </Button>
+
+        <TextLabel Text="Cancel"
+                   PixelSize="15"
+                   TextColor="#7474FF"
+                   TouchEvent="PrevPageTouched">
+            <TextLabel.Underline>
+                <PropertyMap>
+                    <KeyValue Key="enable" Value="true" />
+                </PropertyMap>
+            </TextLabel.Underline>
+        </TextLabel>
+    </View>
+    
+</local:ContentControlPage>

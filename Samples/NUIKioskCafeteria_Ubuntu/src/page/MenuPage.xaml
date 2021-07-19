@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<local:ContentControlPage x:Class="NUIKioskCafeteria.MenuPage"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+    xmlns:local="clr-namespace:NUIKioskCafeteria"
+    BackgroundColor="#F5F7FB"
+    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+    HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+    <View.Layout>
+        <LinearLayout LinearAlignment="Begin" 
+                      LinearOrientation="Vertical"/>
+    </View.Layout>
+
+    <View  WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+           HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+           Weight="0.1">
+
+
+        <c:Button Text="Back to menu"
+                  Size="230,60"
+                  StyleName="SecondaryButton"
+                  Clicked="PrevPageClicked"
+                  PivotPoint="CenterLeft"
+                  ParentOrigin="CenterLeft"
+                  PositionUsesPivotPoint="True"/>
+
+        <c:Button Size="80,80"
+                  Margin="0,20,0,0"
+                  StyleName="CircleButton"
+                  Clicked="NextPageClicked"
+                  PivotPoint="CenterRight"
+                  ParentOrigin="CenterRight"
+                  PositionUsesPivotPoint="True">
+        </c:Button>
+    </View>
+</local:ContentControlPage>

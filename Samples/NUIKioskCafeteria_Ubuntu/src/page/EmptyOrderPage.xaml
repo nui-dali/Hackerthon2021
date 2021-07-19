@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<local:ContentControlPage x:Class="NUIKioskCafeteria.EmptyOrderPage"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:NUIKioskCafeteria"
+    BackgroundColor="#F3F6FB"
+    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+    HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+    <local:RelativeContainer
+          WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+        <TextLabel Text="Your order is empty"
+                   PixelSize="40"
+                   TextColor="#7474FF"
+                   WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                   HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   
+                   RelativeLayout.FillVertical="True"
+                   RelativeLayout.VerticalAlignment="Center"
+                   RelativeLayout.TopRelativeOffset="0.0"
+                   RelativeLayout.BottomRelativeOffset="0.5"
+                   RelativeLayout.HorizontalAlignment="Center"
+                   RelativeLayout.LeftRelativeOffset="0.0"
+                   RelativeLayout.RightRelativeOffset="1.0"/>
+
+        <Button Text="Go to menu"
+                StyleName="SecondaryButton"
+                Size="236,56"
+                TextColor="#7474FF"
+                BackgroundColor="White"
+                Clicked="PrevPageClicked"
+                
+                RelativeLayout.VerticalAlignment="Center"
+                RelativeLayout.TopRelativeOffset="0.0"
+                RelativeLayout.BottomRelativeOffset="1.0"
+                RelativeLayout.HorizontalAlignment="Center"
+                RelativeLayout.LeftRelativeOffset="0.0"
+                RelativeLayout.RightRelativeOffset="1.0"/>
+    </local:RelativeContainer>
+</local:ContentControlPage>

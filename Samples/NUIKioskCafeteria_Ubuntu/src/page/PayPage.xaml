@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<local:ContentControlPage  x:Class="NUIKioskCafeteria.PayPage"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NUIKioskCafeteria">
+
+    <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+        <View.Layout>
+            <LinearLayout LinearOrientation="Vertical"
+                          LinearAlignment="Center">
+            </LinearLayout>
+        </View.Layout>
+
+        <TextLabel Text="How would you like to pay?"
+                   PixelSize="35"
+                   TextColor="#7474FF"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"/>
+
+        <ImageView ResourceUrl ="*Resource*/images/img_paying.png"
+                   Margin="0,0,0,200"
+                   WidthSpecification="250"
+                   HeightSpecification="250">
+        </ImageView>
+
+        <Button Text="Card"
+                    StyleName="CTAButton"
+                    Size="250,85"
+                    Clicked="NextPageClicked"/>
+
+        <Button Text="Cash"
+                    StyleName="CTAButton"
+                    Size="250,85"
+                    Clicked="NextPageClicked"/>
+    </View>
+
+    <TextLabel Text="Cancel"
+               PixelSize="15"
+               TextColor="#7474FF"
+               TouchEvent="PrevPageTouched"
+               ParentOrigin="BottomCenter"
+               PivotPoint="BottomCenter"
+               PositionUsesPivotPoint="True"
+               Position="0,-100">
+        <TextLabel.Underline>
+            <PropertyMap>
+                <KeyValue Key="enable" Value="true" />
+            </PropertyMap>
+        </TextLabel.Underline>
+    </TextLabel>
+
+</local:ContentControlPage>
