@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<GaussianBlurView x:Class="KioskPosterTutorial.Scene1Page"
+        xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:local="clr-namespace:KioskPosterTutorial"
+        WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+        BackgroundColor="White">
+    <View.Layout>
+        <AbsoluteLayout></AbsoluteLayout>
+    </View.Layout>
+
+    <VisualView x:Name="gradientBG"
+                WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+    </VisualView>
+    <ScrollableBase x:Name="myScroll"
+                    Size="600,900"
+                    BackgroundColor="White"
+                    PivotPoint="Center"
+                    ParentOrigin="Center"
+                    PositionUsesPivotPoint="true"
+                    
+                    ScrollingDirection="Horizontal"
+                    SnapToPage="True"
+                    ScrollAnimationStarted="myScroll_ScrollAnimationStarted"
+                    ScrollAnimationEnded="myScroll_ScrollAnimationEnded">
+        <View.Layout>
+            <LinearLayout LinearAlignment="Begin" 
+                          LinearOrientation="Horizontal"></LinearLayout>
+        </View.Layout>
+    </ScrollableBase>
+    <View Size="600,900"
+          PivotPoint="Center"
+          ParentOrigin="Center"
+          PositionUsesPivotPoint="true">
+        <View x:Name="bottomView"
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="300"
+              PivotPoint="BottomCenter"
+              ParentOrigin="BottomCenter"
+              BackgroundColor="Black"
+              Opacity="0.7"
+              PositionUsesPivotPoint="true">
+            <View.Layout>
+                <RelativeLayout></RelativeLayout>
+            </View.Layout>
+            <TextLabel Text="Movie Title"
+                       TextColor="White"
+                       
+                       RelativeLayout.LeftTarget="{x:Reference Name=bottomView}"
+                       RelativeLayout.RightTarget="{x:Reference Name=bottomView}"
+                       RelativeLayout.TopTarget="{x:Reference Name=bottomView}"
+                       RelativeLayout.BottomTarget="{x:Reference Name=bottomView}"
+                       
+                       RelativeLayout.LeftRelativeOffset="0.1"
+                       RelativeLayout.TopRelativeOffset="0.1">
+            </TextLabel>
+            <Button Text="Popup"
+                    TextColor="White"
+                    RelativeLayout.LeftTarget="{x:Reference Name=bottomView}"
+                    RelativeLayout.RightTarget="{x:Reference Name=bottomView}"
+                    RelativeLayout.TopTarget="{x:Reference Name=bottomView}"
+                    RelativeLayout.BottomTarget="{x:Reference Name=bottomView}"
+                       
+                    RelativeLayout.LeftRelativeOffset="0.0"
+                    RelativeLayout.RightRelativeOffset="1.0"
+                    RelativeLayout.HorizontalAlignment="Center"
+                    RelativeLayout.TopRelativeOffset="0.0"
+                    RelativeLayout.BottomRelativeOffset="1.0"
+                    RelativeLayout.VerticalAlignment="End"
+                    
+                    Clicked="Button_Clicked">
+            </Button>
+            
+        </View>
+    </View>
+
+    <Pagination x:Name="pagination"
+                PivotPoint="BottomCenter"
+                ParentOrigin="BottomCenter"
+                PositionUsesPivotPoint="true"
+                Margin="0,0,0,50"
+                Size="300,100"
+                IndicatorSize="24,24"
+                IndicatorSpacing="8"
+                IndicatorCount="5"
+                SelectedIndex="0">
+    </Pagination>
+
+    <Button Text="&lt;"
+            Margin="100,0,0,0"
+            PivotPoint="CenterLeft"
+            ParentOrigin="CenterLeft"
+            PositionUsesPivotPoint="true"
+            Clicked="LeftButton_Clicked">
+    </Button>
+    <Button Text=">"
+            Margin="0,100,0,0"
+            PivotPoint="CenterRight"
+            ParentOrigin="CenterRight"
+            PositionUsesPivotPoint="true"
+            Clicked="RightButton_Clicked">
+    </Button>
+</GaussianBlurView>

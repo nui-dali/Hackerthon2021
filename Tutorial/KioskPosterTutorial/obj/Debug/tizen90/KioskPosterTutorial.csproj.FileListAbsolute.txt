@@ -1,0 +1,13 @@
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\Scene1Page.xaml.g.cs
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.AssemblyInfoInputs.cache
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.AssemblyInfo.cs
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.csproj.CoreCompileInputs.cache
+D:\2021\source_code\KioskPosterTutorial\bin\Debug\tizen90\KioskPosterTutorial.deps.json
+D:\2021\source_code\KioskPosterTutorial\bin\Debug\tizen90\KioskPosterTutorial.dll
+D:\2021\source_code\KioskPosterTutorial\bin\Debug\tizen90\KioskPosterTutorial.pdb
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\XamlC.stamp
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.dll
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.pdb
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\src\MyGradientVisual.xaml.g.cs
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\src\MyPopup.xaml.g.cs
+D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.csproj.AssemblyReference.cache

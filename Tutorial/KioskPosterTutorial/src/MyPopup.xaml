@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="KioskPosterTutorial.MyPopup"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:KioskPosterTutorial.src"
+    Size="{Binding Source={x:Static Window.Instance}, Path=Size }">
+
+    <View Size="600,900" 
+          BackgroundColor="Black"
+          Opacity="0.7"
+          ParentOrigin="Center"
+          PivotPoint="Center"
+          PositionUsesPivotPoint="True">
+        <TextLabel Text="Title"
+                   TextColor="White"
+                   Position="50,100"></TextLabel>
+
+        <TextLabel Text="Contents- abcdefg"
+                   TextColor="White"
+                   Position="50,150"></TextLabel>
+        <Button Text="Close"
+                ParentOrigin="BottomCenter"
+                PivotPoint="BottomCenter"
+                PositionUsesPivotPoint="True"
+                Clicked="Button_Clicked"/>
+    </View>
+</View>
