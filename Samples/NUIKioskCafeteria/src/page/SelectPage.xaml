@@ -37,7 +37,7 @@
                         </PropertyMap>
                     </TextLabel.FontStyle>
                 </TextLabel>
-                
+
                 <TextLabel x:Name="startover"
                            Text="StartOver"
                            Position="-20,-20"

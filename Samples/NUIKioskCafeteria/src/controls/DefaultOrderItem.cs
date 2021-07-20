@@ -31,8 +31,8 @@ namespace NUIKioskCafeteria
         private int index;
         public DefaultOrdertem()
         {
-            BackgroundColor = Tizen.NUI.Color.Transparent;
-            WidthSpecification = 600;
+            BackgroundColor = Color.Transparent;
+            WidthSpecification = LayoutParamPolicies.MatchParent;
             HeightSpecification = 190;
             Margin = new Extents(0, 0, 10, 0);
             deleteAnimation = new Animation(500);
@@ -102,7 +102,7 @@ namespace NUIKioskCafeteria
                 Position = new Position(-70, -50),
                 WidthSpecification = LayoutParamPolicies.WrapContent,
                 HeightSpecification = LayoutParamPolicies.WrapContent,
-                TextColor = new Tizen.NUI.Color("#7474FF"),
+                TextColor = new Color("#7474FF"),
                 PivotPoint = Tizen.NUI.PivotPoint.BottomRight,
                 ParentOrigin = Tizen.NUI.ParentOrigin.BottomRight,
                 PositionUsesPivotPoint = true,

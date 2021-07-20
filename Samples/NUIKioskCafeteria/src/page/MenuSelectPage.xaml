@@ -111,7 +111,8 @@
                    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
                    HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
                    Weight="0.2"/>
-        <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        <View x:Name="bottomView"
+              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
               HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
               Weight="0.8">
             <View.Layout>

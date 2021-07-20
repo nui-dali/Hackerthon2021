@@ -107,10 +107,10 @@
 
                     <View.Layout>
                         <GridLayout GridOrientation="Horizontal"
-                                ColumnSpacing="5"
-                                Columns="4"
-                                Rows="2"
-                                RowSpacing="20"></GridLayout>
+                                    ColumnSpacing="5"
+                                    Columns="4"
+                                    Rows="2"
+                                    RowSpacing="20"></GridLayout>
                     </View.Layout>
                 </View>
             </View>
@@ -129,16 +129,26 @@
         </Button>
 
         <TextLabel Text="Cancel"
-                       PixelSize="15"
-                       Position="0,-15"
-                       TextColor="#7474FF"
-                       ParentOrigin="BottomCenter"
-                       PivotPoint="BottomCenter"
-                       PositionUsesPivotPoint="True">
+                   PixelSize="15"
+                   Position="0,-15"
+                   TextColor="#7474FF"
+                   ParentOrigin="BottomCenter"
+                   PivotPoint="BottomCenter"
+                   PositionUsesPivotPoint="True">
         </TextLabel>
     </View>
-    <ImageView x:Name="MainImage"
-               Size="280,280"
-               Position="50,290">
-    </ImageView>
+    <View x:Name="imageContainer"
+          WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+        <View.Layout>
+            <RelativeLayout></RelativeLayout>
+        </View.Layout>
+        <ImageView x:Name="MainImage"
+                   Size="280,280"
+                   RelativeLayout.LeftTarget="{x:Reference Name=imageContainer}" 
+                   RelativeLayout.RightTarget="{x:Reference Name=imageContainer}" 
+                   RelativeLayout.TopTarget="{x:Reference Name=imageContainer}" 
+                   RelativeLayout.BottomTarget="{x:Reference Name=imageContainer}" >
+        </ImageView>
+    </View>
 </DialogPage>

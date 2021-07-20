@@ -4,7 +4,7 @@
     <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512" />
     <Reference URI="tizen-manifest.xml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>+B9KN2em7cIN4S6aTuuUxYkeezt9Gm2KJSxM2HpSFmE+X/IfHEkkUuo+3UdPMAOhQsR3Z1sUIcpABbFheLSH0g==</DigestValue>
+      <DigestValue>56MePtrfK9B7fnC57GUHBrJSBOGYLm2VaiKG0jrouVe0BBa1/v3baKub5j5thGIXpdenG+a8PZt3U0o1gF+2Sg==</DigestValue>
     </Reference>
     <Reference URI="shared%2Fres%2FNUIKioskCafeteria.png">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
@@ -454,6 +454,18 @@
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>jqIeEST2Ep82fq1b2UA1qreob7vP48XSO8nLL0DXsoCBMH+ddDFxv1RluTDPYYgfKAuknY3m0agHnWTKv3+yyw==</DigestValue>
     </Reference>
+    <Reference URI="res%2Ffont%2FSamsungSharpSans-Bold.ttf">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>VcsQvz9njWwEX8gyId9K6D57obii0BNeDuK3BuYYB64vMjSU7hDyngHWG708JYnhHObdx++XBJgSBbkKpIVS/Q==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Ffont%2FSamsungOne-700.ttf">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>bMwDPiHKZTa3w1TZgtPnIF9PJ7NPp7//+Yk2fAeGnS7pNm1fQhz8ss6IaiYmC7sxgFTC9L6m4GAIiUZtWAX5zg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Ffont%2FSamsungOne-400.ttf">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>vrXLaAkQfvRLLR7X82lIeJdgragU9J1qDEOoCAF1ddRo3CSMUbigWJN1n8AQiYtZb2hP60Kx1i0fBqvu03cIKw==</DigestValue>
+    </Reference>
     <Reference URI="NUIKioskCafeteria.deps.json">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
       <DigestValue>gC3OdtQmqUrpVsMApVDyKDKLCXaNWy1b5uCPw/nkUFpjUc9sLHczy9Bx5wLXoJyJSzXg0ryuSy0C8wjwD/OEnw==</DigestValue>
@@ -464,15 +476,15 @@
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>kkSLzCb+a2yCGVei/zujV7ADx6FmvVgPs4ivX79XIWM6AJtByflIQKnQgl2L0bpkG4aQEPlP6XBQKxr5l+7JPg==</DigestValue>
+      <DigestValue>kZCny63VyW+sgffB4XzCCfExuAfYE3XHwXwn6qqIJOB/k6Q5yUsut5Yxdlcsgp9EnwtB4r6kIk9uIk2OqrZS+Q==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>ARz6M5xwAJzybvKY+R+vzr1Mh5PopyBMxKuyogRLaG6M1bwyCWI7yT8Rg3oLmx+oe35g6zpq7n0a0ulYXDfAFg==</DigestValue>
+      <DigestValue>UMe8s5YZINob0t95rCmVUbMDEzcDnOaGD3onLLGCO+heIaAiuGZmfMIMIfX6afq//nAs3Wa7qfC5dwtsiQOHEw==</DigestValue>
     </Reference>
     <Reference URI="author-signature.xml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>VBvHAgv64Xc6k+Kn9IGMI+pcDCdfesLZfbInmdiFEJlPfa7YYwNPc05eMlOCPg3MMU1ZD5Jvmg+7a0h/JSM9lA==</DigestValue>
+      <DigestValue>4zTQ/25fdGchzN27sc9fPrU4+CPtF7smgFgAQyTFXJIxLffhFD0bnVGueYVvCcTPv35/7rgfUPj0REKeWFffDw==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -483,9 +495,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-mmFEI/VxKQioypWvLVrNyhQzhkOK3shZZRHQ8VDOSgYWIlK1LufQSJhh5fjfkficISwQRnyQJUZi
-GTgLEykdGPm/LLzLqflxlfNrQV8Ug9MA0Nx9YJ669Abvb90vQKw3NQ/o1sfjD99t5n5SPy1UZJJV
-juUJ4J9z2KRNxaj2cIY=
+iA+j9t/7ZDoXI4NqoI9m0Hbu16QvhNoSM6gBRaI9I9iGtADFxXymNEzLXd1Mebbanvgx3H3LJ2kr
+eF1Yc8OcM2ZfOHTJLJPvEibj+ZRksOQiTfZp2o8apvgnQ3pFOjETmD8UrolZDhYm9o3eNomz0C1H
+Dp9u2Pkme04hzhaG+V0=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

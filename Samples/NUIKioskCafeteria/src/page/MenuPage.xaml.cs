@@ -16,6 +16,7 @@
  */
 
 using System.Collections.ObjectModel;
+using Tizen.NUI;
 using Tizen.NUI.BaseComponents;
 using Tizen.NUI.Binding;
 using Tizen.NUI.Components;
@@ -33,6 +34,7 @@ namespace NUIKioskCafeteria
             InitializeCollectionList();
             nextEmptyPage = new EmptyOrderPage();
         }
+
 
         public void InitializeCollectionList()
         {
@@ -78,7 +80,7 @@ namespace NUIKioskCafeteria
                 SelectionMode = ItemSelectionMode.Single,
                 Weight = 0.9f,
             };
-            Add(colView);
+            contentView.Add(colView);
         }
 
         public ContentPage NextPage()

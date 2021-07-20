@@ -31,6 +31,7 @@ namespace NUIKioskCafeteria
 
         void Initialize()
         {
+            FontClient.Instance.AddCustomFontDirectory(ApplicationHelper.ResoucePath + "font/");
             ThemeManager.ApplyTheme(new Theme(ApplicationHelper.ResoucePath + "theme/Theme.xaml"));
 
             GetDefaultWindow().AddAvailableOrientation(Window.WindowOrientation.Portrait);

@@ -5,13 +5,16 @@
     xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
     xmlns:local="clr-namespace:NUIKioskCafeteria"
     BackgroundColor="#F5F7FB"
-    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-    HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+    Content="{x:Reference Name=contentView}">
 
-    <View.Layout>
-        <LinearLayout LinearAlignment="Begin" 
+    <View x:Name="contentView"
+          WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+        <View.Layout>
+            <LinearLayout LinearAlignment="Begin" 
                       LinearOrientation="Vertical"/>
-    </View.Layout>
+        </View.Layout>
 
     <View  WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
            HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
@@ -34,5 +37,6 @@
                   ParentOrigin="CenterRight"
                   PositionUsesPivotPoint="True">
         </c:Button>
+    </View>
     </View>
 </local:ContentControlPage>

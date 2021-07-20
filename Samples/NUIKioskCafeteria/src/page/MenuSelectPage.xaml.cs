@@ -29,6 +29,11 @@ namespace NUIKioskCafeteria
         public MenuSelectPage()
         {
             InitializeComponent();
+            var width = ApplicationHelper.GetPortraitWidth();
+            foreach (var item in bottomView.Children)
+            {
+                item.Size = new Tizen.NUI.Size(width * 0.3f, width * 0.3f);
+            }
 
             //Create Drink Menu Page
             Resources.SelectIndexArray.Clear();

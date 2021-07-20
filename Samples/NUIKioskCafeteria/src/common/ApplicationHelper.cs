@@ -52,5 +52,20 @@ namespace NUIKioskCafeteria
                 MainGaussianBlurView?.Deactivate();
             }
         }
+
+        public static float GetPortraitWidth()
+        {
+            var width = 0.0f;
+            if (Window.Instance.Size.Width < Window.Instance.Size.Height)
+            {
+                width = Window.Instance.Size.Width;
+
+            }
+            else
+            {
+                width = Window.Instance.Size.Height;
+            }
+            return width;
+        }
     }
 }

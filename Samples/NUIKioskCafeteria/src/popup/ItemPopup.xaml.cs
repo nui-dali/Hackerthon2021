@@ -62,7 +62,9 @@ namespace NUIKioskCafeteria
         public void ResetOptions()
         {
             MainRoot.SizeHeight = 380;
-            MainImage.Position = new Position(50, 290);
+            RelativeLayout.SetLeftRelativeOffset(MainImage, 0.21f);
+            RelativeLayout.SetTopRelativeOffset(MainImage, 0.32f);
+            //MainImage.Position = new Position(50, 290);
             //AdditonalOptionView.BackgroundColor = Tizen.NUI.Color.Transparent;
 
             AdditonalOptionView.HeightSpecification = LayoutParamPolicies.WrapContent;
@@ -89,7 +91,9 @@ namespace NUIKioskCafeteria
         public void AddDrinkOptions()
         {
             MainRoot.SizeHeight = 600;
-            MainImage.Position = new Position(50, 170);
+            RelativeLayout.SetTopRelativeOffset(MainImage, 0.26f);
+
+            //MainImage.Position = new Position(50, 170);
 
             AdditonalOptionView.HeightSpecification = 480;
             //AdditonalOptionView.BackgroundColor = new Color(0.8f, 0.0f, 0.0f, 0.5f);
@@ -125,33 +129,16 @@ namespace NUIKioskCafeteria
             }
         }
 
-        private void ItemView_ItemClicked(object sender, ClickedEventArgs e)
-        {
-            if(sender is MenuItemView item)
-            {
-                if (item == selectItem)
-                {
-                    selectItem.MainButton.IsSelected = true;
-                    return;
-                }
-                selectItem.MainButton.IsSelected = false;
-                sizeOption = int.Parse(item.Name);
-                selectItem = item;
-            }
-            
-        }
-
         public void AddExtraOption()
         {
             MainRoot.SizeHeight = 950;
-            MainImage.Position = new Position(50, 0);
+            RelativeLayout.SetTopRelativeOffset(MainImage, 0.18f);
 
             AdditonalOptionView.HeightSpecification = 750;
             AdditonalOptionView.Add(extrasView);
 
             if (!isExtraOptionCreated)
             {
-                Tizen.Log.Error("MYLOG", "t:" + nameLabel.Text);
                 (string name, string res, string price)[] resPool = GetCoffeeItems();
 
                 for (int i = 0; i < resPool.Length; i++)
@@ -202,6 +189,22 @@ namespace NUIKioskCafeteria
                     }
                 }
 
+            }
+
+        }
+
+        private void ItemView_ItemClicked(object sender, ClickedEventArgs e)
+        {
+            if (sender is MenuItemView item)
+            {
+                if (item == selectItem)
+                {
+                    selectItem.MainButton.IsSelected = true;
+                    return;
+                }
+                selectItem.MainButton.IsSelected = false;
+                sizeOption = int.Parse(item.Name);
+                selectItem = item;
             }
 
         }
