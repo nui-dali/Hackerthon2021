@@ -66,54 +66,54 @@
         </View>
 
         <View WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
-          HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+              HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
       
-          RelativeLayout.HorizontalAlignment="End"
-          RelativeLayout.LeftRelativeOffset="0.0"
-          RelativeLayout.RightRelativeOffset="0.95"
-          RelativeLayout.TopRelativeOffset="0.35"
-          RelativeLayout.BottomRelativeOffset="1.0">
+              RelativeLayout.HorizontalAlignment="End"
+              RelativeLayout.LeftRelativeOffset="0.0"
+              RelativeLayout.RightRelativeOffset="0.95"
+              RelativeLayout.TopRelativeOffset="0.35"
+              RelativeLayout.BottomRelativeOffset="1.0">
             <View.Layout>
                 <LinearLayout LinearOrientation="Vertical">
                 </LinearLayout>
             </View.Layout>
 
             <TextLabel Text="RUNNING TIME : "
-                 TextColor="White"
-                 Margin="0,0,0,0"
-                 PixelSize="15"
-                 HorizontalAlignment="Begin">
+                       TextColor="White"
+                       Margin="0,0,0,0"
+                       PixelSize="15"
+                       HorizontalAlignment="Begin">
             </TextLabel>
             <TextLabel BindingContext="{StaticResource ViewModelKey}"
-                 Text="{Binding Path=Time}"
-                 TextColor="White"
-                 Margin="0,0,0,0"
-                 PixelSize="25"
-                 HorizontalAlignment="Begin">
+                       Text="{Binding Path=Time}"
+                       TextColor="White"
+                       Margin="0,0,0,0"
+                       PixelSize="25"
+                       HorizontalAlignment="Begin">
             </TextLabel>
         </View>
 
         <c:Button Size="{Binding Source={StaticResource Button1Size},
                   Converter={StaticResource SizeConverterKey}}"
-              Clicked="VideoBtn_Clicked"
-              StyleName="SummaryButton1"
-              BackgroundColor="Transparent"
-              RelativeLayout.HorizontalAlignment="Center"
-              RelativeLayout.RightRelativeOffset="1.0"
-              RelativeLayout.TopRelativeOffset="0.7"
-              RelativeLayout.BottomRelativeOffset="1.0">
+                  Clicked="VideoBtn_Clicked"
+                  StyleName="SummaryButton1"
+                  BackgroundColor="Transparent"
+                  RelativeLayout.HorizontalAlignment="Center"
+                  RelativeLayout.RightRelativeOffset="1.0"
+                  RelativeLayout.TopRelativeOffset="0.7"
+                  RelativeLayout.BottomRelativeOffset="1.0">
         </c:Button>
 
         <c:Button Size="{Binding Source={StaticResource Button2Size},
-                  Converter={StaticResource SizeConverterKey}}"
-              StyleName="SummaryButton2"
-              WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
-              HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
-              Clicked="MoreInfoBtn_Clicked"
-              RelativeLayout.HorizontalAlignment="Center"
-              RelativeLayout.RightRelativeOffset="1.0"
-              RelativeLayout.TopRelativeOffset="0.8"
-              RelativeLayout.BottomRelativeOffset="1.0">
+                        Converter={StaticResource SizeConverterKey}}"
+                  StyleName="SummaryButton2"
+                  WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
+                  HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+                  Clicked="MoreInfoBtn_Clicked"
+                  RelativeLayout.HorizontalAlignment="Center"
+                  RelativeLayout.RightRelativeOffset="1.0"
+                  RelativeLayout.TopRelativeOffset="0.8"
+                  RelativeLayout.BottomRelativeOffset="1.0">
         </c:Button>
     </local:RelativeContainer>
 </View>

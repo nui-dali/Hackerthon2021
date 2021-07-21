@@ -16,8 +16,8 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)tizen.nui.xamlbuild\1.0.24\build\netstandard2.0\Tizen.NUI.XamlBuild.props" Condition="Exists('$(NuGetPackageRoot)tizen.nui.xamlbuild\1.0.24\build\netstandard2.0\Tizen.NUI.XamlBuild.props')" />
-    <Import Project="$(NuGetPackageRoot)tizen.net.api9\9.0.0.16447\build\tizen90\Tizen.NET.API9.props" Condition="Exists('$(NuGetPackageRoot)tizen.net.api9\9.0.0.16447\build\tizen90\Tizen.NET.API9.props')" />
-    <Import Project="$(NuGetPackageRoot)tizen.net\9.0.0.16447\build\tizen40\Tizen.NET.props" Condition="Exists('$(NuGetPackageRoot)tizen.net\9.0.0.16447\build\tizen40\Tizen.NET.props')" />
+    <Import Project="$(NuGetPackageRoot)tizen.nui.xamlbuild\1.0.27\build\netstandard2.0\Tizen.NUI.XamlBuild.props" Condition="Exists('$(NuGetPackageRoot)tizen.nui.xamlbuild\1.0.27\build\netstandard2.0\Tizen.NUI.XamlBuild.props')" />
+    <Import Project="$(NuGetPackageRoot)tizen.net.api9\9.0.0.16491\build\tizen90\Tizen.NET.API9.props" Condition="Exists('$(NuGetPackageRoot)tizen.net.api9\9.0.0.16491\build\tizen90\Tizen.NET.API9.props')" />
+    <Import Project="$(NuGetPackageRoot)tizen.net\9.0.0.16491\build\tizen40\Tizen.NET.props" Condition="Exists('$(NuGetPackageRoot)tizen.net\9.0.0.16491\build\tizen40\Tizen.NET.props')" />
   </ImportGroup>
 </Project>

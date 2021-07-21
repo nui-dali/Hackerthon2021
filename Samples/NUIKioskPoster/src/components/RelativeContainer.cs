@@ -30,7 +30,7 @@ namespace NUIKioskPoster
 
         private void RelativeContainerRelayout(object sender, EventArgs e)
         {
-            foreach(var item in Children)
+            foreach (var item in Children)
             {
                 RelativeLayout.SetLeftTarget(item, this);
                 RelativeLayout.SetRightTarget(item, this);

@@ -15,8 +15,6 @@
  *
  */
 using System;
-using System.ComponentModel;
-using Tizen.Applications;
 using Tizen.NUI;
 using Tizen.NUI.Components;
 
@@ -24,7 +22,6 @@ namespace NUIKioskPoster
 {
     public partial class VideoPopup : RelativeContainer
     {
-        private TimeSpan totalTime = new TimeSpan(0, 1, 59);
         private bool isShowController = false;
         private bool isPlaying = false;
         private Timer soundBarTimer;
@@ -43,10 +40,6 @@ namespace NUIKioskPoster
             videoPlayer = new VideoPlayer(playerView);
             if (videoPlayer != null)
             {
-                //videoPlayer.VideoFrameDecoded += MyPlayer_VideoFrameDecoded;
-                //videoPlayer.VideoStreamChanged += MyPlayer_VideoStreamChanged;
-                //videoPlayer.BufferingProgressChanged += MyPlayer_BufferingProgressChanged;
-                //videoPlayer.ErrorOccurred += MyPlayer_ErrorOccurred;
                 SetAsyncSourceAndPlay();
             }
         }

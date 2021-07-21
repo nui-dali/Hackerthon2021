@@ -24,7 +24,7 @@ namespace NUIKioskPoster
     /// </summary>
     public class CarouselItem : ImageView
     {
-        public CarouselItem(string name ="")
+        public CarouselItem(string name = "")
         {
             //Set Name
             Name = name;

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <View x:Class="NUIKioskPoster.InfoPopup"
-    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:NUIKioskPoster"
-    xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
-    PivotPoint="Center"
-    ParentOrigin="Center"
-    PositionUsesPivotPoint="true">
+      xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      xmlns:local="clr-namespace:NUIKioskPoster"
+      xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+      PivotPoint="Center"
+      ParentOrigin="Center"
+      PositionUsesPivotPoint="true">
 
     <View.XamlResources>
         <ResourceDictionary>
@@ -15,7 +15,7 @@
             <Extents x:Key="TextPadding" Start="44" End="44" Top="0" Bottom="0"></Extents>
 
             <local:ContentViewModel x:Key="ViewModelKey"
-                              x:Name="ViewModel" />
+                                    x:Name="ViewModel" />
         </ResourceDictionary>
     </View.XamlResources>
 
@@ -100,8 +100,6 @@
                    MultiLine="true"
                    TextColor="White"
                    PixelSize="16"
-                   Size="{Binding Source={StaticResource MainTextSize},
-                     Converter={Static local:ApplicationHelper.SizeConverter}}"
                    Padding="{Binding Source={StaticResource TextPadding},
                             Converter={Static local:ApplicationHelper.ExtentsConverter}}"
                    

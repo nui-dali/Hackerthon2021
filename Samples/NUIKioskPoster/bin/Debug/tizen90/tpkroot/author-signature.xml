@@ -168,19 +168,19 @@
     </Reference>
     <Reference URI="NUIKioskPoster.deps.json">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>7mZ2GR61o5iOtM7/9XA7fqvnwYKGpvi5DJbwNdrIx3ujGYtkZ0GMG2gB1L+Ow9K9AfKtDehe/8yOVOAX4YzJcg==</DigestValue>
+      <DigestValue>K4FvVpUYz86XIRX+Ool4Bw7ML/LJ9/ZYHAVu0LXryc6v3mvL024yTMo5HLLYtXJvq1sIDyT9yan+nY//XYIPHQ==</DigestValue>
     </Reference>
     <Reference URI="bin%2FTizen.NUI.XamlBuild.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>tQtZBEqBJ/gsvR+iDYdUw9HfaRn72JYtS6P5wbxHg+t0jXJJl1nQhi8qEEn2HS9D+uYeezMXm0D6zdjjg1uORg==</DigestValue>
+      <DigestValue>t7ZMvPl8MOAKVWoVU2VhzCiNFBqMhx+t91BMIxP46RZEC9sFwAXV2P6kP3DAMQs/lRHlCByeDyyvUp3M3XPiuA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskPoster.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>Vni96mNCH2o4QBU2N96NUeLFzGy7XTKrOvGcoJZ/KVawpB00pE13pRO+PB7GKETiw6D6W3eCMNQuhI0ilVKt9w==</DigestValue>
+      <DigestValue>jQTbEkYscwoaiG0zzkmAfs3z02DiUy5ziaZ5zVpzY18Pe/eXdVuXjA6qO35+SOidD1m0Ud8nfxa7r+NzObUuVA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskPoster.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>ol9d8ePAINRNQjvncXfAx1vyjm+1UPwj/sbgfY2/OXxIcc3lCabXwmEAsDDqeACu7rwC20tJZGVxkUOyxdQU5g==</DigestValue>
+      <DigestValue>whABUAUOKKMO3ArETVjuDQxi1cZKV/091J/zwt0SV6utnHQemwmkS6voogJLm0mPqOuKpzvYfwAqZ4lw4/6YpA==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -191,9 +191,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-P/9RXpHY3NNX78NC447MQUvKcKGmqHcoHfx8t2PT53svK50Eq9PjBFTIeQKDQvlD+X0SvRCEeT1y
-arbbCpaReBsf58rGFTJcJs/kBytxNXG1QWvBV8LUhImDbvL1bw4Ap/Nvu5D7Agg0mZn7+Vl7NsnZ
-IfHWlcC7KP9TI2DE93w=
+NnrSI0bGMcQv4J3WoKq42ITprgE7mp2k8BIksM4vfm7aZBIyLE1MddG4YNOA2m4R3ESF4bNagRvI
+0LhSWi7SVKLn/XMKFMzz+EovUj1/O0QviWbTS5K9jUJdpt6ri2vGp2cPlC9bc6MHbcsm70uHrqml
+uVL/fjUdgKNdAQtZFrE=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\192.168.245.119\\Shared\\Workspace\\NUIKioskSample\\NUIKioskPoster\\NUIKioskPoster.csproj": {}
+    "\\\\192.168.245.119\\Shared\\Workspace\\Hackerthon2021\\Samples\\NUIKioskPoster\\NUIKioskPoster.csproj": {}
   },
   "projects": {
-    "\\\\192.168.245.119\\Shared\\Workspace\\NUIKioskSample\\NUIKioskPoster\\NUIKioskPoster.csproj": {
+    "\\\\192.168.245.119\\Shared\\Workspace\\Hackerthon2021\\Samples\\NUIKioskPoster\\NUIKioskPoster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\192.168.245.119\\Shared\\Workspace\\NUIKioskSample\\NUIKioskPoster\\NUIKioskPoster.csproj",
+        "projectUniqueName": "\\\\192.168.245.119\\Shared\\Workspace\\Hackerthon2021\\Samples\\NUIKioskPoster\\NUIKioskPoster.csproj",
         "projectName": "NUIKioskPoster",
-        "projectPath": "\\\\192.168.245.119\\Shared\\Workspace\\NUIKioskSample\\NUIKioskPoster\\NUIKioskPoster.csproj",
+        "projectPath": "\\\\192.168.245.119\\Shared\\Workspace\\Hackerthon2021\\Samples\\NUIKioskPoster\\NUIKioskPoster.csproj",
         "packagesPath": "C:\\Users\\huiyu.eun\\.nuget\\packages\\",
-        "outputPath": "\\\\192.168.245.119\\Shared\\Workspace\\NUIKioskSample\\NUIKioskPoster\\obj\\",
+        "outputPath": "\\\\192.168.245.119\\Shared\\Workspace\\Hackerthon2021\\Samples\\NUIKioskPoster\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\huiyu.eun\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,11 +46,11 @@
           "dependencies": {
             "Tizen.NET": {
               "target": "Package",
-              "version": "[9.0.0.16447, )"
+              "version": "[9.0.0.16491, )"
             },
             "Tizen.NUI.XamlBuild": {
               "target": "Package",
-              "version": "[1.0.24, )"
+              "version": "[1.0.27, )"
             }
           },
           "imports": [

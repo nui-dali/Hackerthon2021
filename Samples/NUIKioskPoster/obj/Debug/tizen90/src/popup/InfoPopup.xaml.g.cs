@@ -17,13 +17,13 @@ namespace NUIKioskPoster {
     [Tizen.NUI.Xaml.XamlCompilationAttribute(global::Tizen.NUI.Xaml.XamlCompilationOptions.Compile)]
     public partial class InfoPopup : global::Tizen.NUI.BaseComponents.View {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.24.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.27.0")]
         public global::NUIKioskPoster.ContentViewModel ViewModel;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.24.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.27.0")]
         public global::Tizen.NUI.BaseComponents.TextLabel MainText;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.24.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.27.0")]
         private void InitializeComponent() {
             global::Tizen.NUI.EXaml.EXamlExtensions.LoadFromEXamlByRelativePath(this, GetEXamlPath());
             ViewModel = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::NUIKioskPoster.ContentViewModel>(this, "ViewModel");

@@ -26,7 +26,6 @@ namespace NUIKioskPoster
         private TimeSpan playPosition;
         private string scrollTime;
 
-
         public VideoViewModel()
         {
 

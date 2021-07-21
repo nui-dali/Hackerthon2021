@@ -168,23 +168,23 @@
     </Reference>
     <Reference URI="NUIKioskPoster.deps.json">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>7mZ2GR61o5iOtM7/9XA7fqvnwYKGpvi5DJbwNdrIx3ujGYtkZ0GMG2gB1L+Ow9K9AfKtDehe/8yOVOAX4YzJcg==</DigestValue>
+      <DigestValue>K4FvVpUYz86XIRX+Ool4Bw7ML/LJ9/ZYHAVu0LXryc6v3mvL024yTMo5HLLYtXJvq1sIDyT9yan+nY//XYIPHQ==</DigestValue>
     </Reference>
     <Reference URI="bin%2FTizen.NUI.XamlBuild.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>tQtZBEqBJ/gsvR+iDYdUw9HfaRn72JYtS6P5wbxHg+t0jXJJl1nQhi8qEEn2HS9D+uYeezMXm0D6zdjjg1uORg==</DigestValue>
+      <DigestValue>t7ZMvPl8MOAKVWoVU2VhzCiNFBqMhx+t91BMIxP46RZEC9sFwAXV2P6kP3DAMQs/lRHlCByeDyyvUp3M3XPiuA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskPoster.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>Vni96mNCH2o4QBU2N96NUeLFzGy7XTKrOvGcoJZ/KVawpB00pE13pRO+PB7GKETiw6D6W3eCMNQuhI0ilVKt9w==</DigestValue>
+      <DigestValue>jQTbEkYscwoaiG0zzkmAfs3z02DiUy5ziaZ5zVpzY18Pe/eXdVuXjA6qO35+SOidD1m0Ud8nfxa7r+NzObUuVA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskPoster.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>ol9d8ePAINRNQjvncXfAx1vyjm+1UPwj/sbgfY2/OXxIcc3lCabXwmEAsDDqeACu7rwC20tJZGVxkUOyxdQU5g==</DigestValue>
+      <DigestValue>whABUAUOKKMO3ArETVjuDQxi1cZKV/091J/zwt0SV6utnHQemwmkS6voogJLm0mPqOuKpzvYfwAqZ4lw4/6YpA==</DigestValue>
     </Reference>
     <Reference URI="author-signature.xml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>d1NVgwbRs6Tw3l1/9JgdAwxO/+463bjuKyK4wCCmlRGUzJ5hPZGCd0coF6UfA2qiOjOXZQStKKvjYzQq7SKfPw==</DigestValue>
+      <DigestValue>XPRfVDnH76sWzSTaOBJ9Sa7uirb4OkPbmdKepXfxOrwEooal+IeeHFW9dzIL+I9YA3KrShW1KDwl27kiBS4S7w==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -195,9 +195,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-RIfqsCgboxR4pQM4l0hSqtx5kKgV+dd9DPRBYLlSIcOh61b58eBltvfKV9xl3kZIFzHDaoLuM7l7
-UCIIMbHE78rHLDzyEcoNFZHV2y9UQbA0QcIKAmrjnSN6NCn9quCic7NIxi1j3/oOMm7lqZM2ciYi
-cydKBjoMboF6AUhEcYs=
+DSuoUjX8tvt5VhNW194FZD7AkTcWHNLy1+FJr1WPCx6NrmhyIBQsE4WfI9T4vjFJ2qz90INcJqpu
+K7mS7Vu0Hp4/bgVyaXmAnNNUrYUApN5Zh3PaeTwgxqHzy4yKeBLFdc54rZJAnFBwkeXDdeVXTW6C
+gZyfzeRQyssy7JCs5y4=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

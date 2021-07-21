@@ -26,18 +26,17 @@
     </local:CarouselView>
 
     <local:RelativeContainer WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-                           HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
-        <Button
-            StyleName="LeftButton"
-            Clicked="LeftBtn_Clicked"
-            Size="{Binding Source={StaticResource ButtonSize1},
-                  Converter={Static local:ApplicationHelper.SizeConverter}}"
-            RelativeLayout.HorizontalAlignment="Start"
-            RelativeLayout.VerticalAlignment="Center"
-            RelativeLayout.LeftRelativeOffset="0.05"
-            RelativeLayout.RightRelativeOffset="1"
-            RelativeLayout.TopRelativeOffset="0.0"
-            RelativeLayout.BottomRelativeOffset="1.0">
+                             HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+        <Button StyleName="LeftButton"
+                Clicked="LeftBtn_Clicked"
+                Size="{Binding Source={StaticResource ButtonSize1},
+                      Converter={Static local:ApplicationHelper.SizeConverter}}"
+                RelativeLayout.HorizontalAlignment="Start"
+                RelativeLayout.VerticalAlignment="Center"
+                RelativeLayout.LeftRelativeOffset="0.05"
+                RelativeLayout.RightRelativeOffset="1"
+                RelativeLayout.TopRelativeOffset="0.0"
+                RelativeLayout.BottomRelativeOffset="1.0">
         </Button>
 
         <Button
@@ -54,16 +53,15 @@
         </Button>
 
         <c:Pagination x:Name="pagination"
-                  StyleName="MainPagination"
-                  Size="{Binding Source={StaticResource PaginationSize},
-                        Converter={Static local:ApplicationHelper.SizeConverter}}"
-                  RelativeLayout.HorizontalAlignment="Center"
-                  RelativeLayout.VerticalAlignment="End"
-                  RelativeLayout.LeftRelativeOffset="0.0"
-                  RelativeLayout.RightRelativeOffset="1.0"
-                  RelativeLayout.TopRelativeOffset="0.0"
-                  RelativeLayout.BottomRelativeOffset="0.95">
-
+                      StyleName="MainPagination"
+                      Size="{Binding Source={StaticResource PaginationSize},
+                            Converter={Static local:ApplicationHelper.SizeConverter}}"
+                      RelativeLayout.HorizontalAlignment="Center"
+                      RelativeLayout.VerticalAlignment="End"
+                      RelativeLayout.LeftRelativeOffset="0.0"
+                      RelativeLayout.RightRelativeOffset="1.0"
+                      RelativeLayout.TopRelativeOffset="0.0"
+                      RelativeLayout.BottomRelativeOffset="0.95">
         </c:Pagination>
     </local:RelativeContainer>
 </GaussianBlurView>

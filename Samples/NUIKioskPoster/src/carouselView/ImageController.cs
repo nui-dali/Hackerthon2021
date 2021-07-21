@@ -39,7 +39,6 @@ namespace NUIKioskPoster
         {
         }
 
-
         public void InitImages()
         {
             var container = carouselView.container;
@@ -109,7 +108,7 @@ namespace NUIKioskPoster
             }
 
             //Temporary fix - size issue after animating
-            foreach(var child in container.Children)
+            foreach (var child in container.Children)
             {
                 child.Size = imageSizeModel.UnSelectedSize;
             }
@@ -185,7 +184,7 @@ namespace NUIKioskPoster
 
         private void RightBGMove(View gradientVisual)
         {
-            if(ApplicationHelper.IsLandscape())
+            if (ApplicationHelper.IsLandscape())
             {
                 return;
             }

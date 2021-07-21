@@ -26,7 +26,7 @@ namespace NUIKioskPoster
 
         protected override void OnMeasure(MeasureSpecification widthMeasureSpec, MeasureSpecification heightMeasureSpec)
         {
-            if(IsAnimating)
+            if (IsAnimating)
             {
                 return;
             }

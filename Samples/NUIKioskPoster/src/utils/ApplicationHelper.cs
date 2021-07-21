@@ -111,7 +111,6 @@ namespace NUIKioskPoster
 
         public static void ActivateBlur()
         {
-            
             if (!IsEmulator())
             {
                 (NUIApplication.GetDefaultWindow().GetDefaultLayer().Children[0] as GaussianBlurView).Activate();
