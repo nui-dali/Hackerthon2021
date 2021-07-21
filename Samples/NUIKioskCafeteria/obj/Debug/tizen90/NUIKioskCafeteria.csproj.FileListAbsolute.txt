@@ -62,3 +62,4 @@ D:\2021\source_code\Hackerthon2021\Samples\NUIKioskCafeteria\obj\Debug\tizen90\N
 \\192.168.245.119\Shared\Workspace\Hackerthon2021\Samples\NUIKioskCafeteria\obj\Debug\tizen90\XamlC.stamp
 \\192.168.245.119\Shared\Workspace\Hackerthon2021\Samples\NUIKioskCafeteria\obj\Debug\tizen90\NUIKioskCafeteria.dll
 \\192.168.245.119\Shared\Workspace\Hackerthon2021\Samples\NUIKioskCafeteria\obj\Debug\tizen90\NUIKioskCafeteria.pdb
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Samples\NUIKioskCafeteria\obj\Debug\tizen90\NUIKioskCafeteria.csprojAssemblyReference.cache

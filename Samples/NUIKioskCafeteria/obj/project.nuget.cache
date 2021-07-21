@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "t36i/BPod53rNKmXv5SY/U6vI+bcSOQZXPITOmDm0kAaElYl4/NRqq8bhyxMy3EZghT77UNZrIAe69Mz88lu1w==",
+  "dgSpecHash": "7uMUY42qzN+sgNcnXoxrGhLMU9XDtPwjYaKpT/sjCE0uXW+Oh1L4psNSRc2jrpYbTlTnhdIzs1YBqHGjRUsraQ==",
   "success": true,
   "projectFilePath": "\\\\192.168.245.119\\Shared\\Workspace\\Hackerthon2021\\Samples\\NUIKioskCafeteria\\NUIKioskCafeteria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huiyu.eun\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.net\\9.0.0.16447\\tizen.net.9.0.0.16447.nupkg.sha512",
-    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.net.api9\\9.0.0.16447\\tizen.net.api9.9.0.0.16447.nupkg.sha512",
-    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.24\\tizen.nui.xamlbuild.1.0.24.nupkg.sha512"
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.net\\9.0.0.16491\\tizen.net.9.0.0.16491.nupkg.sha512",
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.net.api9\\9.0.0.16491\\tizen.net.api9.9.0.0.16491.nupkg.sha512",
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.27\\tizen.nui.xamlbuild.1.0.27.nupkg.sha512"
   ],
   "logs": []
 }

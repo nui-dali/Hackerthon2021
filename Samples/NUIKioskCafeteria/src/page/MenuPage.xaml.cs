@@ -36,7 +36,7 @@ namespace NUIKioskCafeteria
 
         public void InitializeCollectionList()
         {
-            ObservableCollection<Album> albumSource = new ObservableCollection<Album>();
+            ObservableCollection<MenuItemGroup> albumSource = new ObservableCollection<MenuItemGroup>();
             foreach (var i in Resources.SelectIndexArray)
             {
                 albumSource.CreateData(i);

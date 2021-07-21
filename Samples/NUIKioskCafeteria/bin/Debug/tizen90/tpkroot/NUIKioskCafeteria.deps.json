@@ -9,26 +9,26 @@
     "Tizen,Version=v9.0/": {
       "NUIKioskCafeteria/1.0.0": {
         "dependencies": {
-          "Tizen.NET": "9.0.0.16447",
-          "Tizen.NUI.XamlBuild": "1.0.24"
+          "Tizen.NET": "9.0.0.16491",
+          "Tizen.NUI.XamlBuild": "1.0.27"
         },
         "runtime": {
           "NUIKioskCafeteria.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
-      "Tizen.NET/9.0.0.16447": {
+      "Tizen.NET/9.0.0.16491": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
-          "Tizen.NET.API9": "9.0.0.16447"
+          "Tizen.NET.API9": "9.0.0.16491"
         }
       },
-      "Tizen.NET.API9/9.0.0.16447": {},
-      "Tizen.NUI.XamlBuild/1.0.24": {
+      "Tizen.NET.API9/9.0.0.16491": {},
+      "Tizen.NUI.XamlBuild/1.0.27": {
         "runtime": {
           "lib/netstandard2.0/Tizen.NUI.XamlBuild.dll": {
-            "assemblyVersion": "1.0.24.0",
-            "fileVersion": "1.0.24.0"
+            "assemblyVersion": "1.0.27.0",
+            "fileVersion": "1.0.27.0"
           }
         }
       }
@@ -47,26 +47,26 @@
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
     },
-    "Tizen.NET/9.0.0.16447": {
+    "Tizen.NET/9.0.0.16491": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E30kb1LYJWhdqkFB+W2VBjXBj5ooX2sLT1vDngU2f0DO8bdNwJqafHw2iExIE32ju9e95jcq/1rt5tBm1ScI4g==",
-      "path": "tizen.net/9.0.0.16447",
-      "hashPath": "tizen.net.9.0.0.16447.nupkg.sha512"
+      "sha512": "sha512-OxNboSk/yj/K2K6ob2MDDOQp9qjrsfq5oaZWGSXEUhX1vW9cBSdmcd9L2qeS3+bFkUtGkP5wlPQQ7KVMvOvzAQ==",
+      "path": "tizen.net/9.0.0.16491",
+      "hashPath": "tizen.net.9.0.0.16491.nupkg.sha512"
     },
-    "Tizen.NET.API9/9.0.0.16447": {
+    "Tizen.NET.API9/9.0.0.16491": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Au0Q6our/ZstaKOTnk69dHn0VO+EABhiTX4Y2gYtcOetmyCkD5e/zuEfgwq3m/YV3+g+TbCY94Rh12ipfbdIOg==",
-      "path": "tizen.net.api9/9.0.0.16447",
-      "hashPath": "tizen.net.api9.9.0.0.16447.nupkg.sha512"
+      "sha512": "sha512-EhtxRcpvNnDzkxYNi8Q9bKT8ztLhXpDF1EKKXS+w1ksdv61PQhW2a6y0ofizrwdlBUz0VQpdTXSnJX51uvZq8A==",
+      "path": "tizen.net.api9/9.0.0.16491",
+      "hashPath": "tizen.net.api9.9.0.0.16491.nupkg.sha512"
     },
-    "Tizen.NUI.XamlBuild/1.0.24": {
+    "Tizen.NUI.XamlBuild/1.0.27": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XFxA4Iarc7nufYeLB6sK/t/XArFsk2+Rcue+V4nnW5pkMfDb6hoi1ak5f8GQr91D+ZGXFKAcMhJmtuWcdnPU3A==",
-      "path": "tizen.nui.xamlbuild/1.0.24",
-      "hashPath": "tizen.nui.xamlbuild.1.0.24.nupkg.sha512"
+      "sha512": "sha512-9ht0Eg2PEOBzsodl5jDT6WnlxCH7HQPxUyVEmE2LB+RU1Z5g3nxMgiG+3KAevicQgtRQsmntajz7/Kx2gsWGJg==",
+      "path": "tizen.nui.xamlbuild/1.0.27",
+      "hashPath": "tizen.nui.xamlbuild.1.0.27.nupkg.sha512"
     }
   }
 }

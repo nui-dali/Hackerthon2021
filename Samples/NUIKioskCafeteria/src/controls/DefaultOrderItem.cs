@@ -130,15 +130,15 @@ namespace NUIKioskCafeteria
 
         private void DeleteAnimation_Finished(object sender, EventArgs e)
         {
-            OrderManager.Instance.GallerySource.Remove(BindingContext as Gallery);
+            OrderManager.Instance.GallerySource.Remove(BindingContext as MenuItem);
         }
 
         public Animation DeleteAnimation => deleteAnimation;
 
         private void Btn_Clicked(object sender, ClickedEventArgs e)
         {
-            var btnTag = "OrderButtonTag" + label_name.Text + (BindingContext as Gallery).Index;
-            var imgTag = "OrderImageTag" + label_name.Text + (BindingContext as Gallery).Index;
+            var btnTag = "OrderButtonTag" + label_name.Text + (BindingContext as MenuItem).Index;
+            var imgTag = "OrderImageTag" + label_name.Text + (BindingContext as MenuItem).Index;
 
             btn.TransitionOptions = new TransitionOptions()
             {

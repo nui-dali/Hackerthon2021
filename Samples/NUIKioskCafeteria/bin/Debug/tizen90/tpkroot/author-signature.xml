@@ -468,19 +468,19 @@
     </Reference>
     <Reference URI="NUIKioskCafeteria.deps.json">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>gC3OdtQmqUrpVsMApVDyKDKLCXaNWy1b5uCPw/nkUFpjUc9sLHczy9Bx5wLXoJyJSzXg0ryuSy0C8wjwD/OEnw==</DigestValue>
+      <DigestValue>ktzhz9xEh+m01LIoACkblUKMDquov0RdmGeJUgP6tyODmc1loKkcKS+vLppx7jmuK0uHCz6XiYnZQfzu1qFihQ==</DigestValue>
     </Reference>
     <Reference URI="bin%2FTizen.NUI.XamlBuild.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>tQtZBEqBJ/gsvR+iDYdUw9HfaRn72JYtS6P5wbxHg+t0jXJJl1nQhi8qEEn2HS9D+uYeezMXm0D6zdjjg1uORg==</DigestValue>
+      <DigestValue>t7ZMvPl8MOAKVWoVU2VhzCiNFBqMhx+t91BMIxP46RZEC9sFwAXV2P6kP3DAMQs/lRHlCByeDyyvUp3M3XPiuA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>0OTPTFxs+YJjMZaCetsnY6eN4sEzKjLcNtKMsQxtNFoEhrpevXfwrnb7kEFb+L7mXKOhjrZTae3/EKFaFd8Dgw==</DigestValue>
+      <DigestValue>eH6Ve/4vx2E0UsHo31Mj8VW0HofJG5E4NXahUO7VBGvyXbqyoxZUs0qTzNVG2YD0/rg5wjSYv3j4aKSzT5ThSA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>Ps8icDtP2tOwiVKNoIdmx0YReIBWri4vn9pYrlBelo64CZuy55seRVhzJuAK3nMeVFy7hsqvyQbsjf3Y7iDE8Q==</DigestValue>
+      <DigestValue>RV1HMMCYuXZUQYRbxrZkQelec7Q1JskbYij9QMl4pZ3JJWB3xCya9chI9Il62R07A7+qgqmBqR5mBMOxZN+E3w==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -491,9 +491,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-lK+UU4YUcTnPtr8Vz1QXJVBFTC8jrfetZb2qRlNSkbq5olFOW7n58VnFVZHDo173BwpCQ9aiu4SL
-dqrIxJSHiDArOIsHdlY3B1+Lny1E5vJFGFhMB/LhlsmsPbGr6ddIMvBj51djEzU5TdQyA5bzZFwP
-7beS8jckOpfXs8b6BSI=
+FTogZQbb4O/8uFb0ZvthFsk8WCzfXuG/SPjQxM/TX4s2stJmFh8kmY/5zIw57lq7FbsZrIADod08
+TY6YbtsFbg9gJvIxsgKN9AWjF3JApyqZXh/MAfxo0EEPQ0QsgzJFwMTgoIB1qR5vsYoAYi1EJvxk
+c1vZlq6GMYAjD3hBtYg=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

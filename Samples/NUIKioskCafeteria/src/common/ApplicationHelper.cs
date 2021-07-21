@@ -28,7 +28,7 @@ namespace NUIKioskCafeteria
 
         public static GaussianBlurView MainGaussianBlurView = null;
 
-        public static List<Gallery> OrderList = new List<Gallery>();
+        public static List<MenuItem> OrderList = new List<MenuItem>();
 
         public static bool IsEmulator()
         {

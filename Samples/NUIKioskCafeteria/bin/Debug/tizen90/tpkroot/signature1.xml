@@ -468,23 +468,23 @@
     </Reference>
     <Reference URI="NUIKioskCafeteria.deps.json">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>gC3OdtQmqUrpVsMApVDyKDKLCXaNWy1b5uCPw/nkUFpjUc9sLHczy9Bx5wLXoJyJSzXg0ryuSy0C8wjwD/OEnw==</DigestValue>
+      <DigestValue>ktzhz9xEh+m01LIoACkblUKMDquov0RdmGeJUgP6tyODmc1loKkcKS+vLppx7jmuK0uHCz6XiYnZQfzu1qFihQ==</DigestValue>
     </Reference>
     <Reference URI="bin%2FTizen.NUI.XamlBuild.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>tQtZBEqBJ/gsvR+iDYdUw9HfaRn72JYtS6P5wbxHg+t0jXJJl1nQhi8qEEn2HS9D+uYeezMXm0D6zdjjg1uORg==</DigestValue>
+      <DigestValue>t7ZMvPl8MOAKVWoVU2VhzCiNFBqMhx+t91BMIxP46RZEC9sFwAXV2P6kP3DAMQs/lRHlCByeDyyvUp3M3XPiuA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>0OTPTFxs+YJjMZaCetsnY6eN4sEzKjLcNtKMsQxtNFoEhrpevXfwrnb7kEFb+L7mXKOhjrZTae3/EKFaFd8Dgw==</DigestValue>
+      <DigestValue>eH6Ve/4vx2E0UsHo31Mj8VW0HofJG5E4NXahUO7VBGvyXbqyoxZUs0qTzNVG2YD0/rg5wjSYv3j4aKSzT5ThSA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>Ps8icDtP2tOwiVKNoIdmx0YReIBWri4vn9pYrlBelo64CZuy55seRVhzJuAK3nMeVFy7hsqvyQbsjf3Y7iDE8Q==</DigestValue>
+      <DigestValue>RV1HMMCYuXZUQYRbxrZkQelec7Q1JskbYij9QMl4pZ3JJWB3xCya9chI9Il62R07A7+qgqmBqR5mBMOxZN+E3w==</DigestValue>
     </Reference>
     <Reference URI="author-signature.xml">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>Lx7v9jF1kUQ1xSe8fSHUqy3+L6/kCceb9r5CuORtiZkuUAd2zy/WhyK9i1W8GDcSP1jS9WcP/MqN1Nnr/7mlgQ==</DigestValue>
+      <DigestValue>nzlcDAb6In+x5WCS55cDk3TaAM2qjLmTgQ4ohLvGgj0SxTkEWQIIDL1qhcQ2PjpBfZkDZh0dLquOB/sx3MrIbQ==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -495,9 +495,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-TDK5I5kc8vM0d3a4WPUg/ZEmEz8VKH3pNpXF6BIKhoI9zlZspbKs1KQHmSkSlEH2Xwq2GG6h35Q+
-tcdKi96LBos2+N7OrrjyzQuZ2/xB7i9JCCesnXXY+adtzKQvma1qkXofz4esIVN6uJN2DSDUlZHY
-AD3w5XDS8wgKEN4DjWA=
+nMKBVhSsA7LzPpSgOlRgVc4Vaga2sXgiyNwgVDzhV/XHx9KS1k7mxm01xhp20ZxWXy7isv42mIA9
+6vDEiUordk9cvYde30FmQmhLp3cp1ayAAP3QvE8/xGg0gBGUjfzjkJ5kwdU2YLiap1aOD583l29W
+cDmZUnluWqSh+Zj5gEE=
 </SignatureValue>
   <KeyInfo>
     <X509Data>

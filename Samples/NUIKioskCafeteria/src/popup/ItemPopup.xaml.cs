@@ -259,7 +259,7 @@ namespace NUIKioskCafeteria
         private void Button_Clicked(object sender, ClickedEventArgs e)
         {
             Navigator.PopWithTransition();
-            OrderManager.Instance.GallerySource.Add(BindingContext as Gallery);
+            OrderManager.Instance.GallerySource.Add(BindingContext as MenuItem);
         }
 
         private void ItemPopup_RemovedFromWindow(object sender, System.EventArgs e)
@@ -270,7 +270,7 @@ namespace NUIKioskCafeteria
 
         public void ShowPopup()
         {
-            if (BindingContext is Gallery context)
+            if (BindingContext is MenuItem context)
             {
                 switch (context.MenuType)
                 {

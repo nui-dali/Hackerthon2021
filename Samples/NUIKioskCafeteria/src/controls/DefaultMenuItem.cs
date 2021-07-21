@@ -97,8 +97,8 @@ namespace NUIKioskCafeteria
 
         private void Btn_Clicked(object sender, ClickedEventArgs e)
         {
-            var btnTag = "ButtonTag" + label_name.Text + (BindingContext as Gallery).Index;
-            var imgTag = "ImageTag" + label_name.Text + (BindingContext as Gallery).Index;
+            var btnTag = "ButtonTag" + label_name.Text + (BindingContext as MenuItem).Index;
+            var imgTag = "ImageTag" + label_name.Text + (BindingContext as MenuItem).Index;
 
             btn.TransitionOptions = new TransitionOptions()
             {

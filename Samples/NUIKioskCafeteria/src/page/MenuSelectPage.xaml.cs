@@ -79,7 +79,7 @@ namespace NUIKioskCafeteria
             {
                 (MenuType type, string name, string res, string price) = GetMenu(item.NameLabel);
 
-                ItemPopup.Instance.BindingContext = (new Gallery(type, -1, name, res, price, "This is a short description of product. This is a short description of product. "));
+                ItemPopup.Instance.BindingContext = (new MenuItem(type, -1, name, res, price, "This is a short description of product. This is a short description of product. "));
                 ItemPopup.Instance.SetItemTag(item.ButtonTag, item.ImageTag);
                 ItemPopup.Instance.ShowPopup();
             }
