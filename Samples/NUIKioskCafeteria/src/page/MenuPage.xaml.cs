@@ -16,7 +16,6 @@
  */
 
 using System.Collections.ObjectModel;
-using Tizen.NUI;
 using Tizen.NUI.BaseComponents;
 using Tizen.NUI.Binding;
 using Tizen.NUI.Components;
@@ -35,13 +34,11 @@ namespace NUIKioskCafeteria
             nextEmptyPage = new EmptyOrderPage();
         }
 
-
         public void InitializeCollectionList()
         {
             ObservableCollection<Album> albumSource = new ObservableCollection<Album>();
-            foreach(var i in Resources.SelectIndexArray)
+            foreach (var i in Resources.SelectIndexArray)
             {
-                Tizen.Log.Error("MYLOG", "i : " + i);
                 albumSource.CreateData(i);
             }
 

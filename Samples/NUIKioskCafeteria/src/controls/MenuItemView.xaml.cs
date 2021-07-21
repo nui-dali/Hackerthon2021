@@ -109,6 +109,5 @@ namespace NUIKioskCafeteria
             PriceTextLabel.PivotPoint = Tizen.NUI.PivotPoint.BottomLeft;
             PriceTextLabel.ParentOrigin = Tizen.NUI.ParentOrigin.BottomLeft;
         }
-
     }
 }

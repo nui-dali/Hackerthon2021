@@ -21,13 +21,11 @@ namespace NUIKioskCafeteria
 {
     public class Album : ObservableCollection<Gallery>
     {
-        private int index;
         private string name;
         private bool selected;
 
-        public Album(int albumIndex, string albumName)
+        public Album(string albumName)
         {
-            index = albumIndex;
             name = albumName;
         }
 

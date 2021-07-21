@@ -73,10 +73,9 @@
                     Clicked="NextPageClicked">
             </Button>
         </local:RelativeContainer>
-        <local:RelativeContainer 
-              WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-              HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
-              Weight="0.425">
+        <local:RelativeContainer WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                                 HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                                 Weight="0.425">
             <Button Name="Desserts"
                     WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
                     HeightSpecification="{Static LayoutParamPolicies.WrapContent}"

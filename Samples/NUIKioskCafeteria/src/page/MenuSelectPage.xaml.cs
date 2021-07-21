@@ -75,7 +75,7 @@ namespace NUIKioskCafeteria
 
         private void MenuItemView_ItemClicked(object sender, ClickedEventArgs e)
         {
-            if(sender is MenuItemView item)
+            if (sender is MenuItemView item)
             {
                 (MenuType type, string name, string res, string price) = GetMenu(item.NameLabel);
 

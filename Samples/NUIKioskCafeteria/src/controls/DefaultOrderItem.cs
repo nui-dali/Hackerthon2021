@@ -29,6 +29,7 @@ namespace NUIKioskCafeteria
         private TextLabel label_price;
         private Animation deleteAnimation;
         private int index;
+
         public DefaultOrdertem()
         {
             BackgroundColor = Color.Transparent;
@@ -97,8 +98,8 @@ namespace NUIKioskCafeteria
 
             TextLabel edit = new TextLabel()
             {
-                Text="Delete",
-                PixelSize=16,
+                Text = "Delete",
+                PixelSize = 16,
                 Position = new Position(-70, -50),
                 WidthSpecification = LayoutParamPolicies.WrapContent,
                 HeightSpecification = LayoutParamPolicies.WrapContent,
@@ -117,7 +118,7 @@ namespace NUIKioskCafeteria
 
         private bool Edit_TouchEvent(object source, TouchEventArgs e)
         {
-            if(e.Touch.GetState(0) == PointStateType.Up)
+            if (e.Touch.GetState(0) == PointStateType.Up)
             {
                 deleteAnimation.DefaultAlphaFunction = new AlphaFunction(AlphaFunction.BuiltinFunctions.EaseInOutSine);
                 deleteAnimation.AnimateBy(this, "PositionX", -800);

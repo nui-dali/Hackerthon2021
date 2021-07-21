@@ -13,7 +13,7 @@
 
         <View.Layout>
             <LinearLayout LinearAlignment="Begin" 
-                      LinearOrientation="Vertical"/>
+                          LinearOrientation="Vertical"/>
         </View.Layout>
 
     <View  WidthSpecification="{Static LayoutParamPolicies.MatchParent}"

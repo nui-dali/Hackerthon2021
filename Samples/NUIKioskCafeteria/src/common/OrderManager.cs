@@ -26,6 +26,7 @@ namespace NUIKioskCafeteria
         public static OrderManager instance;
         private ObservableCollection<Gallery> gallerySource;
         private string totalPrice;
+
         public static OrderManager Instance
         {
             get

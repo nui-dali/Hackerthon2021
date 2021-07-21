@@ -7,8 +7,8 @@
         Content="{x:Reference Name=contentView}">
 
     <GaussianBlurView x:Name="contentView"
-                    WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-                    HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+                      WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                      HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
 
         <ImageView WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
                    HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
@@ -22,8 +22,8 @@
                               LinearOrientation="Vertical"/>
             </View.Layout>
             <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-                                     HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
-                                     Weight="0.17">
+                  HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                  Weight="0.17">
                 <TextLabel Text="Cafeteria"
                            Position="20,-20"
                            PixelSize="60"
@@ -61,6 +61,4 @@
                        Weight="0.83"/>
         </View>
     </GaussianBlurView>
-
-
 </local:ContentControlPage>

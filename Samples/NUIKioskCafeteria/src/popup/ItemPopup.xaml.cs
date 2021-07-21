@@ -30,7 +30,7 @@ namespace NUIKioskCafeteria
 
         private MenuItemView selectItem;
         private int sizeOption = 0;
-        
+
         public ItemPopup()
         {
             InitializeComponent();
@@ -58,30 +58,27 @@ namespace NUIKioskCafeteria
             }
         }
 
-
         public void ResetOptions()
         {
             MainRoot.SizeHeight = 380;
             RelativeLayout.SetLeftRelativeOffset(MainImage, 0.21f);
             RelativeLayout.SetTopRelativeOffset(MainImage, 0.32f);
-            //MainImage.Position = new Position(50, 290);
-            //AdditonalOptionView.BackgroundColor = Tizen.NUI.Color.Transparent;
 
             AdditonalOptionView.HeightSpecification = LayoutParamPolicies.WrapContent;
 
             drinkOptionView.Unparent();
             extrasView.Unparent();
 
-            if(selectItem != null)
+            if (selectItem != null)
             {
                 selectItem.MainButton.IsSelected = false;
                 selectItem = (drinkOptionView.Children[0] as MenuItemView);
                 selectItem.MainButton.IsSelected = true;
             }
 
-            foreach(var item in extraLayoutView.Children)
+            foreach (var item in extraLayoutView.Children)
             {
-                if(item is MenuItemView menuItem)
+                if (item is MenuItemView menuItem)
                 {
                     menuItem.MainButton.IsSelected = false;
                 }
@@ -93,10 +90,7 @@ namespace NUIKioskCafeteria
             MainRoot.SizeHeight = 600;
             RelativeLayout.SetTopRelativeOffset(MainImage, 0.26f);
 
-            //MainImage.Position = new Position(50, 170);
-
             AdditonalOptionView.HeightSpecification = 480;
-            //AdditonalOptionView.BackgroundColor = new Color(0.8f, 0.0f, 0.0f, 0.5f);
             AdditonalOptionView.Add(drinkOptionView);
             if (!isDrinkOptionCreated)
             {
@@ -153,7 +147,7 @@ namespace NUIKioskCafeteria
                     itemView.MainButton.IsSelectable = true;
                     itemView.MainButton.Icon.Size = new Size(80, 80);
                     itemView.SetSmallItem();
-                    
+
                     extraLayoutView.Add(itemView);
                 }
                 isExtraOptionCreated = true;
@@ -163,11 +157,11 @@ namespace NUIKioskCafeteria
             if (nameLabel.Text == "Yasmine Green Tea" ||
                 nameLabel.Text == "Roiboos")
             {
-                foreach(var item in extraLayoutView.Children)
+                foreach (var item in extraLayoutView.Children)
                 {
-                    if(item is MenuItemView menuItem)
+                    if (item is MenuItemView menuItem)
                     {
-                        if(menuItem.NameLabel == "Sugar" 
+                        if (menuItem.NameLabel == "Sugar"
                             || menuItem.NameLabel == "Dairy milk")
                         {
                             menuItem.Show();
@@ -188,7 +182,6 @@ namespace NUIKioskCafeteria
                         menuItem.Show();
                     }
                 }
-
             }
 
         }
@@ -206,7 +199,6 @@ namespace NUIKioskCafeteria
                 sizeOption = int.Parse(item.Name);
                 selectItem = item;
             }
-
         }
 
         public void AddCakeOptions()
@@ -244,7 +236,6 @@ namespace NUIKioskCafeteria
             }
         }
 
-
         public string ImageTag
         {
             set
@@ -258,7 +249,7 @@ namespace NUIKioskCafeteria
 
         private bool MainRoot_TouchEvent(object source, TouchEventArgs e)
         {
-            if(e.Touch.GetState(0) == PointStateType.Up)
+            if (e.Touch.GetState(0) == PointStateType.Up)
             {
                 Navigator.PopWithTransition();
             }
@@ -303,6 +294,5 @@ namespace NUIKioskCafeteria
             NUIApplication.GetDefaultWindow().GetDefaultNavigator().PushWithTransition(this);
             ApplicationHelper.ActivateBlur();
         }
-
     }
 }

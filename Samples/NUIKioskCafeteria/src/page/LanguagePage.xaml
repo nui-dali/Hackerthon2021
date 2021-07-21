@@ -18,14 +18,14 @@
                WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
                HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
                Weight="0.1"/>
-        <View
+    <View
                WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
                HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
                Weight="0.5">
-            <View.Layout>
-                <LinearLayout LinearAlignment="CenterHorizontal"
+        <View.Layout>
+            <LinearLayout LinearAlignment="CenterHorizontal"
                               LinearOrientation="Vertical"></LinearLayout>
-            </View.Layout>
+        </View.Layout>
 
         <local:RelativeContainer Size="270,270">
             <Button Name="Korean" 

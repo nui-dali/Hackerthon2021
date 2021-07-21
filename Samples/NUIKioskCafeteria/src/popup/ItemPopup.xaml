@@ -40,7 +40,7 @@
           CornerRadius="40,40,40,40"
           CornerRadiusPolicy="Absolute"
           TouchEvent="MainRoot_TouchEvent">
-        
+
         <!-- Default Top Text -->
         <TextLabel x:Name="nameLabel"
                    Text="Cinnamon"
@@ -51,20 +51,20 @@
                    HeightSpecification="{Static LayoutParamPolicies.WrapContent}">
         </TextLabel>
         <TextLabel x:Name="priceLabel"
-                       Text="price"
-                       Position="480,115"
-                       PixelSize="28"
-                       TextColor="#7474FF">
+                   Text="price"
+                   Position="480,115"
+                   PixelSize="28"
+                   TextColor="#7474FF">
         </TextLabel>
 
         <TextLabel x:Name="descriptionLabel"
-                       Position="25,175"
-                       Text="Cinnamon bun with mixture of cinammon and hazelnut cream."
-                       TextColor="#7474FF"
-                       PixelSize="20"
-                       MultiLine="true"
-                       WidthSpecification="550"
-                       HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+                   Position="25,175"
+                   Text="Cinnamon bun with mixture of cinammon and hazelnut cream."
+                   TextColor="#7474FF"
+                   PixelSize="20"
+                   MultiLine="true"
+                   WidthSpecification="550"
+                   HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
         </TextLabel>
         <View x:Name="AdditonalOptionView"
               WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
@@ -100,7 +100,7 @@
                            WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
                            HeightSpecification="{Static LayoutParamPolicies.WrapContent}">
                 </TextLabel>
-                
+
                 <View x:Name="extraLayoutView"
                       WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
                       HeightSpecification="{Static LayoutParamPolicies.MatchParent}">

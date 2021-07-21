@@ -57,7 +57,7 @@ namespace NUIKioskCafeteria
 
         protected virtual bool PrevPageTouched(object sender, TouchEventArgs e)
         {
-            if(e.Touch.GetState(0) == Tizen.NUI.PointStateType.Up)
+            if (e.Touch.GetState(0) == Tizen.NUI.PointStateType.Up)
             {
                 Navigator.Pop();
             }

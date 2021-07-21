@@ -68,7 +68,7 @@ namespace NUIKioskCafeteria
         public static ObservableCollection<Album> CreateData(this ObservableCollection<Album> result, MenuType menuType)
         {
             var selectIndex = (int)menuType;
-            var cur = new Album(selectIndex, GroupPool[selectIndex].groupName);
+            var cur = new Album(GroupPool[selectIndex].groupName);
             for (int j = 0; j < GroupPool[selectIndex].menu.Length; j++)
             {
                 var name = GroupPool[selectIndex].menu[j].name;

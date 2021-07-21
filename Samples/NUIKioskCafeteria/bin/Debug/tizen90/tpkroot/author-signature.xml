@@ -476,11 +476,11 @@
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>HgggCeW6A0wnJTUDBqaUzbGmB9q3l1v+q+kQhnvICVGaQ2aRFgHAM+1ns5CJ3efpJSJfLlwqaXOkv5Glc/+/rw==</DigestValue>
+      <DigestValue>0OTPTFxs+YJjMZaCetsnY6eN4sEzKjLcNtKMsQxtNFoEhrpevXfwrnb7kEFb+L7mXKOhjrZTae3/EKFaFd8Dgw==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>WVBYIsIFzZyzVRgeOYrwSIFiiNXLLrL3IXySUwbclgm7bDmc4nkUxJG8qUKL+yB3eTord4OR05vHWMsD0QKbhQ==</DigestValue>
+      <DigestValue>Ps8icDtP2tOwiVKNoIdmx0YReIBWri4vn9pYrlBelo64CZuy55seRVhzJuAK3nMeVFy7hsqvyQbsjf3Y7iDE8Q==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -491,9 +491,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-gwtE8gxYb/T2xcsJSqJaumZodBYVz+CVjM2wGRCKWsJA7RD3uhYwIzpwc+rOTnp279xG0iJUkfXX
-BPS64ot98wGQTZRFBahFL/7Ga3KoOvJrL06acSDbtuhJ55JP6WW3EIBsbHU1LO3oG8eYOtPP6Grd
-d0BscPcwIhyWnUXux4U=
+lK+UU4YUcTnPtr8Vz1QXJVBFTC8jrfetZb2qRlNSkbq5olFOW7n58VnFVZHDo173BwpCQ9aiu4SL
+dqrIxJSHiDArOIsHdlY3B1+Lny1E5vJFGFhMB/LhlsmsPbGr6ddIMvBj51djEzU5TdQyA5bzZFwP
+7beS8jckOpfXs8b6BSI=
 </SignatureValue>
   <KeyInfo>
     <X509Data>
