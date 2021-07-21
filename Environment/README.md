@@ -12,15 +12,16 @@ http://download.tizen.org/releases/milestone/tizen/unified/tizen-unified_2021051
 
 ### 3. package 설치
 #### dali package
- dali_packages_0715.zip 압축 해제
+ dali_packages_0721.zip 압축 해제
  
  rpm -Uh --force --nodeps *.rpm
  
 #### tizenfx package
-  tizenfx-16468 ver 패키지 설치 (tizenfx_packages.zip)
+  tizenfx-16469 ver 패키지 설치 (tizenfx_packages_0721.zip)
 
   1) AOT Disable(ni.dll 파일 삭제)
 
+     mount -o remount,rw /
      find / -name '*.ni.dll' -exec rm {} \; 
      find / -name '*.ni.exe' -exec rm {} \;
 
