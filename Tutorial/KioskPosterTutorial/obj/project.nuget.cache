@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "fJWnPM7sUz/CF9+AOjmYPW6Cgnrqalsr6vJBAz/nPGg50dO6VV1bYDEXTfStDGJlbqC+6CLe/o6aibKWON7JKw==",
+  "dgSpecHash": "EGrbre5aI8r19xunr4ycoZ5KSMlUMdAyWwL01224T4P7TOTEOqCPWoa1BZBASjyQWv6qhP4WAKZieFID2tJ+dQ==",
   "success": true,
-  "projectFilePath": "D:\\2021\\source_code\\KioskPosterTutorial\\KioskPosterTutorial.csproj",
+  "projectFilePath": "\\\\192.168.245.119\\Shared\\Workspace\\Hackerthon2021\\Tutorial\\KioskPosterTutorial\\KioskPosterTutorial.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gmldb\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
-    "C:\\Users\\gmldb\\.nuget\\packages\\tizen.net\\9.0.0.16489\\tizen.net.9.0.0.16489.nupkg.sha512",
-    "C:\\Users\\gmldb\\.nuget\\packages\\tizen.net.api9\\9.0.0.16489\\tizen.net.api9.9.0.0.16489.nupkg.sha512",
-    "C:\\Users\\gmldb\\.nuget\\packages\\tizen.net.internals\\9.0.0.16468\\tizen.net.internals.9.0.0.16468.nupkg.sha512",
-    "C:\\Users\\gmldb\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.27\\tizen.nui.xamlbuild.1.0.27.nupkg.sha512"
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.net\\9.0.0.16489\\tizen.net.9.0.0.16489.nupkg.sha512",
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.net.api9\\9.0.0.16489\\tizen.net.api9.9.0.0.16489.nupkg.sha512",
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.net.internals\\9.0.0.16468\\tizen.net.internals.9.0.0.16468.nupkg.sha512",
+    "C:\\Users\\huiyu.eun\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.27\\tizen.nui.xamlbuild.1.0.27.nupkg.sha512"
   ],
   "logs": []
 }

@@ -56,7 +56,25 @@
                        RelativeLayout.LeftRelativeOffset="0.1"
                        RelativeLayout.TopRelativeOffset="0.1">
             </TextLabel>
+            <Button Text="Video"
+                    Size="200,80"
+                    TextColor="White"
+                    RelativeLayout.LeftTarget="{x:Reference Name=bottomView}"
+                    RelativeLayout.RightTarget="{x:Reference Name=bottomView}"
+                    RelativeLayout.TopTarget="{x:Reference Name=bottomView}"
+                    RelativeLayout.BottomTarget="{x:Reference Name=bottomView}"
+                       
+                    RelativeLayout.LeftRelativeOffset="0.0"
+                    RelativeLayout.RightRelativeOffset="1.0"
+                    RelativeLayout.HorizontalAlignment="Center"
+                    RelativeLayout.TopRelativeOffset="0.0"
+                    RelativeLayout.BottomRelativeOffset="0.6"
+                    RelativeLayout.VerticalAlignment="End"
+                    
+                    Clicked="Button_Clicked_1">
+            </Button>
             <Button Text="Popup"
+                    Size="200,80"
                     TextColor="White"
                     RelativeLayout.LeftTarget="{x:Reference Name=bottomView}"
                     RelativeLayout.RightTarget="{x:Reference Name=bottomView}"
@@ -89,14 +107,16 @@
     </Pagination>
 
     <Button Text="&lt;"
-            Margin="100,0,0,0"
+            Size="100,100"
+            Position="50,0"
             PivotPoint="CenterLeft"
             ParentOrigin="CenterLeft"
             PositionUsesPivotPoint="true"
             Clicked="LeftButton_Clicked">
     </Button>
     <Button Text=">"
-            Margin="0,100,0,0"
+            Size="100,100"
+            Position="-50,0"
             PivotPoint="CenterRight"
             ParentOrigin="CenterRight"
             PositionUsesPivotPoint="true"

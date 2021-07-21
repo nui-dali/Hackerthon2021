@@ -11,3 +11,16 @@ D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.pd
 D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\src\MyGradientVisual.xaml.g.cs
 D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\src\MyPopup.xaml.g.cs
 D:\2021\source_code\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.csproj.AssemblyReference.cache
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\Scene1Page.xaml.g.cs
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\src\MyGradientVisual.xaml.g.cs
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\src\MyPopup.xaml.g.cs
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\src\VideoPopup.xaml.g.cs
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.AssemblyInfoInputs.cache
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.AssemblyInfo.cs
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.csproj.CoreCompileInputs.cache
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.dll
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\KioskPosterTutorial.pdb
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\bin\Debug\tizen90\KioskPosterTutorial.deps.json
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\bin\Debug\tizen90\KioskPosterTutorial.dll
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\bin\Debug\tizen90\KioskPosterTutorial.pdb
+\\192.168.245.119\Shared\Workspace\Hackerthon2021\Tutorial\KioskPosterTutorial\obj\Debug\tizen90\XamlC.stamp

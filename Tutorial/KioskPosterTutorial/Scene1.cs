@@ -19,7 +19,9 @@ namespace KioskPosterTutorial
             // NOTE To use theme.xaml, uncomment below line.
             // ThemeManager.ApplyTheme(new Theme(Tizen.Applications.Application.Current.DirectoryInfo.Resource + "theme/theme.xaml"));
 
-            
+            GetDefaultWindow().AddAvailableOrientation(Window.WindowOrientation.Portrait);
+            GetDefaultWindow().SetPreferredOrientation(Window.WindowOrientation.Portrait);
+
             GetDefaultWindow().Add(new Scene1Page());
             GetDefaultWindow().KeyEvent += OnScene1KeyEvent;
         }

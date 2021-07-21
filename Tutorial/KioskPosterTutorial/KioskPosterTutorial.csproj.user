@@ -10,6 +10,9 @@
     <None Update="res\theme\theme.xaml">
       <SubType>Designer</SubType>
     </None>
+    <EmbeddedResource Update="src\VideoPopup.xaml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Update="src\MyPopup.xaml">
       <SubType>Designer</SubType>
     </EmbeddedResource>

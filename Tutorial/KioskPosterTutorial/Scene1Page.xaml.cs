@@ -75,5 +75,11 @@ namespace KioskPosterTutorial
             Window.Instance.GetDefaultLayer().Add(new MyPopup());
             this.Activate();
         }
+
+        private void Button_Clicked_1(object sender, Tizen.NUI.Components.ClickedEventArgs e)
+        {
+            Window.Instance.GetDefaultLayer().Add(new VideoPopup());
+            this.Activate();
+        }
     }
 }
