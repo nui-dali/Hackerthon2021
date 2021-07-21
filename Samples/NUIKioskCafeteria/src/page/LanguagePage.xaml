@@ -11,21 +11,21 @@
     </ContentPage.Layout>
 
     <TextLabel Text="Select language"
-             PixelSize="30"
-             TextColor="#7474FF"
-             HorizontalAlignment="Center"
-             VerticalAlignment="Center"
-             WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-             HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
-             Weight="0.1"/>
-    <View
-             WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-             HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
-             Weight="0.5">
-        <View.Layout>
-            <LinearLayout LinearAlignment="CenterHorizontal"
-                          LinearOrientation="Vertical"></LinearLayout>
-        </View.Layout>
+               PixelSize="30"
+               TextColor="#7474FF"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+               HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+               Weight="0.1"/>
+        <View
+               WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+               HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+               Weight="0.5">
+            <View.Layout>
+                <LinearLayout LinearAlignment="CenterHorizontal"
+                              LinearOrientation="Vertical"></LinearLayout>
+            </View.Layout>
 
         <local:RelativeContainer Size="270,270">
             <Button Name="Korean" 
@@ -43,20 +43,21 @@
                     RelativeLayout.LeftRelativeOffset="0.0"
                     RelativeLayout.RightRelativeOffset="1.0"/>
             <TextLabel Text="Korean"
-                       PixelSize="17"
+                       WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                       HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                       PixelSize="15"
                        TextColor="#7474FF"
                        
-                       RelativeLayout.VerticalAlignment="Bottom"
+                       RelativeLayout.VerticalAlignment="Top"
                        RelativeLayout.HorizontalAlignment="Begin"
-                       RelativeLayout.TopRelativeOffset="0.95"
-                       RelativeLayout.BottomRelativeOffset="0.9"
+                       RelativeLayout.TopRelativeOffset="0.85"
+                       RelativeLayout.BottomRelativeOffset="1.0"
                        RelativeLayout.LeftRelativeOffset="0.15"
                        RelativeLayout.RightRelativeOffset="1.0"/>
 
         </local:RelativeContainer>
 
-        <local:RelativeContainer Size="270,270"
-                                 WidthForHeight="True">
+        <local:RelativeContainer Size="270,270">
             <Button Name="American" 
                     x:Name="Btn2"
                     StyleName="GalleryButton"
@@ -72,13 +73,15 @@
                     RelativeLayout.LeftRelativeOffset="0.0"
                     RelativeLayout.RightRelativeOffset="1.0"/>
             <TextLabel Text="American"
-                       PixelSize="17"
+                       WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                       HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                       PixelSize="15"
                        TextColor="#7474FF"
                        
-                       RelativeLayout.VerticalAlignment="Bottom"
+                       RelativeLayout.VerticalAlignment="Top"
                        RelativeLayout.HorizontalAlignment="Begin"
-                       RelativeLayout.TopRelativeOffset="0.95"
-                       RelativeLayout.BottomRelativeOffset="0.9"
+                       RelativeLayout.TopRelativeOffset="0.85"
+                       RelativeLayout.BottomRelativeOffset="1.0"
                        RelativeLayout.LeftRelativeOffset="0.15"
                        RelativeLayout.RightRelativeOffset="1.0"/>
 
@@ -100,13 +103,14 @@
                     RelativeLayout.LeftRelativeOffset="0.0"
                     RelativeLayout.RightRelativeOffset="1.0"/>
             <TextLabel Text="Chinese"
-                       PixelSize="17"
+                       WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                       HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                       PixelSize="15"
                        TextColor="#7474FF"
-                       
-                       RelativeLayout.VerticalAlignment="Bottom"
+                       RelativeLayout.VerticalAlignment="Top"
                        RelativeLayout.HorizontalAlignment="Begin"
-                       RelativeLayout.TopRelativeOffset="0.95"
-                       RelativeLayout.BottomRelativeOffset="0.9"
+                       RelativeLayout.TopRelativeOffset="0.85"
+                       RelativeLayout.BottomRelativeOffset="1.0"
                        RelativeLayout.LeftRelativeOffset="0.15"
                        RelativeLayout.RightRelativeOffset="1.0"/>
         </local:RelativeContainer>

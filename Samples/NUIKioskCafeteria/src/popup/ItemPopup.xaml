@@ -17,7 +17,7 @@
             <TimePeriod x:Key="DisappearTimePeriod">
                 <x:Arguments>
                     <x:Single>0</x:Single>
-                    <x:Single>200</x:Single>
+                    <x:Single>0</x:Single>
                 </x:Arguments>
             </TimePeriod>
         </ResourceDictionary>

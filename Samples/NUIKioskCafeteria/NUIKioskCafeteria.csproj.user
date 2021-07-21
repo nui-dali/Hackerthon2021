@@ -4,7 +4,7 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>emulator-26111#6729accc-9691-4d35-8181-51a638760d8d</ActiveDebugProfile>
+    <ActiveDebugProfile>10000000651c39ad#489df581-e8a5-448a-addc-99f62a3f34b8</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Update="src\page\OrderPage.xaml">
