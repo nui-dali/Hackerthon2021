@@ -61,8 +61,7 @@ namespace NUIKioskCafeteria
         public void ResetOptions()
         {
             MainRoot.SizeHeight = 380;
-            RelativeLayout.SetLeftRelativeOffset(MainImage, 0.21f);
-            RelativeLayout.SetTopRelativeOffset(MainImage, 0.32f);
+            imageContainer.SizeHeight = 650;
 
             AdditonalOptionView.HeightSpecification = LayoutParamPolicies.WrapContent;
 
@@ -88,7 +87,7 @@ namespace NUIKioskCafeteria
         public void AddDrinkOptions()
         {
             MainRoot.SizeHeight = 600;
-            RelativeLayout.SetTopRelativeOffset(MainImage, 0.26f);
+            imageContainer.SizeHeight = 900;
 
             AdditonalOptionView.HeightSpecification = 480;
             AdditonalOptionView.Add(drinkOptionView);
@@ -126,7 +125,7 @@ namespace NUIKioskCafeteria
         public void AddExtraOption()
         {
             MainRoot.SizeHeight = 950;
-            RelativeLayout.SetTopRelativeOffset(MainImage, 0.18f);
+            imageContainer.SizeHeight = 1230;
 
             AdditonalOptionView.HeightSpecification = 750;
             AdditonalOptionView.Add(extrasView);

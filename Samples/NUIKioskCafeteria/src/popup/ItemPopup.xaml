@@ -138,17 +138,15 @@
         </TextLabel>
     </View>
     <View x:Name="imageContainer"
-          WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-          HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+          Size="600,650"
+          PivotPoint="Center"
+          ParentOrigin="Center"
+          PositionUsesPivotPoint="True">
         <View.Layout>
             <RelativeLayout></RelativeLayout>
         </View.Layout>
         <ImageView x:Name="MainImage"
-                   Size="280,280"
-                   RelativeLayout.LeftTarget="{x:Reference Name=imageContainer}" 
-                   RelativeLayout.RightTarget="{x:Reference Name=imageContainer}" 
-                   RelativeLayout.TopTarget="{x:Reference Name=imageContainer}" 
-                   RelativeLayout.BottomTarget="{x:Reference Name=imageContainer}" >
+                   Size="280,280">
         </ImageView>
     </View>
 </DialogPage>
