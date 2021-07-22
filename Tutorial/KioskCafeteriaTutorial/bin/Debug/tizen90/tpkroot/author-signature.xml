@@ -1,0 +1,214 @@
+<Signature Id="AuthorSignature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <SignedInfo>
+    <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+    <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512" />
+    <Reference URI="tizen-manifest.xml">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>yjdeKWLtYMas9wnwYQ3E1KZTvrVKKQ7nH940jeLca8GRGp/1pujpvPbZlmQRiwvn9vRNB1JDS7N2f4pvPaqnzA==</DigestValue>
+    </Reference>
+    <Reference URI="shared%2Fres%2FKioskCafeteriaTutorial.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>BTGBG483ma/3HgWnreWF2xbdzr4F0gTRWjwxoSV+7kKBWt4UJTuv5WE4DhKdU4in2kwn/55O/qPDbNc/wgCuGg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Ftheme%2Ftheme.xaml">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>LtdywQg1Uo+xWHXSwZgKHDAgq9gBlLEWRbWi3dDU6mDy5AaepuywKSyi0hd+KYRlWxnFzkJ6BcHLtdSg6J80pg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Ftizen.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>BTGBG483ma/3HgWnreWF2xbdzr4F0gTRWjwxoSV+7kKBWt4UJTuv5WE4DhKdU4in2kwn/55O/qPDbNc/wgCuGg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2FStart_BG.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>JnzHyIUvEnyGrX4CPICV7fWJB6zqjQs7a8b9zDOY2MiK5ZYaxVo8wxEI0UN6wyN9ue38nEOINXcsZjrA2MJZqA==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fwatermelon_lemonade.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>LQrmSXSfjKx95x0Cf9rM4j84IHsE6feKj7paiazTzd/rlODeL1YNIdxt5dLJ4uYNzG1ftVUMFigyjBqalbqOVw==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fsweet_tropical.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>srmN5YZoh8zs446AXxSvBzGwlDpLeH29NpH9L95omlA70MBkdh0ROmZWnRg5dz36N7Wh1N5mf45FbzC2DX8YEA==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fstill_water.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>MvhxuOiXjLXC5Q7zOtg0WwF/KTFkfRN91L+iE0wu/S7+YMXG7lQphg5PsL8UVX1Ict3s24RCnFoB1uNsVBWG9w==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fsparkling.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>r/fT9+ZzlTXq0GGguyAKylH+xgfTPfvEbAJwIbFikXzeUJ4Q1LIObif5LFyf4t0+pMpdjdYjXg/isWfOkUo1CA==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Froibos_tea.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>XwOWJt6IQNrkpGUrpz4Gv0kgpe5KHFH7AGt7Sd0as0lAv8EXCgkA5fo7zR03Je0Ng5hWUgwENCwX0g3oXhTYCQ==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fnougat_tarlet.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>E0IlkMYWsncIgn3dDKOyuUyNjSPRGrmCs6cjrLvtyOsgPcLVSrrcx9u+R16vo1x2Qlgfz6sa87n7xgnh37zFkg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fmango_lemonade_black.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>DvKQXwPE8Z0UjdUwQo9dNITcYbcp09LNEZ37eYLLAM1+ekVEyyxRygxiMcCNbV1KpZY0GA6VV0E8W94kHSuEaw==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fmacarons.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>pbXFSqCnBVKovqdF5mhsB5KyqDBMbHRNKooJZw9Su6m7hgqzrDbGBkZwO5zPtK4SF64bypMBxmhJen88w4/xcg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fllatte.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>TEAdtcLsWYvIX5jd3AeC/dIq6FEnMH6TZDbenSl5JxU/KXoA6DVxSfXHXqOlwZ7DHS8KnFeerfNer7KibDAEtg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Flemonade.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>fk8mBT+9LSjc8wb2tWRisAM1iKTgPG6s2qPsN4OhDQ9r0JNXEYhWxVBCJzNGAtmHio+zCyGlUishvx8fOVfhTg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fgreen_tea.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>lAG3f9vyUzDYAdPnqHvRPbuBD0HSf3MIHp6iWdnEmXnuj+2tzHaDV9nVgJrMiL9WpZY6tikdiCD8gtRVoKBIlQ==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fflat_white.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>DByxDDJxzjME0iZP6TN60+7UM7FW/pGAvm/Fri/y/rqrC7Rg4S3iFc0f4bLREI0kxXUqb6Bt3f6X7Byko0Qi+A==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fespressotonic.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>qk9wMdZVUoFg+HQqv6zLPKJZrofkdsnXsNupJCqFkOTHq1IgWCmSDYPrv0BBJzN67iVVdp9r2z/zBoxLuiD+8Q==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fespresso.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>IIn0vUMdh9WOAF4LRnyzV/osE0f27f62TCzmta81/Y7prpFrotZxvjuTk/uBtSCJob9FWCOYX7jVJLrsI/K7pg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fenglish_breakfast.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>3JWE+389rXJHEaNdOU5yPs/8KmcchInH4ouypUffsCpANrPI/CSq06HfGPIULAH0x7CqpW0Qjmds2g6Ju/rceg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fcoldwithmilk.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>dHKY5O2QtzjF36KNpRmQXvXtGjbi2jLuopiCReuYZegNXah9i3//bJTLPGCczZU9+hwomrJAmObgeEOJgLG/Eg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fcoldbrew.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>oVuOS1vn/3n7odjqb3mBY5T/Cp0T7UiwAVFcD+uii0cf5Whhqxq42xWRqNABDgdO6Brcyiowo+Dyr69W2lqWog==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fcoke.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>8oygUWIYtHgmsMKijG071wtv5L4CSWdcos4PcC735wSjxlMjsMBCHs4u2hGHoCHt35j7MotHZFhNRm9mlK3edg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fcinnabon_bun.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>o8eFSHWW3JNrlLbDm6xBfQT5xYmX8OeNnyfz+PXhyQ9HPLsLCQ4aGPQIfZGRWEws4e6vaD9Pd8KBDin+QEaCbg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fcherry.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>XpdGer6IWs54MNxzJqIV1ud6GaOPceSr2JC/uUbYpJob0V9uqNIil25P52xnvOuY4HvhrOZgEdWMDfP+mlWyUw==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fcheesecake.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>US0N6lW154cni8IO7zZiSLxTMpviydkBnWpb/7uiB6zDiSiRmbu+++BWpV8TuZtBSQHHeWPoFzhYWDfgVwMR2w==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fcarrot.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>RyJYVB6yKVX2Sy8VP+oLMyPXStFIuUSsrDTmg0KvL511c/qH0BsV3rIqcJYvfBieGVPe1z6wrNQzBSfiNthS+Q==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fcappuccino.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>7VTvqExEPTZ6DO14W8RXjmTDNA7NuKTuZGZ555XT2EYLnMSeg8OpO9beWXgWDjrOcfSl647672pXl9Ylou6ppw==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Fblack_tea.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>VHqIBOUnPnTJ+ghFuShuKxA4CO7tHniemj07cmeI+oQOHImk+2w+a2itAOOyCIX1o5Sz9E/i/eQrgFFi1vsNuA==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fmenu%2Famericano.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>woMGQbOtQt2BMaRvLIyUaBnvCH8MyzX797f3uR/w7AjVSrRJ685GLSBm+IfHJ07qkCVhew976Bmf0tVw9vhtlg==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fbutton%2Fgallery_item_pressed.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>mJ/7GjXQORSFkBPi3fkqTfKwUKuFNzcL/eBg1rjlFCYP5Jc/Upc696yCGh8FQjeJos+I8vm1fmV0P6IO+g9G1g==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2Fbutton%2Fgallery_item_normal.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>E9DeB10fKjpp9OoJoNlumLOZS2brSmbGPjbsKN76g4z7QISNedI4Bf+H+8rR0ru54pS3V01DaXBxQFeY2BfPAA==</DigestValue>
+    </Reference>
+    <Reference URI="res%2Fimages%2FBanner.png">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>jqIeEST2Ep82fq1b2UA1qreob7vP48XSO8nLL0DXsoCBMH+ddDFxv1RluTDPYYgfKAuknY3m0agHnWTKv3+yyw==</DigestValue>
+    </Reference>
+    <Reference URI="KioskCafeteriaTutorial.deps.json">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>P/XBLOupoa79l0rb6f++ydCuxJs27zuVOiLJRD3ZXHD5U9pdGJHHXyRwJmGRV74dudUGPvHk9C7c4rpy4Vn19g==</DigestValue>
+    </Reference>
+    <Reference URI="bin%2FTizen.NUI.XamlBuild.dll">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>t7ZMvPl8MOAKVWoVU2VhzCiNFBqMhx+t91BMIxP46RZEC9sFwAXV2P6kP3DAMQs/lRHlCByeDyyvUp3M3XPiuA==</DigestValue>
+    </Reference>
+    <Reference URI="bin%2FKioskCafeteriaTutorial.pdb">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>CekXYI0P2BffAM8AibCLAJVEhcIvfNhtEkbThV1pMjw+o3G3KZjocpjHljD7QkNgWRs3vVd9QrDnOzS4CWoPvQ==</DigestValue>
+    </Reference>
+    <Reference URI="bin%2FKioskCafeteriaTutorial.dll">
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>n73ld0eXeEPUc9/q5mcKKZA3K7/+pQui42PgGQj1qerCrtK1Kgrf/QsYgHna/WIqUfctMg5tP7EXr5tBF95fpw==</DigestValue>
+    </Reference>
+    <Reference URI="#prop">
+      <Transforms>
+        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      </Transforms>
+      <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
+      <DigestValue>uZyQ+87kE4t6qxSN4VEx1Pox4WvKeg6zcxAkkLd37pva/nBlGrszr+isy/IJw4IgKnaB7eSEPU4PbccqlynCkQ==</DigestValue>
+    </Reference>
+  </SignedInfo>
+  <SignatureValue>
+k17A7TVO8/ZJhy+m12Xv75BQIqUODcjASaU/s2E9ouweDhGb8/LD4anJqfpuaQ+oq8l5CXgzXqOM
+Pre6PSFeSS2NZhFHCn7lFNyLpk4g3A6b3FIk44A5beaJ7iEEOf64SIMdEiFNeFPmOTJZGdorDb2l
+vDFMAjZ5pTvP3+AstHg=
+</SignatureValue>
+  <KeyInfo>
+    <X509Data>
+      <X509Certificate>
+MIIClTCCAX2gAwIBAgIGAVYhXgiqMA0GCSqGSIb3DQEBBQUAMFYxGjAYBgNVBAoMEVRpemVuIEFz
+c29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4gRGV2
+ZWxvcGVycyBDQTAeFw0xMjExMDEwMDAwMDBaFw0xOTAxMDEwMDAwMDBaMBExDzANBgNVBAMMBmF1
+dGhvcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEApm4Xqu2NAxOEh4Fgo0w6j+Q9MccSOPny
+mkyM3XMn0nL7mFKL4ZETxyRXlMU8DnM9l4zsEH3iS15cZknesUrCEAiuhL4fsp05ZSr6ERCYQrXs
+06WPmepipiM7n6BWzCsSmv0qNxkYWjZODWT2+15PsXfvwsK9wsrjSDIT8SuYV48CAwEAAaMyMDAw
+DAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDQYJKoZIhvcN
+AQEFBQADggEBAMqla3XZiV3xAQe3laSgVJvmtEsjl3Zfp7Nufrobsl4pxQhVbOITomeEqrJkn4e6
+zzfsjQQ6nw0yXqeo6qfP1ez8Wvr/egyfO6BrnARX37K5cXszpIn7IvO6xl4Ux/rtp4vvQXDcrDS5
+F07d9tg+5UO6MC/9cKaCNEIxSkXEhjOf5x2LGg686fq5V4WEKCO2ApkJRXn+tFRArysrT5FPEnus
+NG+XhHWJw58HgBrZFl0SOUJQvzi3xv5xVPml65qwbehmQyu+LcgWeKySO46nzF0AXlCTaC78FGYk
+nrG2yFeWO6SWXGV7uxgizufT+s851rPFg/EWYEjqX4jU/jp7Swg=
+</X509Certificate>
+      <X509Certificate>
+MIIDOTCCAiGgAwIBAgIBATANBgkqhkiG9w0BAQUFADBYMRowGAYDVQQKDBFUaXplbiBBc3NvY2lh
+dGlvbjEaMBgGA1UECwwRVGl6ZW4gQXNzb2NpYXRpb24xHjAcBgNVBAMMFVRpemVuIERldmVsb3Bl
+cnMgUm9vdDAeFw0xMjAxMDEwMDAwMDBaFw0yNzAxMDEwMDAwMDBaMFYxGjAYBgNVBAoMEVRpemVu
+IEFzc29jaWF0aW9uMRowGAYDVQQLDBFUaXplbiBBc3NvY2lhdGlvbjEcMBoGA1UEAwwTVGl6ZW4g
+RGV2ZWxvcGVycyBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANVGhRGmMIUyBA7o
+PCz8Sxut6z6HNkF4oDIuzuKaMzRYPeWodwe9O0gmqAkToQHfwg2giRhE5GoPld0fq+OYMMwSasCu
+g8dwODx1eDeSYVuOLWRxpAmbTXOsSFi6VoWeyaPEm18JBHvZBsU5YQtgZ6Kp7MqzvQg3pXOxtajj
+vyHxiatJl+xXrHgcXC1wgyG3buty7u/Fi2mvKXJ0PRJcCjjK81dqe/Vr20sRUCrbk02zbm5ggFt/
+jIEhV8wbFRQpliobc7J4dSTKhFfrqGM8rdd54LYhD7gSI1CFSe16pUXfcVR7FhJztRaiGLnCrwBE
+dyTZ248+D4L/qR/D0axb3jcCAwEAAaMQMA4wDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOC
+AQEAnOXXQ/1O/QTDHyrmQDtFziqPY3xWlJBqJtEqXiT7Y+Ljpe66e+Ee/OjQMlZe8gu21/8cKklH
+95RxjopMWCVedXDUbWdvS2+CdyvVW/quT2E0tjqIzXDekUTYwwhlPWlGxvfj3VsxqSFq3p8Brl04
+1Gx5RKAGyKVsMfTLhbbwSWwApuBUxYfcNpKwLWGPXkysu+HctY03OKv4/xKBnVWiN8ex/Sgesi0M
++OBAOMdZMPK32uJBTeKFx1xZgTLIhk45V0hPOomPjZloiv0LSS11eyd451ufjW0iHRE7WlpR6EvI
+W6TFyZgMpQq+kg4hWl2SBTf3s2VI8Ygz7gj8TMlClg==
+</X509Certificate>
+    </X509Data>
+  </KeyInfo>
+  <Object Id="prop">
+    <SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties">
+      <SignatureProperty Id="profile" Target="#AuthorSignature">
+        <dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile" />
+      </SignatureProperty>
+      <SignatureProperty Id="role" Target="#AuthorSignature">
+        <dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-author" />
+      </SignatureProperty>
+      <SignatureProperty Id="identifier" Target="#AuthorSignature">
+        <dsp:Identifier />
+      </SignatureProperty>
+    </SignatureProperties>
+  </Object>
+</Signature>

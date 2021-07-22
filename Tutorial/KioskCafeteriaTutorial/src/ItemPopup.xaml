@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<DialogPage x:Class="KioskCafeteriaTutorial.ItemPopup"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:KioskCafeteriaTutorial"
+    Content="{x:Reference Name=contentView}">
+
+    <View x:Name="contentView"
+          WidthSpecification="800"
+          HeightSpecification="1200"
+          BackgroundColor="White"
+          CornerRadius="40,40,40,40"
+          ParentOrigin="Center"
+          PivotPoint="Center"
+          PositionUsesPivotPoint="True"
+          CornerRadiusPolicy="Absolute"
+          TouchEvent="View_TouchEvent">
+        <ImageView x:Name="image"
+                   Size="400,400"/>
+    </View>
+
+</DialogPage>

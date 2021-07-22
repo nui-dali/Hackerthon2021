@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="KioskCafeteriaTutorial.Scene1Page"
+        xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:local="clr-namespace:KioskCafeteriaTutorial"
+        WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+        BackgroundColor="White"
+        Content="{x:Reference Name=contentView}">
+
+    <ImageView ResourceUrl="*Resource*/images/Start_BG.png"
+               WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+               HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+               x:Name="contentView">
+
+        <TextLabel Text="Cafeteria"
+                   PixelSize="100"
+                   ParentOrigin="Center"
+                   PivotPoint="Center"
+                   PositionUsesPivotPoint="True"
+                   Position="0,-150"
+                   ></TextLabel>
+        <Button Text="Start"
+                Clicked="Button_Clicked"
+                ParentOrigin="Center"
+                PivotPoint="Center"
+                PositionUsesPivotPoint="True"/>
+    </ImageView>
+</ContentPage>

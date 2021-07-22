@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="KioskCafeteriaTutorial.MenuPage"
+    xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:KioskCafeteriaTutorial"
+    Content="{x:Reference Name=contentView}">
+
+    <GaussianBlurView x:Name="contentView"
+          WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+          HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+
+        <ImageView WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+               HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+               ResourceUrl="*Resource*/images/Banner.png">
+        </ImageView>
+        <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+              HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+            <View.Layout>
+                <LinearLayout LinearAlignment="Begin" 
+                              LinearOrientation="Vertical"></LinearLayout>
+            </View.Layout>
+            <View WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                  HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                  Weight="0.2">
+
+                <Button Text="Start Over"
+                        Clicked="Button_Clicked"
+                        ParentOrigin="Center"
+                        PivotPoint="Center"
+                        PositionUsesPivotPoint="True"/>
+            </View>
+            <View x:Name="container"
+                  WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                  HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+                  BackgroundColor="White"
+                  Weight="0.8">
+            </View>
+
+        </View>
+    </GaussianBlurView>
+</ContentPage>

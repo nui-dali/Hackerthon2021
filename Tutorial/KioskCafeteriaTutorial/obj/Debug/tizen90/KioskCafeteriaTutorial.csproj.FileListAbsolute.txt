@@ -1,0 +1,13 @@
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\bin\Debug\tizen90\KioskCafeteriaTutorial.deps.json
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\bin\Debug\tizen90\KioskCafeteriaTutorial.dll
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\bin\Debug\tizen90\KioskCafeteriaTutorial.pdb
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\KioskCafeteriaTutorial.csprojAssemblyReference.cache
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\Scene1Page.xaml.g.cs
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\KioskCafeteriaTutorial.AssemblyInfoInputs.cache
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\KioskCafeteriaTutorial.AssemblyInfo.cs
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\KioskCafeteriaTutorial.csproj.CoreCompileInputs.cache
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\XamlC.stamp
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\KioskCafeteriaTutorial.dll
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\KioskCafeteriaTutorial.pdb
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\src\MenuPage.xaml.g.cs
+C:\Users\huiyu.eun\source\repos\KioskCafeteriaTutorial\obj\Debug\tizen90\src\ItemPopup.xaml.g.cs
