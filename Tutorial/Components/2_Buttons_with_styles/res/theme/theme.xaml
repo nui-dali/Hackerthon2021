@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Theme
+  xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+  xmlns:c="clr-namespace:Tizen.NUI.Components;assembly=Tizen.NUI.Components"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  Id="sampleTheme" >
+
+  <c:ButtonStyle
+    x:Key="ButtonStyle1"
+    CornerRadius="20">
+    <c:ButtonStyle.BackgroundColor>
+      <Selector x:TypeArguments="Color" Normal="Red" Pressed="Yellow"/>
+    </c:ButtonStyle.BackgroundColor>
+  </c:ButtonStyle>
+
+  <c:ButtonStyle
+    x:Key="ButtonStyle2"
+    CornerRadius="0">
+    <c:ButtonStyle.BackgroundColor>
+      <Selector x:TypeArguments="Color" Normal="Yellow" Pressed="Red"/>
+    </c:ButtonStyle.BackgroundColor>
+    <c:ButtonStyle.Text>
+      <TextLabelStyle>
+        <TextLabelStyle.TextColor>
+          <Selector x:TypeArguments="Color" Normal="Black" Pressed="White"/>
+        </TextLabelStyle.TextColor>
+      </TextLabelStyle>
+    </c:ButtonStyle.Text>
+  </c:ButtonStyle>
+
+  <c:ButtonStyle
+    x:Key="ButtonStyle3"
+    CornerRadius="0">
+    <c:ButtonStyle.BackgroundImage>
+      <Selector x:TypeArguments="x:String"
+        Normal="{ResourcePath button_bg_normal.png}"
+        Pressed="{ResourcePath button_bg_pressed.png}"/>
+    </c:ButtonStyle.BackgroundImage>
+  </c:ButtonStyle>
+
+  <c:ButtonStyle
+    x:Key="ButtonStyle4"
+    CornerRadius="5"
+    Size="120, 120"
+    IconRelativeOrientation="Top"
+    ItemSpacing="10">
+    <c:ButtonStyle.BackgroundColor>
+      <Selector x:TypeArguments="Color" Normal="#777777" Pressed="#222222"/>
+    </c:ButtonStyle.BackgroundColor>
+    <c:ButtonStyle.Text>
+      <TextLabelStyle PixelSize="15">
+        <TextLabelStyle.TextColor>
+          <Selector x:TypeArguments="Color" Normal="White" Pressed="#FFBF00"/>
+        </TextLabelStyle.TextColor>
+      </TextLabelStyle>
+    </c:ButtonStyle.Text>
+    <c:ButtonStyle.Icon>
+      <ImageViewStyle Size="50, 30">
+        <ImageViewStyle.ResourceUrl>
+          <Selector x:TypeArguments="x:String"
+            Normal="{ResourcePath button_icon_normal.png}"
+            Pressed="{ResourcePath button_icon_pressed.png}"/>
+        </ImageViewStyle.ResourceUrl>
+      </ImageViewStyle>
+    </c:ButtonStyle.Icon>
+  </c:ButtonStyle>
+
+  <c:ButtonStyle
+    x:Key="ButtonStyle5"
+    IconRelativeOrientation="Right"
+    ItemSpacing="10">
+    <c:ButtonStyle.Text>
+      <TextLabelStyle PixelSize="17" TextColor="Black"/>
+    </c:ButtonStyle.Text>
+    <c:ButtonStyle.Icon>
+      <ImageViewStyle Size="30, 30">
+        <ImageViewStyle.ResourceUrl>
+          <Selector x:TypeArguments="x:String"
+            Normal="{ResourcePath check_icon_normal.png}"
+            Pressed="{ResourcePath check_icon_pressed.png}"
+            Selected="{ResourcePath check_icon_selected.png}"/>
+        </ImageViewStyle.ResourceUrl>
+      </ImageViewStyle>
+    </c:ButtonStyle.Icon>
+  </c:ButtonStyle>
+
+</Theme>

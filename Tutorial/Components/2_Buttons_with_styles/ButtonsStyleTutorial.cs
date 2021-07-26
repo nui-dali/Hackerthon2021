@@ -18,7 +18,7 @@
 using Tizen.NUI;
 using Tizen.NUI.BaseComponents;
 
-namespace ButtonsTutorial
+namespace ButtonsStyleTutorial
 {
     public class TutorialApplication : NUIApplication
     {
@@ -28,13 +28,9 @@ namespace ButtonsTutorial
         override protected void OnCreate()
         {
             base.OnCreate();
-            Initialize();
-        }
-
-        void Initialize()
-        {
+            
             // NOTE To use theme.xaml, uncomment below line.
-            // ThemeManager.ApplyTheme(new Theme(Tizen.Applications.Application.Current.DirectoryInfo.Resource + "theme/theme.xaml"));
+            ThemeManager.ApplyTheme(new Theme(Tizen.Applications.Application.Current.DirectoryInfo.Resource + "theme/theme.xaml"));
 
             GetDefaultWindow().KeyEvent += Window_KeyEvent;
             GetDefaultWindow().Add(new MainView());
