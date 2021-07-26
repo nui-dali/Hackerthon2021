@@ -9,20 +9,20 @@
     x:Key="ButtonStyle1"
     CornerRadius="20">
     <c:ButtonStyle.BackgroundColor>
-      <Selector x:TypeArguments="Color" Normal="Red" Pressed="Yellow"/>
+      <Selector x:TypeArguments="Color" Normal="#63ACE5" Pressed="#2A4D69"/>
     </c:ButtonStyle.BackgroundColor>
   </c:ButtonStyle>
 
   <c:ButtonStyle
     x:Key="ButtonStyle2"
-    CornerRadius="0">
+    CornerRadius="10">
     <c:ButtonStyle.BackgroundColor>
-      <Selector x:TypeArguments="Color" Normal="Yellow" Pressed="Red"/>
+      <Selector x:TypeArguments="Color" Normal="#F6ABB6" Pressed="#EEC9D2"/>
     </c:ButtonStyle.BackgroundColor>
     <c:ButtonStyle.Text>
-      <TextLabelStyle>
+      <TextLabelStyle PixelSize="26">
         <TextLabelStyle.TextColor>
-          <Selector x:TypeArguments="Color" Normal="Black" Pressed="White"/>
+          <Selector x:TypeArguments="Color" Normal="#00000088" Pressed="#FFFFFF88"/>
         </TextLabelStyle.TextColor>
       </TextLabelStyle>
     </c:ButtonStyle.Text>
@@ -70,7 +70,7 @@
     IconRelativeOrientation="Right"
     ItemSpacing="10">
     <c:ButtonStyle.Text>
-      <TextLabelStyle PixelSize="17" TextColor="Black"/>
+      <TextLabelStyle PixelSize="20" TextColor="#555555"/>
     </c:ButtonStyle.Text>
     <c:ButtonStyle.Icon>
       <ImageViewStyle Size="30, 30">

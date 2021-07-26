@@ -13,10 +13,11 @@
   
   <View
     WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-    HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+    HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+    Padding="10">
 
     <View.Layout>
-      <LinearLayout LinearOrientation="Vertical" CellPadding="0, 10"/>
+      <LinearLayout LinearOrientation="Vertical" CellPadding="0, 20"/>
     </View.Layout>
 
     <c:Button StyleName="ButtonStyle1" Text="Button1" />
