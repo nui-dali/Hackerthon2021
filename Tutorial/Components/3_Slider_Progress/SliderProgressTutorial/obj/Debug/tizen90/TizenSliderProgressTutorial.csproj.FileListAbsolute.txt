@@ -1,0 +1,9 @@
+D:\workspace\SliderProgressTutorial\SliderProgressTutorial\bin\Debug\tizen90\tpkroot\bin\SliderProgressTutorial.dll
+D:\workspace\SliderProgressTutorial\SliderProgressTutorial\bin\Debug\tizen90\tpkroot\bin\SliderProgressTutorial.pdb
+D:\workspace\SliderProgressTutorial\SliderProgressTutorial\bin\Debug\tizen90\tpkroot\bin\Tizen.NUI.XamlBuild.dll
+D:\workspace\SliderProgressTutorial\SliderProgressTutorial\bin\Debug\tizen90\tpkroot\SliderProgressTutorial.deps.json
+D:\workspace\SliderProgressTutorial\SliderProgressTutorial\bin\Debug\tizen90\tpkroot\res\images\tizen.png
+D:\workspace\SliderProgressTutorial\SliderProgressTutorial\bin\Debug\tizen90\tpkroot\res\theme\theme.xaml
+D:\workspace\SliderProgressTutorial\SliderProgressTutorial\bin\Debug\tizen90\tpkroot\shared\res\SliderProgressTutorial.png
+D:\workspace\SliderProgressTutorial\SliderProgressTutorial\bin\Debug\tizen90\tpkroot\tizen-manifest.xml
+D:\workspace\SliderProgressTutorial\SliderProgressTutorial\bin\Debug\tizen90\org.tizen.example.SliderProgressTutorial-1.0.0.tpk
