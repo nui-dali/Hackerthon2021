@@ -1,0 +1,10 @@
+D:\workspace\MenuTutorial\MenuTutorial\obj\Debug\tizen90\Scene1Page.xaml.g.cs
+D:\workspace\MenuTutorial\MenuTutorial\obj\Debug\tizen90\MenuTutorial.AssemblyInfoInputs.cache
+D:\workspace\MenuTutorial\MenuTutorial\obj\Debug\tizen90\MenuTutorial.AssemblyInfo.cs
+D:\workspace\MenuTutorial\MenuTutorial\obj\Debug\tizen90\MenuTutorial.csproj.CoreCompileInputs.cache
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\MenuTutorial.deps.json
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\MenuTutorial.dll
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\MenuTutorial.pdb
+D:\workspace\MenuTutorial\MenuTutorial\obj\Debug\tizen90\XamlC.stamp
+D:\workspace\MenuTutorial\MenuTutorial\obj\Debug\tizen90\MenuTutorial.dll
+D:\workspace\MenuTutorial\MenuTutorial\obj\Debug\tizen90\MenuTutorial.pdb

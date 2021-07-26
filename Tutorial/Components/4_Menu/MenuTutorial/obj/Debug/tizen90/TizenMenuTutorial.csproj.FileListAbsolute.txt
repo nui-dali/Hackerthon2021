@@ -1,0 +1,9 @@
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\tpkroot\bin\MenuTutorial.dll
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\tpkroot\bin\MenuTutorial.pdb
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\tpkroot\bin\Tizen.NUI.XamlBuild.dll
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\tpkroot\MenuTutorial.deps.json
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\tpkroot\res\images\tizen.png
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\tpkroot\res\theme\theme.xaml
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\tpkroot\shared\res\MenuTutorial.png
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\tpkroot\tizen-manifest.xml
+D:\workspace\MenuTutorial\MenuTutorial\bin\Debug\tizen90\org.tizen.example.MenuTutorial-1.0.0.tpk

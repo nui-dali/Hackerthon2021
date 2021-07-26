@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "1kI8uEA86uKwwy91hMeST/VaO3NvJEddY3k4QawN6V6DuLs8ecDsAqbrwHt4J0dNsy5XujCHWazAxu8u6yIT+A==",
+  "success": true,
+  "projectFilePath": "D:\\workspace\\MenuTutorial\\MenuTutorial\\MenuTutorial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\tizen.net\\9.0.0.16469\\tizen.net.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\tizen.net.api9\\9.0.0.16469\\tizen.net.api9.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\tizen.net.internals\\9.0.0.16469\\tizen.net.internals.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.27\\tizen.nui.xamlbuild.1.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
