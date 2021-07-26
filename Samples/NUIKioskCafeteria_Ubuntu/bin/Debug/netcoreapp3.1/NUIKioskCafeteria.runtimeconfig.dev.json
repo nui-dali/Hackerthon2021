@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/huiyu/.dotnet/store/|arch|/|tfm|",
-      "/home/huiyu/.nuget/packages"
+      "/home/huiyu-linux/.dotnet/store/|arch|/|tfm|",
+      "/home/huiyu-linux/.nuget/packages"
     ]
   }
 }

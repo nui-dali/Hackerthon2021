@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    ".NETCoreApp,Version=v3.1": {
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2287,92 +2287,92 @@
     },
     "Tizen/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen/Tizen.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen/Tizen.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj"
     },
     "Tizen.Applications.Common/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj"
     },
     "Tizen.Applications.ComponentBased/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj"
     },
     "Tizen.Applications.ThemeManager/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj"
     },
     "Tizen.Log/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen.Log/Tizen.Log.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
     },
     "Tizen.NUI/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen.NUI/Tizen.NUI.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
     },
     "Tizen.NUI.Components/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj"
     },
     "Tizen.System.Feedback/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj"
     },
     "Tizen.System.Information/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj"
     },
     "Tizen.System.SystemSettings/5.0.0-preview1": {
       "type": "project",
-      "path": "../tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj",
-      "msbuildProject": "../tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj"
+      "path": "../../../tizenfx/gerrit/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj",
+      "msbuildProject": "../../../tizenfx/gerrit/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    ".NETCoreApp,Version=v3.1": [
       "Tizen.NUI >= 5.0.0-preview1",
       "Tizen.NUI.Components >= 5.0.0-preview1",
       "Tizen.NUI.XamlBuild >= 1.0.27"
     ]
   },
   "packageFolders": {
-    "/home/huiyu/.nuget/packages/": {}
+    "/home/huiyu-linux/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj",
+      "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/Hackerthon2021/Samples/NUIKioskCafeteria_Ubuntu/NUIKioskCafeteria.csproj",
       "projectName": "NUIKioskCafeteria",
-      "projectPath": "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj",
-      "packagesPath": "/home/huiyu/.nuget/packages/",
-      "outputPath": "/home/huiyu/workspace/NUIKioskCafeteria/obj/",
+      "projectPath": "/home/huiyu-linux/Shared/Workspace/Hackerthon2021/Samples/NUIKioskCafeteria_Ubuntu/NUIKioskCafeteria.csproj",
+      "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+      "outputPath": "/home/huiyu-linux/Shared/Workspace/Hackerthon2021/Samples/NUIKioskCafeteria_Ubuntu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/huiyu/.nuget/NuGet/NuGet.Config"
+        "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+        "netcoreapp3.1": {
           "projectReferences": {
-            "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj": {
-              "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj"
+            "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj": {
+              "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj"
             },
-            "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
-              "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
+            "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
+              "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
             }
           }
         }
@@ -2384,8 +2384,7 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "netcoreapp5.0",
+      "netcoreapp3.1": {
         "dependencies": {
           "Tizen.NUI.XamlBuild": {
             "target": "Package",
@@ -2407,7 +2406,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/home/huiyu/.dotnet/store/|arch|/|tfm|",
-      "/home/huiyu/.nuget/packages"
-    ]
-  }
-}

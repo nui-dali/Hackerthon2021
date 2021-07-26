@@ -2945,6 +2945,16 @@
             <param name="actions">The action views of AlertDialog.</param>
             <since_tizen> 9 </since_tizen>
         </member>
+        <member name="T:Tizen.NUI.Components.PoppedEventArgs">
+            <summary>
+            PoppedEventArgs is a class to record popped event arguments which will be sent to user.
+            </summary>
+        </member>
+        <member name="P:Tizen.NUI.Components.PoppedEventArgs.Page">
+            <summary>
+            Page popped by Navigator.
+            </summary>
+        </member>
         <member name="T:Tizen.NUI.Components.Navigator">
              <summary>
              The Navigator is a class which navigates pages with stack methods such as Push and Pop.
@@ -2994,6 +3004,12 @@
             An event fired when Transition has been finished.
             </summary>
             <since_tizen> 9 </since_tizen>
+        </member>
+        <member name="E:Tizen.NUI.Components.Navigator.Popped">
+            <summary>
+            An event fired when Pop of a page has been finished.
+            Notice that Popped event handler should be removed when it is called not to call it duplicate.
+            </summary>
         </member>
         <member name="P:Tizen.NUI.Components.Navigator.PageCount">
             <summary>
@@ -3883,6 +3899,11 @@
             ProgressStateProperty
             </summary>
         </member>
+        <member name="F:Tizen.NUI.Components.Progress.IsEnabledProperty">
+            <summary>
+            IsEnabledProperty
+            </summary>
+        </member>
         <member name="F:Tizen.NUI.Components.Progress.state">
             This needs to be considered more if public-open is necessary.
         </member>
@@ -3905,26 +3926,6 @@
             </summary>
             <param name="progressStyle">The style object to initialize the Progress.</param>
             <since_tizen> 8 </since_tizen>
-        </member>
-        <member name="M:Tizen.NUI.Components.Progress.AccessibilityShouldReportZeroChildren">
-            <summary>
-            Prevents from showing child widgets in AT-SPI tree.
-            </summary>
-        </member>
-        <member name="M:Tizen.NUI.Components.Progress.AccessibilityGetMinimum">
-            <summary>
-            Minimum value.
-            </summary>
-        </member>
-        <member name="M:Tizen.NUI.Components.Progress.AccessibilityGetCurrent">
-            <summary>
-            Current value.
-            </summary>
-        </member>
-        <member name="M:Tizen.NUI.Components.Progress.AccessibilityGetMaximum">
-            <summary>
-            Maximum value.
-            </summary>
         </member>
         <member name="T:Tizen.NUI.Components.Progress.ProgressStatusType">
             <summary>
@@ -4032,11 +4033,36 @@
             </summary>
             <since_tizen> 6 </since_tizen>
         </member>
+        <member name="P:Tizen.NUI.Components.Progress.IsEnabled">
+            <summary>
+            Flag to decide enable or disable in Progress.
+            </summary>
+        </member>
         <member name="M:Tizen.NUI.Components.Progress.OnInitialize">
             <inheritdoc/>
         </member>
         <member name="M:Tizen.NUI.Components.Progress.ApplyStyle(Tizen.NUI.BaseComponents.ViewStyle)">
             <inheritdoc/>
+        </member>
+        <member name="M:Tizen.NUI.Components.Progress.AccessibilityShouldReportZeroChildren">
+            <summary>
+            Prevents from showing child widgets in AT-SPI tree.
+            </summary>
+        </member>
+        <member name="M:Tizen.NUI.Components.Progress.AccessibilityGetMinimum">
+            <summary>
+            Gets minimum value for Accessibility.
+            </summary>
+        </member>
+        <member name="M:Tizen.NUI.Components.Progress.AccessibilityGetCurrent">
+            <summary>
+            Gets the current value for Accessibility.
+            </summary>
+        </member>
+        <member name="M:Tizen.NUI.Components.Progress.AccessibilityGetMaximum">
+            <summary>
+            Gets maximum value for Accessibility.
+            </summary>
         </member>
         <member name="M:Tizen.NUI.Components.Progress.Dispose(Tizen.NUI.DisposeTypes)">
             <summary>
@@ -6008,6 +6034,9 @@
             </summary>
             <param name="dispose">If true, removed child is disposed.</param>
         </member>
+        <member name="M:Tizen.NUI.Components.ScrollableBase.GetNextFocusableView(Tizen.NUI.BaseComponents.View,Tizen.NUI.BaseComponents.View.FocusDirection,System.Boolean)">
+            <inheritdoc/>
+        </member>
         <member name="T:Tizen.NUI.Components.Scrollbar">
             <summary>
             The Scrollbar is a component that contains track and thumb to indicate the current scrolled position of a scrollable object.
@@ -6482,6 +6511,11 @@
             </remark>
             </summary>
         </member>
+        <member name="F:Tizen.NUI.Components.Slider.IsEnabledProperty">
+            <summary>
+            IsEnabledProperty
+            </summary>
+        </member>
         <member name="M:Tizen.NUI.Components.Slider.#ctor">
             <summary>
             The constructor of the Slider class.
@@ -6785,6 +6819,11 @@
             </remarks>
             <since_tizen> 9 </since_tizen>
         </member>
+        <member name="P:Tizen.NUI.Components.Slider.IsEnabled">
+            <summary>
+            Flag to decide enable or disable in Slider.
+            </summary>
+        </member>
         <member name="M:Tizen.NUI.Components.Slider.OnFocusGained">
             <summary>
             Focus gained callback.
@@ -6796,6 +6835,9 @@
             Focus Lost callback.
             </summary>
             <since_tizen> 8 </since_tizen>
+        </member>
+        <member name="M:Tizen.NUI.Components.Slider.OnKey(Tizen.NUI.Key)">
+            <inheritdoc/>
         </member>
         <member name="M:Tizen.NUI.Components.Slider.ApplyStyle(Tizen.NUI.BaseComponents.ViewStyle)">
             <summary>
@@ -6811,27 +6853,27 @@
         </member>
         <member name="M:Tizen.NUI.Components.Slider.AccessibilityGetMinimum">
             <summary>
-            Minimum value.
+            Gets minimum value for Accessibility.
             </summary>
         </member>
         <member name="M:Tizen.NUI.Components.Slider.AccessibilityGetCurrent">
             <summary>
-            Current value.
+            Gets the current value for Accessibility.
             </summary>
         </member>
         <member name="M:Tizen.NUI.Components.Slider.AccessibilityGetMaximum">
             <summary>
-            Maximum value.
+            Gets maximum value for Accessibility.
             </summary>
         </member>
         <member name="M:Tizen.NUI.Components.Slider.AccessibilitySetCurrent(System.Double)">
             <summary>
-            Current value.
+            Sets the current value using Accessibility.
             </summary>
         </member>
         <member name="M:Tizen.NUI.Components.Slider.AccessibilityGetMinimumIncrement">
             <summary>
-            Minimum increment.
+            Gets minimum increment for Accessibility.
             </summary>
         </member>
         <member name="M:Tizen.NUI.Components.Slider.OnInitialize">

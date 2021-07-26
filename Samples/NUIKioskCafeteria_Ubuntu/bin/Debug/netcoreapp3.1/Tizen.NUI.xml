@@ -4,6 +4,96 @@
         <name>Tizen.NUI</name>
     </assembly>
     <members>
+        <member name="T:Tizen.NUI.Constraint">
+            <summary>
+            An abstract base class for Constraints.
+            This class only use for inhouse currently.
+            
+            This can be used to constrain a property of an object, after animations have been applied.
+            Constraints are applied in the following order:
+             - Constraints are applied to on-stage views in a depth-first traversal.
+             - For each view, the constraints are applied in the same order as the calls to Apply().
+             - Constraints are not applied to off-stage views.
+            
+            Create a constraint using one of the New method depending on the type of callback functions used.
+            
+            Note : This function will called every frame. Maybe reduce performance if you applyed too many constraints.
+            
+            TODO : AddSource(ConstraintSource); API need to be implemented.
+              To implement this, we have to bind ConstraintSource.
+            TODO : Currently We don't support custom functions.
+              To implement this, we have to bind PropertyInputContainer
+            </summary>
+        </member>
+        <member name="M:Tizen.NUI.Constraint.Apply">
+            <summary>
+            Apply current constraint.
+            Constraint will work until Remove called.
+            </summary>
+        </member>
+        <member name="M:Tizen.NUI.Constraint.Remove">
+            <summary>
+            Remove current constraint.
+            </summary>
+        </member>
+        <member name="P:Tizen.NUI.Constraint.RemoveAction">
+            <summary>
+            Remove action. Determine the target values action after remove current constriant.
+            Default is RemoveActionType.Bake
+            </summary>
+        </member>
+        <member name="P:Tizen.NUI.Constraint.Tag">
+            <summary>
+            Tag number. It will be useful when you want to seperate constraints
+            </summary>
+        </member>
+        <member name="M:Tizen.NUI.Constraint.GetTargetObject">
+            <summary>
+            Get constrainted target object
+            </summary>
+        </member>
+        <member name="M:Tizen.NUI.Constraint.GetTargetPropert">
+            <summary>
+            Get constrainted target property index
+            </summary>
+        </member>
+        <member name="M:Tizen.NUI.Constraint.Dispose(Tizen.NUI.DisposeTypes)">
+            <summary>
+            Dispose
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:Tizen.NUI.Constraint.ReleaseSwigCPtr(System.Runtime.InteropServices.HandleRef)">
+            This will not be public opened.
+        </member>
+        <member name="T:Tizen.NUI.Constraint.RemoveActionType">
+            <summary>
+            Determinate how objects property will be when constraint removed.
+            Default is Bake.
+            </summary>
+        </member>
+        <member name="F:Tizen.NUI.Constraint.RemoveActionType.Bake">
+            <summary>
+            Target objects property will bake when constraint removed.
+            </summary>
+        </member>
+        <member name="F:Tizen.NUI.Constraint.RemoveActionType.Discard">
+            <summary>
+            Target objects property will be original value when constraint removed.
+            </summary>
+        </member>
+        <member name="T:Tizen.NUI.EqualConstraintWithParentFloat">
+            <summary>
+            Specialized Constraint.
+            Make handle's targetIndex value always equal with handle's parent's parentIndex value
+            </summary>
+        </member>
+        <member name="T:Tizen.NUI.RelativeConstraintWithParentFloat">
+            <summary>
+            Specialized Constraint.
+            Make handle's targetIndex value always equal with handle's parent's parentIndex value
+            </summary>
+        </member>
         <member name="T:Tizen.NUI.NUIApplicationInitEventArgs">
             @brief Event arguments that passed via NUIApplicationInit signal
         </member>
@@ -2272,6 +2362,12 @@
         <member name="M:Tizen.NUI.EXaml.EXamlExtensions.LoadFromEXamlPath``1(``0,System.String)">
             Internal used, will never be opened.
         </member>
+        <member name="M:Tizen.NUI.EXaml.EXamlExtensions.RemoveEventsInXaml(System.Object)">
+            Internal used, will never be opened.
+        </member>
+        <member name="M:Tizen.NUI.EXaml.EXamlExtensions.DisposeXamlElements(System.Object)">
+            Internal used, will never be opened.
+        </member>
         <member name="M:Tizen.NUI.EXaml.EXamlExtensions.LoadFromEXamlPath``1(``0,System.Type)">
             Internal used, will never be opened.
         </member>
@@ -4404,6 +4500,10 @@
             It is a class for certificate of web view.
             </summary>
         </member>
+        <member name="M:Tizen.NUI.WebCertificate.ReleaseSwigCPtr(System.Runtime.InteropServices.HandleRef)">
+            This will not be public opened.
+            <param name="swigCPtr"></param>
+        </member>
         <member name="P:Tizen.NUI.WebCertificate.IsFromMainFrame">
             <summary>
             Checks whether the certificate comes from main frame.
@@ -4429,6 +4529,10 @@
             <summary>
             It is a class for console message of web view.
             </summary>
+        </member>
+        <member name="M:Tizen.NUI.WebConsoleMessage.ReleaseSwigCPtr(System.Runtime.InteropServices.HandleRef)">
+            This will not be public opened.
+            <param name="swigCPtr"></param>
         </member>
         <member name="T:Tizen.NUI.WebConsoleMessage.SeverityLevel">
             <summary>
@@ -4964,6 +5068,10 @@
             It is a class for form repost policy decision maker of web view.
             </summary>
         </member>
+        <member name="M:Tizen.NUI.WebFormRepostPolicyDecisionMaker.ReleaseSwigCPtr(System.Runtime.InteropServices.HandleRef)">
+            This will not be public opened.
+            <param name="swigCPtr"></param>
+        </member>
         <member name="M:Tizen.NUI.WebFormRepostPolicyDecisionMaker.Reply(System.Boolean)">
             <summary>
             Reply whether form repost decision is allowed or not.
@@ -5092,6 +5200,10 @@
             It is a class for http authencation handler of web view.
             </summary>
         </member>
+        <member name="M:Tizen.NUI.WebHttpAuthHandler.ReleaseSwigCPtr(System.Runtime.InteropServices.HandleRef)">
+            This will not be public opened.
+            <param name="swigCPtr"></param>
+        </member>
         <member name="P:Tizen.NUI.WebHttpAuthHandler.Realm">
             <summary>
             Gets the realm of authentication challenge received.
@@ -5118,6 +5230,10 @@
             <summary>
             It is a class for http request interceptor of web view.
             </summary>
+        </member>
+        <member name="M:Tizen.NUI.WebHttpRequestInterceptor.ReleaseSwigCPtr(System.Runtime.InteropServices.HandleRef)">
+            This will not be public opened.
+            <param name="swigCPtr"></param>
         </member>
         <member name="P:Tizen.NUI.WebHttpRequestInterceptor.Url">
             <summary>
@@ -5154,6 +5270,10 @@
             <summary>
             It is a class for load error of page of web view.
             </summary>
+        </member>
+        <member name="M:Tizen.NUI.WebPageLoadError.ReleaseSwigCPtr(System.Runtime.InteropServices.HandleRef)">
+            This will not be public opened.
+            <param name="swigCPtr"></param>
         </member>
         <member name="T:Tizen.NUI.WebPageLoadError.ErrorType">
             <summary>
@@ -5339,6 +5459,10 @@
             <summary>
             It is a class for policy decision maker of web view.
             </summary>
+        </member>
+        <member name="M:Tizen.NUI.WebPolicyDecisionMaker.ReleaseSwigCPtr(System.Runtime.InteropServices.HandleRef)">
+            This will not be public opened.
+            <param name="swigCPtr"></param>
         </member>
         <member name="T:Tizen.NUI.WebPolicyDecisionMaker.DecisionType">
             <summary>
@@ -6302,6 +6426,13 @@
         <member name="M:Tizen.NUI.BaseComponents.WebView.ClearCookies">
             <summary>
             Deprecated. Clears all the cookies of current WebView.
+            </summary>
+        </member>
+        <member name="M:Tizen.NUI.BaseComponents.WebView.SetTtsFocus(System.Boolean)">
+            <summary>
+            Sets the tts focus to the webview.
+            Please note that it only works when the webview does not have keyinput focus.
+            If the webview has a keyinput focus, it also has tts focus so calling SetTtsFocus(false) is ignored.
             </summary>
         </member>
         <member name="T:Tizen.NUI.BaseComponents.AnimatedImageView">
@@ -23895,6 +24026,13 @@
             The size will be assigned to the actor.
             </summary>
         </member>
+        <member name="F:Tizen.NUI.ResizePolicyType.KeepSizeFollowingParent">
+            <summary>
+            The size always equal with parent even parent has size animation.
+            Note : This Property only working without layout. If layout is setup, Undefined Behavior
+            </summary>
+            <remarks>Hidden API: Only for inhouse or developing usage. The behavior and interface can be changed anytime.</remarks>
+        </member>
         <member name="T:Tizen.NUI.SizeScalePolicyType">
             <summary>
             Enumeration for policies to determine how an actor should resize itself when having its size set in size negotiation.
@@ -27856,6 +27994,16 @@
             <param name="angle">The angle around the axis.</param>
             <param name="axis">The vector of the axis.</param>
             <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.NUI.Rotation.#ctor(Tizen.NUI.Vector3,Tizen.NUI.Vector3)">
+            <summary>
+            The constructor of Rotation which describes minimum rotation to align v0 with v1.
+            </summary>
+            <param name="v0">The first normalized vector.</param>
+            <param name="v1">The second normalized vector.</param>
+            <remarks>
+            v0 and v1 should be normalized.
+            </remarks>
         </member>
         <member name="P:Tizen.NUI.Rotation.IDENTITY">
             <summary>
@@ -32043,6 +32191,11 @@
             <since_tizen> 8 </since_tizen>
             This will be public opened in tizen_6.0 after ACR done. Before ACR, need to be hidden as inhouse API.
         </member>
+        <member name="M:Tizen.NUI.PixelBuffer.GetBrightness">
+            <summary>
+             Gets the brightness value of the pixel buffer.
+            </summary>
+        </member>
         <member name="M:Tizen.NUI.PixelBuffer.ReleaseSwigCPtr(System.Runtime.InteropServices.HandleRef)">
             This will not be public opened.
         </member>
@@ -32831,6 +32984,19 @@
             </summary>
             <param name="arg0">The user's implementation of ICustomFocusAlgorithm.</param>
             <since_tizen> 3 </since_tizen>
+        </member>
+        <member name="M:Tizen.NUI.FocusManager.EnableDefaultAlgorithm(System.Boolean)">
+            <summary>
+            Sets to use the automatic focus moveing algorithm. <br />
+            It moves the focus to the view closest to the keyboard movement direction.
+            </summary>
+            <param name="enable">Whether using default focus algorithm or not</param>
+        </member>
+        <member name="M:Tizen.NUI.FocusManager.IsDefaultAlgorithmEnabled">
+            <summary>
+             Checks default focus moveing algorithm is enabled or not
+            </summary>
+            <returns>Whether default focus algorithm is enabled</returns>
         </member>
         <member name="M:Tizen.NUI.FocusManager.OnFocusedViewEnterKey2(System.IntPtr)">
             <summary>

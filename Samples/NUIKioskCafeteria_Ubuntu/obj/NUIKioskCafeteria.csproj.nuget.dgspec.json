@@ -1,36 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj": {}
+    "/home/huiyu-linux/Shared/Workspace/Hackerthon2021/Samples/NUIKioskCafeteria_Ubuntu/NUIKioskCafeteria.csproj": {}
   },
   "projects": {
-    "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/Hackerthon2021/Samples/NUIKioskCafeteria_Ubuntu/NUIKioskCafeteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/Hackerthon2021/Samples/NUIKioskCafeteria_Ubuntu/NUIKioskCafeteria.csproj",
         "projectName": "NUIKioskCafeteria",
-        "projectPath": "/home/huiyu/workspace/NUIKioskCafeteria/NUIKioskCafeteria.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/NUIKioskCafeteria/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/Hackerthon2021/Samples/NUIKioskCafeteria_Ubuntu/NUIKioskCafeteria.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/Hackerthon2021/Samples/NUIKioskCafeteria_Ubuntu/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp5.0"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "netcoreapp5.0",
+          "netcoreapp3.1": {
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
               }
             }
           }
@@ -42,8 +42,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+        "netcoreapp3.1": {
           "dependencies": {
             "Tizen.NUI.XamlBuild": {
               "target": "Package",
@@ -65,37 +64,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj",
         "projectName": "Tizen.Applications.Common",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj"
               }
             }
           }
@@ -108,7 +107,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -127,34 +125,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj",
         "projectName": "Tizen.Applications.ComponentBased",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ComponentBased/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj"
               }
             }
           }
@@ -167,7 +165,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -186,37 +183,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj",
         "projectName": "Tizen.Applications.ThemeManager",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ThemeManager/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj"
               }
             }
           }
@@ -229,7 +226,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -248,31 +244,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj",
         "projectName": "Tizen.Log",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -284,7 +280,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -303,43 +298,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj",
         "projectName": "Tizen.NUI.Components",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI.Components/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/Tizen.NUI.Components.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI.Components/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj"
               }
             }
           }
@@ -352,7 +347,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -371,46 +365,46 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj",
         "projectName": "Tizen.NUI",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.NUI/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/Tizen.NUI.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.NUI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.Common/Tizen.Applications.Common.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ComponentBased/Tizen.Applications.ComponentBased.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Applications.ThemeManager/Tizen.Applications.ThemeManager.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj"
               }
             }
           }
@@ -423,7 +417,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.CSharp": {
               "target": "Package",
@@ -458,37 +451,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj",
         "projectName": "Tizen.System.Feedback",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Feedback/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Feedback/Tizen.System.Feedback.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Feedback/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj"
               }
             }
           }
@@ -501,7 +494,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -520,37 +512,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj",
         "projectName": "Tizen.System.Information",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.Information/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Information/Tizen.System.Information.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.Information/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj"
               }
             }
           }
@@ -563,7 +555,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -582,37 +573,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj",
         "projectName": "Tizen.System.SystemSettings",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen.System.SystemSettings/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.SystemSettings/Tizen.System.SystemSettings.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.System.SystemSettings/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
               },
-              "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj"
               }
             }
           }
@@ -625,7 +616,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -644,34 +634,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj": {
+    "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj": {
       "version": "5.0.0-preview1",
       "restore": {
-        "projectUniqueName": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj",
+        "projectUniqueName": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj",
         "projectName": "Tizen",
-        "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen/Tizen.csproj",
-        "packagesPath": "/home/huiyu/.nuget/packages/",
-        "outputPath": "/home/huiyu/workspace/tizenfx/src/Tizen/obj/",
+        "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/Tizen.csproj",
+        "packagesPath": "/home/huiyu-linux/.nuget/packages/",
+        "outputPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/huiyu/.nuget/NuGet/NuGet.Config"
+          "/home/huiyu-linux/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://tizen.myget.org/F/dotnet/api/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
-                "projectPath": "/home/huiyu/workspace/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
+              "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj": {
+                "projectPath": "/home/huiyu-linux/Shared/Workspace/tizenfx/gerrit/tizenfx/src/Tizen.Log/Tizen.Log.csproj"
               }
             }
           }
@@ -684,7 +674,6 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -703,7 +692,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/huiyu-linux/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     }

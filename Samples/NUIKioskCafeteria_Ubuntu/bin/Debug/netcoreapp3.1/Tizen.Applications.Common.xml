@@ -2344,6 +2344,18 @@
             <exception cref="T:System.InvalidOperationException">Thrown when failed because of an invalid operation.</exception>
             <since_tizen> 8 </since_tizen>
         </member>
+        <member name="M:Tizen.Applications.ApplicationManager.AttachWindowBelow(System.String,System.String)">
+            <summary>
+            Attaches the window of the child application below the window of the parent application.
+            </summary>
+            <remarks>
+            This method is only available for platform level signed applications.
+            </remarks>
+            <exception cref="T:System.ArgumentException">Thrown when failed of invalid argument.</exception>
+            <exception cref="T:System.UnauthorizedAccessException">Thrown when failed because of permission denied.</exception>
+            <exception cref="T:System.InvalidOperationException">Thrown when failed because of an invalid operation.</exception>
+            <since_tizen> 9 </since_tizen>
+        </member>
         <member name="T:Tizen.Applications.ApplicationRunningContext">
             <summary>
             This class provides methods and properties to get information of the application.

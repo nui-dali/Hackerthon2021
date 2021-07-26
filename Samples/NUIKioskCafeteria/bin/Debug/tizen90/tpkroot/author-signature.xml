@@ -476,11 +476,11 @@
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.pdb">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>rPqMjfPxSrTIE7aTvDRCepX+oBwqnV0uwf/Tm3QqKv/diWVWlKpdjAiXi+kV+rhIq7IM61Zsa4Hr8sw7Ilvsbg==</DigestValue>
+      <DigestValue>k6l6LpLOX1KI0yDqu9v/6GXiGE6vCK8BMnAKrga6oSIMQZqTM7O4v2sxlb8zod7sPuJf3dEt9fn7f1oNyTTzSA==</DigestValue>
     </Reference>
     <Reference URI="bin%2FNUIKioskCafeteria.dll">
       <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512" />
-      <DigestValue>omsB/dnxtXqdMzBMLLTbaomwvOih26GIVOl0hx0ZHbK+y0OtJ6Wd3gakoDDlToh7eEXWYCEFnZ7XD5tVXGeYtA==</DigestValue>
+      <DigestValue>GcmfFABzZgiM7cj5+ANJjtgFwWKp3tEr0eMGQV/sjsn+ZxWy2O45FiVNGAHPxzxOtslrVEN/aUzz58bL7Ixj7g==</DigestValue>
     </Reference>
     <Reference URI="#prop">
       <Transforms>
@@ -491,9 +491,9 @@
     </Reference>
   </SignedInfo>
   <SignatureValue>
-erh/ryaAgsI6JZkrByUd5rH6DFwePsMzSXlurprp0h1MGX3g/SV+pP3y/L+Qk7ZlhAVV9ewsobth
-ogB9Bi8zBYKbDVLE3nSH8/NEBhUPI5FfuZAy0SwbZqRyt6TQxlb35JHqZn02m/4HZjfTkMdrElEK
-BhWtH3Xin1FvewZOBzs=
+on0mmMZRdv8QVyAbgovxhPrXmerP/j/GUJS4vWsj+1he+kAp3Vel05/c+w/GoAET84dg8Kxsx17k
+L/vr6bm7Qx/WlRXbiUerK1FLAQHxmLfLUx+vkT+5U1i6TRjDBm5FLQtch8H/LUxdVohZb2FYxmwv
+6IpTjEzXh9EyXILnbb0=
 </SignatureValue>
   <KeyInfo>
     <X509Data>
