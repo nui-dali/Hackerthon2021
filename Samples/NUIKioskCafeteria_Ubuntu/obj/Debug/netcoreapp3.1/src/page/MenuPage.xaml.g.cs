@@ -17,8 +17,12 @@ namespace NUIKioskCafeteria {
     public partial class MenuPage : global::NUIKioskCafeteria.ContentControlPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.27.0")]
+        public global::Tizen.NUI.BaseComponents.View contentView;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.27.0")]
         private void InitializeComponent() {
             global::Tizen.NUI.EXaml.EXamlExtensions.LoadFromEXamlByRelativePath(this, GetEXamlPath());
+            contentView = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "contentView");
         }
         
         private string GetEXamlPath() {

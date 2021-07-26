@@ -65,16 +65,16 @@ namespace NUIKioskCafeteria
             ("Cakes", cakePool),
         };
 
-        public static ObservableCollection<Album> CreateData(this ObservableCollection<Album> result, MenuType menuType)
+        public static ObservableCollection<MenuItemGroup> CreateData(this ObservableCollection<MenuItemGroup> result, MenuType menuType)
         {
             var selectIndex = (int)menuType;
-            var cur = new Album(selectIndex, GroupPool[selectIndex].groupName);
+            var cur = new MenuItemGroup(GroupPool[selectIndex].groupName);
             for (int j = 0; j < GroupPool[selectIndex].menu.Length; j++)
             {
                 var name = GroupPool[selectIndex].menu[j].name;
                 var res = GroupPool[selectIndex].menu[j].res;
                 var price = GroupPool[selectIndex].menu[j].price;
-                cur.Add(new Gallery(menuType, j, name, res, price, "This is a short description of product. This is a short description of product. "));
+                cur.Add(new MenuItem(menuType, j, name, res, price, "This is a short description of product. This is a short description of product. "));
             }
             result.Add(cur);
             return result;

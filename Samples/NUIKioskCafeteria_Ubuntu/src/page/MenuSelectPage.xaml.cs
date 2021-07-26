@@ -29,6 +29,11 @@ namespace NUIKioskCafeteria
         public MenuSelectPage()
         {
             InitializeComponent();
+            var width = ApplicationHelper.GetPortraitWidth();
+            foreach (var item in bottomView.Children)
+            {
+                item.Size = new Tizen.NUI.Size(width * 0.3f, width * 0.3f);
+            }
 
             //Create Drink Menu Page
             Resources.SelectIndexArray.Clear();
@@ -70,11 +75,11 @@ namespace NUIKioskCafeteria
 
         private void MenuItemView_ItemClicked(object sender, ClickedEventArgs e)
         {
-            if(sender is MenuItemView item)
+            if (sender is MenuItemView item)
             {
                 (MenuType type, string name, string res, string price) = GetMenu(item.NameLabel);
 
-                ItemPopup.Instance.BindingContext = (new Gallery(type, -1, name, res, price, "This is a short description of product. This is a short description of product. "));
+                ItemPopup.Instance.BindingContext = (new MenuItem(type, -1, name, res, price, "This is a short description of product. This is a short description of product. "));
                 ItemPopup.Instance.SetItemTag(item.ButtonTag, item.ImageTag);
                 ItemPopup.Instance.ShowPopup();
             }

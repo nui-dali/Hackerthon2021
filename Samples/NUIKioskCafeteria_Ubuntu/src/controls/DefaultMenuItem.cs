@@ -30,9 +30,10 @@ namespace NUIKioskCafeteria
         private int index;
         public DefaultMenuItem()
         {
-            BackgroundColor = Tizen.NUI.Color.Transparent;
-            WidthSpecification = 190;
-            HeightSpecification = 190;
+            BackgroundColor = Color.Transparent;
+            var sizeWidth = (int)(ApplicationHelper.GetPortraitWidth() * 0.3f);
+            WidthSpecification = sizeWidth;
+            HeightSpecification = sizeWidth;
             Margin = new Extents(10, 10, 30, 0);
 
             btn = new Button()
@@ -49,8 +50,8 @@ namespace NUIKioskCafeteria
             Add(btn);
             image = new ImageView()
             {
-                WidthSpecification = 140,
-                HeightSpecification = 140,
+                WidthSpecification = (int)(sizeWidth * 0.73f),
+                HeightSpecification = (int)(sizeWidth * 0.73f),
                 ParentOrigin = Tizen.NUI.ParentOrigin.Center,
                 PivotPoint = Tizen.NUI.PivotPoint.Center,
                 PositionUsesPivotPoint = true,
@@ -68,27 +69,27 @@ namespace NUIKioskCafeteria
             Add(bottomLayoutView);
             label_name = new TextLabel()
             {
-                PixelSize = 14,
-                SizeWidth = 100,
+                PixelSize = sizeWidth * 0.07f,
+                SizeWidth = sizeWidth * 0.65f,
                 Ellipsis = false,
                 MultiLine = true,
-                TextColor = new Tizen.NUI.Color("#7474FF"),
+                TextColor = new Color("#7474FF"),
                 HorizontalAlignment = Tizen.NUI.HorizontalAlignment.Begin,
                 PivotPoint = Tizen.NUI.PivotPoint.BottomLeft,
                 ParentOrigin = Tizen.NUI.ParentOrigin.BottomLeft,
                 PositionUsesPivotPoint = true,
-                Padding = new Extents(25, 0, 0, 0),
+                Padding = new Extents((ushort)(sizeWidth * 0.15f), 0, 0, 0),
             };
 
             label_price = new TextLabel()
             {
-                PixelSize = 14,
-                TextColor = new Tizen.NUI.Color("#7474FF"),
+                PixelSize = sizeWidth * 0.07f,
+                TextColor = new Color("#7474FF"),
                 HorizontalAlignment = Tizen.NUI.HorizontalAlignment.Begin,
                 PivotPoint = Tizen.NUI.PivotPoint.BottomRight,
                 ParentOrigin = Tizen.NUI.ParentOrigin.BottomRight,
                 PositionUsesPivotPoint = true,
-                Padding = new Extents(0, 20, 0, 0),
+                Padding = new Extents(0, (ushort)(sizeWidth * 0.15f), 0, 0),
             };
             bottomLayoutView.Add(label_name);
             bottomLayoutView.Add(label_price);
@@ -96,8 +97,8 @@ namespace NUIKioskCafeteria
 
         private void Btn_Clicked(object sender, ClickedEventArgs e)
         {
-            var btnTag = "ButtonTag" + label_name.Text + (BindingContext as Gallery).Index;
-            var imgTag = "ImageTag" + label_name.Text + (BindingContext as Gallery).Index;
+            var btnTag = "ButtonTag" + label_name.Text + (BindingContext as MenuItem).Index;
+            var imgTag = "ImageTag" + label_name.Text + (BindingContext as MenuItem).Index;
 
             btn.TransitionOptions = new TransitionOptions()
             {

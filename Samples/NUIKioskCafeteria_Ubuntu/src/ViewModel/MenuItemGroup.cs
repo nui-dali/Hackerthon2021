@@ -15,12 +15,39 @@
  *
  */
 
-using Tizen.NUI.Components;
+using System.Collections.ObjectModel;
 
 namespace NUIKioskCafeteria
 {
-    public interface INextPage
+    public class MenuItemGroup : ObservableCollection<MenuItem>
     {
-        ContentPage NextPage();
+        private string name;
+        private bool selected;
+
+        public MenuItemGroup(string albumName)
+        {
+            name = albumName;
+        }
+
+        public string Title
+        {
+            get
+            {
+                return name;
+            }
+        }
+
+        public bool Selected
+        {
+            get
+            {
+                return selected;
+            }
+            set
+            {
+                selected = value;
+            }
+        }
     }
+
 }

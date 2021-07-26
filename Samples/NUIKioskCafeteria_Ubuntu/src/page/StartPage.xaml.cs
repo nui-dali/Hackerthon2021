@@ -22,6 +22,7 @@ namespace NUIKioskCafeteria
     public partial class StartPage : ContentControlPage, INextPage
     {
         private SelectPage nextPage;
+
         public StartPage() : base()
         {
             InitializeComponent();

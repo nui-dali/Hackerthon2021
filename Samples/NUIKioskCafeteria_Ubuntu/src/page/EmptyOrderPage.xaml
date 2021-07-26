@@ -7,9 +7,8 @@
     WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
     HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
 
-    <local:RelativeContainer
-          WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
-          HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+    <local:RelativeContainer WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+                             HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
         <TextLabel Text="Your order is empty"
                    PixelSize="40"
                    TextColor="#7474FF"

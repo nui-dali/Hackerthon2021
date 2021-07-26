@@ -17,7 +17,7 @@
             <TimePeriod x:Key="DisappearTimePeriod">
                 <x:Arguments>
                     <x:Single>0</x:Single>
-                    <x:Single>200</x:Single>
+                    <x:Single>0</x:Single>
                 </x:Arguments>
             </TimePeriod>
         </ResourceDictionary>
@@ -40,7 +40,7 @@
           CornerRadius="40,40,40,40"
           CornerRadiusPolicy="Absolute"
           TouchEvent="MainRoot_TouchEvent">
-        
+
         <!-- Default Top Text -->
         <TextLabel x:Name="nameLabel"
                    Text="Cinnamon"
@@ -51,20 +51,20 @@
                    HeightSpecification="{Static LayoutParamPolicies.WrapContent}">
         </TextLabel>
         <TextLabel x:Name="priceLabel"
-                       Text="price"
-                       Position="480,115"
-                       PixelSize="28"
-                       TextColor="#7474FF">
+                   Text="price"
+                   Position="480,115"
+                   PixelSize="28"
+                   TextColor="#7474FF">
         </TextLabel>
 
         <TextLabel x:Name="descriptionLabel"
-                       Position="25,175"
-                       Text="Cinnamon bun with mixture of cinammon and hazelnut cream."
-                       TextColor="#7474FF"
-                       PixelSize="20"
-                       MultiLine="true"
-                       WidthSpecification="550"
-                       HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
+                   Position="25,175"
+                   Text="Cinnamon bun with mixture of cinammon and hazelnut cream."
+                   TextColor="#7474FF"
+                   PixelSize="20"
+                   MultiLine="true"
+                   WidthSpecification="550"
+                   HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
         </TextLabel>
         <View x:Name="AdditonalOptionView"
               WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
@@ -100,17 +100,17 @@
                            WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
                            HeightSpecification="{Static LayoutParamPolicies.WrapContent}">
                 </TextLabel>
-                
+
                 <View x:Name="extraLayoutView"
                       WidthSpecification="{Static LayoutParamPolicies.WrapContent}"
                       HeightSpecification="{Static LayoutParamPolicies.MatchParent}">
 
                     <View.Layout>
                         <GridLayout GridOrientation="Horizontal"
-                                ColumnSpacing="5"
-                                Columns="4"
-                                Rows="2"
-                                RowSpacing="20"></GridLayout>
+                                    ColumnSpacing="5"
+                                    Columns="4"
+                                    Rows="2"
+                                    RowSpacing="20"></GridLayout>
                     </View.Layout>
                 </View>
             </View>
@@ -129,16 +129,24 @@
         </Button>
 
         <TextLabel Text="Cancel"
-                       PixelSize="15"
-                       Position="0,-15"
-                       TextColor="#7474FF"
-                       ParentOrigin="BottomCenter"
-                       PivotPoint="BottomCenter"
-                       PositionUsesPivotPoint="True">
+                   PixelSize="15"
+                   Position="0,-15"
+                   TextColor="#7474FF"
+                   ParentOrigin="BottomCenter"
+                   PivotPoint="BottomCenter"
+                   PositionUsesPivotPoint="True">
         </TextLabel>
     </View>
-    <ImageView x:Name="MainImage"
-               Size="280,280"
-               Position="50,290">
-    </ImageView>
+    <View x:Name="imageContainer"
+          Size="600,650"
+          PivotPoint="Center"
+          ParentOrigin="Center"
+          PositionUsesPivotPoint="True">
+        <View.Layout>
+            <RelativeLayout></RelativeLayout>
+        </View.Layout>
+        <ImageView x:Name="MainImage"
+                   Size="280,280">
+        </ImageView>
+    </View>
 </DialogPage>

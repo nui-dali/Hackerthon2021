@@ -29,10 +29,11 @@ namespace NUIKioskCafeteria
         private TextLabel label_price;
         private Animation deleteAnimation;
         private int index;
+
         public DefaultOrdertem()
         {
-            BackgroundColor = Tizen.NUI.Color.Transparent;
-            WidthSpecification = 600;
+            BackgroundColor = Color.Transparent;
+            WidthSpecification = LayoutParamPolicies.MatchParent;
             HeightSpecification = 190;
             Margin = new Extents(0, 0, 10, 0);
             deleteAnimation = new Animation(500);
@@ -97,12 +98,12 @@ namespace NUIKioskCafeteria
 
             TextLabel edit = new TextLabel()
             {
-                Text="Delete",
-                PixelSize=16,
+                Text = "Delete",
+                PixelSize = 16,
                 Position = new Position(-70, -50),
                 WidthSpecification = LayoutParamPolicies.WrapContent,
                 HeightSpecification = LayoutParamPolicies.WrapContent,
-                TextColor = new Tizen.NUI.Color("#7474FF"),
+                TextColor = new Color("#7474FF"),
                 PivotPoint = Tizen.NUI.PivotPoint.BottomRight,
                 ParentOrigin = Tizen.NUI.ParentOrigin.BottomRight,
                 PositionUsesPivotPoint = true,
@@ -117,7 +118,7 @@ namespace NUIKioskCafeteria
 
         private bool Edit_TouchEvent(object source, TouchEventArgs e)
         {
-            if(e.Touch.GetState(0) == PointStateType.Up)
+            if (e.Touch.GetState(0) == PointStateType.Up)
             {
                 deleteAnimation.DefaultAlphaFunction = new AlphaFunction(AlphaFunction.BuiltinFunctions.EaseInOutSine);
                 deleteAnimation.AnimateBy(this, "PositionX", -800);
@@ -129,15 +130,15 @@ namespace NUIKioskCafeteria
 
         private void DeleteAnimation_Finished(object sender, EventArgs e)
         {
-            OrderManager.Instance.GallerySource.Remove(BindingContext as Gallery);
+            OrderManager.Instance.GallerySource.Remove(BindingContext as MenuItem);
         }
 
         public Animation DeleteAnimation => deleteAnimation;
 
         private void Btn_Clicked(object sender, ClickedEventArgs e)
         {
-            var btnTag = "OrderButtonTag" + label_name.Text + (BindingContext as Gallery).Index;
-            var imgTag = "OrderImageTag" + label_name.Text + (BindingContext as Gallery).Index;
+            var btnTag = "OrderButtonTag" + label_name.Text + (BindingContext as MenuItem).Index;
+            var imgTag = "OrderImageTag" + label_name.Text + (BindingContext as MenuItem).Index;
 
             btn.TransitionOptions = new TransitionOptions()
             {

@@ -47,6 +47,9 @@ namespace NUIKioskCafeteria {
         public global::Tizen.NUI.Components.Button orderButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.27.0")]
+        public global::Tizen.NUI.BaseComponents.View imageContainer;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.27.0")]
         public global::Tizen.NUI.BaseComponents.ImageView MainImage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Tizen.NUI.Xaml.Build.Tasks.XamlG", "1.0.27.0")]
@@ -62,6 +65,7 @@ namespace NUIKioskCafeteria {
             extrasView = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "extrasView");
             extraLayoutView = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "extraLayoutView");
             orderButton = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.Components.Button>(this, "orderButton");
+            imageContainer = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.View>(this, "imageContainer");
             MainImage = global::Tizen.NUI.Binding.NameScopeExtensions.FindByName<global::Tizen.NUI.BaseComponents.ImageView>(this, "MainImage");
         }
         

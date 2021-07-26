@@ -28,11 +28,10 @@ namespace NUIKioskCafeteria
 
         public static GaussianBlurView MainGaussianBlurView = null;
 
-        public static List<Gallery> OrderList = new List<Gallery>();
+        public static List<MenuItem> OrderList = new List<MenuItem>();
 
         public static bool IsEmulator()
         {
-	    return false;
             string value;
             var result = Tizen.System.Information.TryGetValue("tizen.org/system/model_name", out value);
             return (result && value.Equals("Emulator"));
@@ -40,7 +39,7 @@ namespace NUIKioskCafeteria
 
         public static void ActivateBlur()
         {
-            if (!IsEmulator())
+//            if (!IsEmulator())
             {
                 MainGaussianBlurView?.Activate();
             }
@@ -48,10 +47,25 @@ namespace NUIKioskCafeteria
 
         public static void DeactivateBlur()
         {
-            if (!IsEmulator())
+//            if (!IsEmulator())
             {
                 MainGaussianBlurView?.Deactivate();
             }
+        }
+
+        public static float GetPortraitWidth()
+        {
+            var width = 0.0f;
+            if (Window.Instance.Size.Width < Window.Instance.Size.Height)
+            {
+                width = Window.Instance.Size.Width;
+
+            }
+            else
+            {
+                width = Window.Instance.Size.Height;
+            }
+            return width;
         }
     }
 }

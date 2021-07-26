@@ -36,10 +36,9 @@ namespace NUIKioskCafeteria
 
         public void InitializeCollectionList()
         {
-            ObservableCollection<Album> albumSource = new ObservableCollection<Album>();
-            foreach(var i in Resources.SelectIndexArray)
+            ObservableCollection<MenuItemGroup> albumSource = new ObservableCollection<MenuItemGroup>();
+            foreach (var i in Resources.SelectIndexArray)
             {
-                Tizen.Log.Error("MYLOG", "i : " + i);
                 albumSource.CreateData(i);
             }
 
@@ -78,7 +77,7 @@ namespace NUIKioskCafeteria
                 SelectionMode = ItemSelectionMode.Single,
                 Weight = 0.9f,
             };
-            Add(colView);
+            contentView.Add(colView);
         }
 
         public ContentPage NextPage()

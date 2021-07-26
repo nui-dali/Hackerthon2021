@@ -30,7 +30,7 @@ namespace NUIKioskCafeteria
 
         private MenuItemView selectItem;
         private int sizeOption = 0;
-        
+
         public ItemPopup()
         {
             InitializeComponent();
@@ -52,34 +52,32 @@ namespace NUIKioskCafeteria
                 if (instance == null)
                 {
                     instance = new ItemPopup();
-//                    instance.Scrim.Size = new Size(Window.Instance.Size.Height, Window.Instance.Size.Width);
+                    //instance.Scrim.Size = new Size(Window.Instance.Size.Height, Window.Instance.Size.Width);
                 }
                 return instance;
             }
         }
 
-
         public void ResetOptions()
         {
             MainRoot.SizeHeight = 380;
-            MainImage.Position = new Position(50, 290);
-            //AdditonalOptionView.BackgroundColor = Tizen.NUI.Color.Transparent;
+            imageContainer.SizeHeight = 700;
 
             AdditonalOptionView.HeightSpecification = LayoutParamPolicies.WrapContent;
 
             drinkOptionView.Unparent();
             extrasView.Unparent();
 
-            if(selectItem != null)
+            if (selectItem != null)
             {
                 selectItem.MainButton.IsSelected = false;
                 selectItem = (drinkOptionView.Children[0] as MenuItemView);
                 selectItem.MainButton.IsSelected = true;
             }
 
-            foreach(var item in extraLayoutView.Children)
+            foreach (var item in extraLayoutView.Children)
             {
-                if(item is MenuItemView menuItem)
+                if (item is MenuItemView menuItem)
                 {
                     menuItem.MainButton.IsSelected = false;
                 }
@@ -89,10 +87,9 @@ namespace NUIKioskCafeteria
         public void AddDrinkOptions()
         {
             MainRoot.SizeHeight = 600;
-            MainImage.Position = new Position(50, 170);
+            imageContainer.SizeHeight = 900;
 
             AdditonalOptionView.HeightSpecification = 480;
-            //AdditonalOptionView.BackgroundColor = new Color(0.8f, 0.0f, 0.0f, 0.5f);
             AdditonalOptionView.Add(drinkOptionView);
             if (!isDrinkOptionCreated)
             {
@@ -125,33 +122,16 @@ namespace NUIKioskCafeteria
             }
         }
 
-        private void ItemView_ItemClicked(object sender, ClickedEventArgs e)
-        {
-            if(sender is MenuItemView item)
-            {
-                if (item == selectItem)
-                {
-                    selectItem.MainButton.IsSelected = true;
-                    return;
-                }
-                selectItem.MainButton.IsSelected = false;
-                sizeOption = int.Parse(item.Name);
-                selectItem = item;
-            }
-            
-        }
-
         public void AddExtraOption()
         {
             MainRoot.SizeHeight = 950;
-            MainImage.Position = new Position(50, 0);
+            imageContainer.SizeHeight = 1230;
 
             AdditonalOptionView.HeightSpecification = 750;
             AdditonalOptionView.Add(extrasView);
 
             if (!isExtraOptionCreated)
             {
-                Tizen.Log.Error("MYLOG", "t:" + nameLabel.Text);
                 (string name, string res, string price)[] resPool = GetCoffeeItems();
 
                 for (int i = 0; i < resPool.Length; i++)
@@ -166,7 +146,7 @@ namespace NUIKioskCafeteria
                     itemView.MainButton.IsSelectable = true;
                     itemView.MainButton.Icon.Size = new Size(80, 80);
                     itemView.SetSmallItem();
-                    
+
                     extraLayoutView.Add(itemView);
                 }
                 isExtraOptionCreated = true;
@@ -176,11 +156,11 @@ namespace NUIKioskCafeteria
             if (nameLabel.Text == "Yasmine Green Tea" ||
                 nameLabel.Text == "Roiboos")
             {
-                foreach(var item in extraLayoutView.Children)
+                foreach (var item in extraLayoutView.Children)
                 {
-                    if(item is MenuItemView menuItem)
+                    if (item is MenuItemView menuItem)
                     {
-                        if(menuItem.NameLabel == "Sugar" 
+                        if (menuItem.NameLabel == "Sugar"
                             || menuItem.NameLabel == "Dairy milk")
                         {
                             menuItem.Show();
@@ -201,9 +181,23 @@ namespace NUIKioskCafeteria
                         menuItem.Show();
                     }
                 }
-
             }
 
+        }
+
+        private void ItemView_ItemClicked(object sender, ClickedEventArgs e)
+        {
+            if (sender is MenuItemView item)
+            {
+                if (item == selectItem)
+                {
+                    selectItem.MainButton.IsSelected = true;
+                    return;
+                }
+                selectItem.MainButton.IsSelected = false;
+                sizeOption = int.Parse(item.Name);
+                selectItem = item;
+            }
         }
 
         public void AddCakeOptions()
@@ -241,7 +235,6 @@ namespace NUIKioskCafeteria
             }
         }
 
-
         public string ImageTag
         {
             set
@@ -255,7 +248,7 @@ namespace NUIKioskCafeteria
 
         private bool MainRoot_TouchEvent(object source, TouchEventArgs e)
         {
-            if(e.Touch.GetState(0) == PointStateType.Up)
+            if (e.Touch.GetState(0) == PointStateType.Up)
             {
                 Navigator.PopWithTransition();
             }
@@ -265,7 +258,7 @@ namespace NUIKioskCafeteria
         private void Button_Clicked(object sender, ClickedEventArgs e)
         {
             Navigator.PopWithTransition();
-            OrderManager.Instance.GallerySource.Add(BindingContext as Gallery);
+            OrderManager.Instance.GallerySource.Add(BindingContext as MenuItem);
         }
 
         private void ItemPopup_RemovedFromWindow(object sender, System.EventArgs e)
@@ -276,7 +269,7 @@ namespace NUIKioskCafeteria
 
         public void ShowPopup()
         {
-            if (BindingContext is Gallery context)
+            if (BindingContext is MenuItem context)
             {
                 switch (context.MenuType)
                 {
@@ -300,6 +293,5 @@ namespace NUIKioskCafeteria
             NUIApplication.GetDefaultWindow().GetDefaultNavigator().PushWithTransition(this);
             ApplicationHelper.ActivateBlur();
         }
-
     }
 }

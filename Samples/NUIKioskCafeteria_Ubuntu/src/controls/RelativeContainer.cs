@@ -30,7 +30,7 @@ namespace NUIKioskCafeteria
 
         private void RelativeContainerRelayout(object sender, EventArgs e)
         {
-            foreach(var item in Children)
+            foreach (var item in Children)
             {
                 RelativeLayout.SetLeftTarget(item, RelativeLayout.GetLeftTarget(item) ?? this);
                 RelativeLayout.SetRightTarget(item, RelativeLayout.GetRightTarget(item) ?? this);

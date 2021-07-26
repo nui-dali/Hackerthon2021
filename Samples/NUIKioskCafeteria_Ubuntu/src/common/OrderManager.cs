@@ -24,8 +24,9 @@ namespace NUIKioskCafeteria
     public class OrderManager : INotifyPropertyChanged
     {
         public static OrderManager instance;
-        private ObservableCollection<Gallery> gallerySource;
+        private ObservableCollection<MenuItem> gallerySource;
         private string totalPrice;
+
         public static OrderManager Instance
         {
             get
@@ -40,7 +41,7 @@ namespace NUIKioskCafeteria
 
         public OrderManager()
         {
-            gallerySource = new ObservableCollection<Gallery>();
+            gallerySource = new ObservableCollection<MenuItem>();
             GallerySource.CollectionChanged += GallerySource_CollectionChanged;
         }
 
@@ -70,7 +71,7 @@ namespace NUIKioskCafeteria
             TotalPrice = $"{sum}";
         }
 
-        public ObservableCollection<Gallery> GallerySource => gallerySource;
+        public ObservableCollection<MenuItem> GallerySource => gallerySource;
 
         public string TotalPrice
         {
