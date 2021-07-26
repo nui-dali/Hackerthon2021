@@ -5,9 +5,9 @@ using Tizen.NUI.Components;
 
 namespace ButtonsTutorial
 {
-  public partial class MainView : View
+  public partial class Scene1Page : View
   {
-    public MainView() : base()
+    public Scene1Page() : base()
     {
       InitializeComponent();
       Radio1.ItemGroup.SelectedChanged += OnRadioGroupChanged;

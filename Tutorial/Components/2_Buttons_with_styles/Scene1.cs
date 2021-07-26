@@ -18,29 +18,25 @@
 using Tizen.NUI;
 using Tizen.NUI.BaseComponents;
 
-namespace ButtonsTutorial
+namespace ButtonsStyleTutorial
 {
-    public class TutorialApplication : NUIApplication
+    public class Scene1 : NUIApplication
     {
-        public TutorialApplication() : base(new Size2D(1920, 1080), new Position2D())
+        public Scene1() : base(new Size2D(1920, 1080), new Position2D())
         {}
 
         override protected void OnCreate()
         {
             base.OnCreate();
-            Initialize();
-        }
 
-        void Initialize()
-        {
             // NOTE To use theme.xaml, uncomment below line.
-            // ThemeManager.ApplyTheme(new Theme(Tizen.Applications.Application.Current.DirectoryInfo.Resource + "theme/theme.xaml"));
+            ThemeManager.ApplyTheme(new Theme(Tizen.Applications.Application.Current.DirectoryInfo.Resource + "theme/theme.xaml"));
 
-            GetDefaultWindow().KeyEvent += Window_KeyEvent;
-            GetDefaultWindow().Add(new MainView());
+            GetDefaultWindow().Add(new Scene1Page());
+            GetDefaultWindow().KeyEvent += OnScene1KeyEvent;
         }
 
-        private void Window_KeyEvent(object sender, Window.KeyEventArgs e)
+        private void OnScene1KeyEvent(object sender, Window.KeyEventArgs e)
         {
             if (e.Key.State == Key.StateType.Down && (e.Key.KeyPressedName == "XF86Back" || e.Key.KeyPressedName == "Escape"))
             {
@@ -50,7 +46,7 @@ namespace ButtonsTutorial
 
         static void Main(string[] args)
         {
-            new TutorialApplication().Run(args);
+            new Scene1().Run(args);
         }
     }
 }
