@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Name="mainView" x:Class="NUILoginView.Scene1Page"
+        xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:local="clr-namespace:NUILoginView"
+        WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+        BackgroundColor="#EEEEEE">
+    <View.Layout>
+        <LinearLayout LinearOrientation="Vertical" LinearAlignment="Center"></LinearLayout>
+    </View.Layout>
+
+    <View x:Name="centerView" WidthSpecification="550" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" BackgroundColor="White" CornerRadius="50"
+          Padding="100, 100, 80, 80">
+        <View.Layout>
+            <LinearLayout LinearOrientation="Vertical" LinearAlignment="Center"></LinearLayout>
+        </View.Layout>
+
+        <TextLabel x:Name="titleLabel" Text="Sign in to your Samsung Account" WidthSpecification="{Static LayoutParamPolicies.MatchParent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+                   TextColor="#339FFF" PixelSize="32" MultiLine="True" HorizontalAlignment="Center" >
+            <TextLabel.FontStyle>
+                <PropertyMap>
+                    <KeyValue Key="weight" Value="regular"></KeyValue>
+                </PropertyMap>
+            </TextLabel.FontStyle>
+        </TextLabel>
+        <View HeightSpecification="60" />
+        <TextField x:Name="emailField" PlaceholderText="Email or phone number" WidthSpecification="{Static LayoutParamPolicies.MatchParent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+                   PixelSize="25" />
+        <View x:Name="emailUnderline" BackgroundColor="#DDDDDD" WidthSpecification="{Static LayoutParamPolicies.MatchParent}" HeightSpecification="2" />
+        <View HeightSpecification="30" />
+        <TextField x:Name="passwordField" PlaceholderText="Password" WidthSpecification="{Static LayoutParamPolicies.MatchParent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}"
+                   PixelSize="25" />
+        <View x:Name="passwordUnderline" BackgroundColor="#DDDDDD" WidthSpecification="{Static LayoutParamPolicies.MatchParent}" HeightSpecification="2" />
+        <View HeightSpecification="10" />
+        <CheckBox x:Name="checkBox" Text="Remember my ID" WidthSpecification="{Static LayoutParamPolicies.MatchParent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" />
+        <View HeightSpecification="50" />
+        <Button x:Name="button" Text="Sign in" WidthSpecification="{Static LayoutParamPolicies.WrapContent}" HeightSpecification="{Static LayoutParamPolicies.WrapContent}" />
+    </View>
+</View>
