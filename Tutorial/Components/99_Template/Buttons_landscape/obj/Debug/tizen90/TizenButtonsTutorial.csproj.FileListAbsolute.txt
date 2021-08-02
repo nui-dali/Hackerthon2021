@@ -1,0 +1,8 @@
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\tpkroot\bin\ButtonsTutorial.dll
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\tpkroot\bin\ButtonsTutorial.pdb
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\tpkroot\bin\Tizen.NUI.XamlBuild.dll
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\tpkroot\ButtonsTutorial.deps.json
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\tpkroot\res\theme\theme.xaml
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\tpkroot\shared\res\ButtonsTutorial.png
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\tpkroot\tizen-manifest.xml
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\org.tizen.example.ButtonsTutorial-1.0.0.tpk

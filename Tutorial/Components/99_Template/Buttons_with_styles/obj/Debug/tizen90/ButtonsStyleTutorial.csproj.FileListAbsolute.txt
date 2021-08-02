@@ -1,0 +1,11 @@
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\ButtonsStyleTutorial.deps.json
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\ButtonsStyleTutorial.dll
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\ButtonsStyleTutorial.pdb
+D:\workspace\Buttons_with_styles\obj\Debug\tizen90\ButtonsStyleTutorial.csprojAssemblyReference.cache
+D:\workspace\Buttons_with_styles\obj\Debug\tizen90\Scene1Page.xaml.g.cs
+D:\workspace\Buttons_with_styles\obj\Debug\tizen90\ButtonsStyleTutorial.AssemblyInfoInputs.cache
+D:\workspace\Buttons_with_styles\obj\Debug\tizen90\ButtonsStyleTutorial.AssemblyInfo.cs
+D:\workspace\Buttons_with_styles\obj\Debug\tizen90\ButtonsStyleTutorial.csproj.CoreCompileInputs.cache
+D:\workspace\Buttons_with_styles\obj\Debug\tizen90\XamlC.stamp
+D:\workspace\Buttons_with_styles\obj\Debug\tizen90\ButtonsStyleTutorial.dll
+D:\workspace\Buttons_with_styles\obj\Debug\tizen90\ButtonsStyleTutorial.pdb

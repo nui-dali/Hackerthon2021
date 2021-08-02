@@ -1,0 +1,10 @@
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\ButtonsTutorial.deps.json
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\ButtonsTutorial.dll
+D:\workspace\Buttons_landscape\bin\Debug\tizen90\ButtonsTutorial.pdb
+D:\workspace\Buttons_landscape\obj\Debug\tizen90\Scene1Page.xaml.g.cs
+D:\workspace\Buttons_landscape\obj\Debug\tizen90\ButtonsTutorial.AssemblyInfoInputs.cache
+D:\workspace\Buttons_landscape\obj\Debug\tizen90\ButtonsTutorial.AssemblyInfo.cs
+D:\workspace\Buttons_landscape\obj\Debug\tizen90\ButtonsTutorial.csproj.CoreCompileInputs.cache
+D:\workspace\Buttons_landscape\obj\Debug\tizen90\XamlC.stamp
+D:\workspace\Buttons_landscape\obj\Debug\tizen90\ButtonsTutorial.dll
+D:\workspace\Buttons_landscape\obj\Debug\tizen90\ButtonsTutorial.pdb

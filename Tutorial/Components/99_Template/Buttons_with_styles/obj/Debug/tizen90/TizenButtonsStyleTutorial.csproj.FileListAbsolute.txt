@@ -1,0 +1,16 @@
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\bin\ButtonsStyleTutorial.dll
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\bin\ButtonsStyleTutorial.pdb
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\bin\Tizen.NUI.XamlBuild.dll
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\ButtonsStyleTutorial.deps.json
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\res\button_bg_normal.png
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\res\button_bg_pressed.png
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\res\button_icon_normal.png
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\res\button_icon_pressed.png
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\res\checkbox2.png
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\res\check_icon_normal.png
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\res\check_icon_pressed.png
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\res\check_icon_selected.png
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\res\theme\theme.xaml
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\shared\res\ButtonsStyleTutorial.png
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\tpkroot\tizen-manifest.xml
+D:\workspace\Buttons_with_styles\bin\Debug\tizen90\org.tizen.example.ButtonsStyleTutorial-1.0.0.tpk

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressSliderTutorial", "ProgressSliderTutorial\ProgressSliderTutorial.csproj", "{AB34EC31-935C-479A-A806-C12E16C48092}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB34EC31-935C-479A-A806-C12E16C48092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB34EC31-935C-479A-A806-C12E16C48092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB34EC31-935C-479A-A806-C12E16C48092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB34EC31-935C-479A-A806-C12E16C48092}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {458FB9BD-5CA0-48FD-A237-DBB4A118ADA9}
+	EndGlobalSection
+EndGlobal

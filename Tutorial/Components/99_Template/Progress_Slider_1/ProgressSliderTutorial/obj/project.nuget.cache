@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "/EZnL4JScI0Uwf9d/khBrSmos/M/Kt+WZAOdwmdMcy2d3iI39nIuPYibmniViBDN2zl/FBRWnUiLhE+1Tc4m+w==",
+  "success": true,
+  "projectFilePath": "D:\\workspace\\Progress_Slider\\ProgressSliderTutorial\\ProgressSliderTutorial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\tizen.net\\9.0.0.16469\\tizen.net.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\tizen.net.api9\\9.0.0.16469\\tizen.net.api9.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\tizen.net.internals\\9.0.0.16469\\tizen.net.internals.9.0.0.16469.nupkg.sha512",
+    "C:\\Users\\seoyeon2.kim\\.nuget\\packages\\tizen.nui.xamlbuild\\1.0.27\\tizen.nui.xamlbuild.1.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
