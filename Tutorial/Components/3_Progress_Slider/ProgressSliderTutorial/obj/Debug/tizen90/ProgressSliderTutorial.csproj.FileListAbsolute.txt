@@ -1,0 +1,10 @@
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\bin\Debug\tizen90\ProgressSliderTutorial.deps.json
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\bin\Debug\tizen90\ProgressSliderTutorial.dll
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\bin\Debug\tizen90\ProgressSliderTutorial.pdb
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\obj\Debug\tizen90\Scene1Page.xaml.g.cs
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\obj\Debug\tizen90\ProgressSliderTutorial.AssemblyInfoInputs.cache
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\obj\Debug\tizen90\ProgressSliderTutorial.AssemblyInfo.cs
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\obj\Debug\tizen90\ProgressSliderTutorial.csproj.CoreCompileInputs.cache
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\obj\Debug\tizen90\XamlC.stamp
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\obj\Debug\tizen90\ProgressSliderTutorial.dll
+D:\workspace\ProgressSliderTutorial\ProgressSliderTutorial\obj\Debug\tizen90\ProgressSliderTutorial.pdb
