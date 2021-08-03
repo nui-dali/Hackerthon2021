@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<View x:Class="AbsoluteLayout.Scene1Page"
+        xmlns="http://tizen.org/Tizen.NUI/2018/XAML"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:local="clr-namespace:AbsoluteLayout"
+        WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        HeightSpecification="{Static LayoutParamPolicies.MatchParent}"
+        BackgroundColor="White">
+    <View.Layout>
+        <AbsoluteLayout></AbsoluteLayout>
+    </View.Layout>
+
+    <View
+        BackgroundColor="Red"
+        WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        HeightSpecification="200"/>
+
+    <View
+        BackgroundColor="Blue"
+        WidthSpecification="200"
+        HeightSpecification="200"
+        Position="200, 200"/>
+
+    <View
+        BackgroundColor="Green"
+        WidthSpecification="200"
+        HeightSpecification="200"
+        Position="-200, 200"
+        ParentOrigin="TopRight"
+        PivotPoint="TopRight"
+        PositionUsesPivotPoint="true"/>
+
+    <View
+        BackgroundColor="Black"
+        WidthSpecification="600"
+        HeightSpecification="600"
+        ParentOrigin="Center"
+        PivotPoint="Center"
+        PositionUsesPivotPoint="true"/>
+
+    <View
+        BackgroundColor="Yellow"
+        WidthSpecification="{Static LayoutParamPolicies.MatchParent}"
+        HeightSpecification="200"
+        ParentOrigin="BottomCenter"
+        PivotPoint="BottomCenter"
+        PositionUsesPivotPoint="true"/>
+</View>

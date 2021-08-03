@@ -1,0 +1,10 @@
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\RelativeLayout.deps.json
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\RelativeLayout.dll
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\RelativeLayout.pdb
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\obj\Debug\tizen90\RelativeLayout.csprojAssemblyReference.cache
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\obj\Debug\tizen90\Scene1Page.xaml.g.cs
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\obj\Debug\tizen90\RelativeLayout.AssemblyInfoInputs.cache
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\obj\Debug\tizen90\RelativeLayout.AssemblyInfo.cs
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\obj\Debug\tizen90\XamlC.stamp
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\obj\Debug\tizen90\RelativeLayout.dll
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\obj\Debug\tizen90\RelativeLayout.pdb

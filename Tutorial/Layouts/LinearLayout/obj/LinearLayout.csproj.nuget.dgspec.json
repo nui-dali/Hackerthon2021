@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "\\\\10.113.112.65\\hdd\\NUI\\Hackerthon2021\\Tutorial\\Layouts\\LinearLayout\\LinearLayout.csproj": {}
+    "C:\\Users\\jae_hyun.cho\\source\\repos\\LinearLayout\\LinearLayout.csproj": {}
   },
   "projects": {
-    "\\\\10.113.112.65\\hdd\\NUI\\Hackerthon2021\\Tutorial\\Layouts\\LinearLayout\\LinearLayout.csproj": {
+    "C:\\Users\\jae_hyun.cho\\source\\repos\\LinearLayout\\LinearLayout.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\10.113.112.65\\hdd\\NUI\\Hackerthon2021\\Tutorial\\Layouts\\LinearLayout\\LinearLayout.csproj",
+        "projectUniqueName": "C:\\Users\\jae_hyun.cho\\source\\repos\\LinearLayout\\LinearLayout.csproj",
         "projectName": "LinearLayout",
-        "projectPath": "\\\\10.113.112.65\\hdd\\NUI\\Hackerthon2021\\Tutorial\\Layouts\\LinearLayout\\LinearLayout.csproj",
+        "projectPath": "C:\\Users\\jae_hyun.cho\\source\\repos\\LinearLayout\\LinearLayout.csproj",
         "packagesPath": "C:\\Users\\jae_hyun.cho\\.nuget\\packages\\",
-        "outputPath": "\\\\10.113.112.65\\hdd\\NUI\\Hackerthon2021\\Tutorial\\Layouts\\LinearLayout\\obj\\",
+        "outputPath": "C:\\Users\\jae_hyun.cho\\source\\repos\\LinearLayout\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "\\\\10.113.112.65\\hdd\\NUI\\Hackerthon2021\\Tutorial\\Layouts\\LinearLayout\\NuGet.Config",
+          "C:\\Users\\jae_hyun.cho\\source\\repos\\LinearLayout\\NuGet.Config",
           "C:\\Users\\jae_hyun.cho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
