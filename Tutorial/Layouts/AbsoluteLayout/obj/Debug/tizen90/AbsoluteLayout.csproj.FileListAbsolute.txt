@@ -1,0 +1,10 @@
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\bin\Debug\tizen90\AbsoluteLayout.deps.json
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\bin\Debug\tizen90\AbsoluteLayout.dll
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\bin\Debug\tizen90\AbsoluteLayout.pdb
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\obj\Debug\tizen90\AbsoluteLayout.csprojAssemblyReference.cache
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\obj\Debug\tizen90\Scene1Page.xaml.g.cs
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\obj\Debug\tizen90\AbsoluteLayout.AssemblyInfoInputs.cache
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\obj\Debug\tizen90\AbsoluteLayout.AssemblyInfo.cs
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\obj\Debug\tizen90\XamlC.stamp
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\obj\Debug\tizen90\AbsoluteLayout.dll
+C:\Users\jae_hyun.cho\source\repos\AbsoluteLayout\obj\Debug\tizen90\AbsoluteLayout.pdb

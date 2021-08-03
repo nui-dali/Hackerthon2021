@@ -1,0 +1,9 @@
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\tpkroot\bin\RelativeLayout.dll
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\tpkroot\bin\RelativeLayout.pdb
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\tpkroot\bin\Tizen.NUI.XamlBuild.dll
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\tpkroot\RelativeLayout.deps.json
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\tpkroot\res\images\tizen.png
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\tpkroot\res\theme\theme.xaml
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\tpkroot\shared\res\RelativeLayout.png
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\tpkroot\tizen-manifest.xml
+C:\Users\jae_hyun.cho\source\repos\RelativeLayout\bin\Debug\tizen90\org.tizen.example.RelativeLayout-1.0.0.tpk
