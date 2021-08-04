@@ -2,7 +2,7 @@
 
 NUI provides style classes which can decorate NUI components. Each component has correspoding style class, for example:
 * [ViewStyle](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.BaseComponents.ViewStyle.html) for [View](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.BaseComponents.View.html)
-* [ButtonStyle](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.ButtonStyle.html) for [Button](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.Button.html)/[CheckBox](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.CheckBox.html)/[RadioButton](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.RadioButton.html)/[Switch](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.Switch.html)
+* [ButtonStyle](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.ButtonStyle.html) for [Button](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.Button.html)/[CheckBox](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.CheckBox.html)/[RadioButton](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.RadioButton.html)
 * [SliderStyle](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.SliderStyle.html) for [Slider](https://docs.tizen.org/application/dotnet/api/TizenFX/API9/api/Tizen.NUI.Components.Slider.html)
 
 
