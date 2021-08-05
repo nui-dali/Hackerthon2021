@@ -22,9 +22,6 @@ namespace ButtonsTutorial
 {
     public class Scene1 : NUIApplication
     {
-        public Scene1() : base(new Size2D(1920, 1080), new Position2D())
-        {}
-
         override protected void OnCreate()
         {
             base.OnCreate();
