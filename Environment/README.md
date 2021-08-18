@@ -20,11 +20,11 @@ http://download.tizen.org/releases/milestone/tizen/unified/tizen-unified_2021051
   tizenfx-16469 ver 패키지 설치 (tizenfx_packages_0721.zip)
 
   1) AOT Disable(ni.dll 파일 삭제)
-
-     mount -o remount,rw /
-     find / -name '*.ni.dll' -exec rm {} \; 
-     find / -name '*.ni.exe' -exec rm {} \;
-
+```
+$ mount -o remount,rw /
+$ find / -name '*.ni.dll' -exec rm {} \; 
+$ find / -name '*.ni.exe' -exec rm {} \;
+```
   2) tizenfx rpm 설치
 
      rpm -Uh --force --nodeps *.rpm
